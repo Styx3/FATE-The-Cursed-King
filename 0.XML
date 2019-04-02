@@ -1,0 +1,5333 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<savegame>
+<mapvisible V="T" />
+<mapdolly V="1" />
+<running V="F" />
+<showingitems V="F" />
+<HOTKEYS>
+<HOTKEY V="" I="0" />
+<HOTKEY V="" I="1" />
+<HOTKEY V="" I="2" />
+<HOTKEY V="" I="3" />
+<HOTKEY V="" I="4" />
+<HOTKEY V="" I="5" />
+<HOTKEY V="" I="6" />
+<HOTKEY V="" I="7" />
+<HOTKEY V="" I="8" />
+<HOTKEY V="" I="9" />
+<HOTKEY V="" I="10" />
+<HOTKEY V="" I="11" />
+</HOTKEYS>
+<CHARACTER>
+<CHARACTER>
+<GUID V="E0205D3101554C8F2E3B00421E13A794#1554217186" />
+<refid V="" />
+<originaltemplate V="" />
+<template V="PLAYER" />
+<existtime V="82711" />
+<isplayer V="T" />
+<cursetimer V="2.480022" />
+<cursepercent V="0.002480" />
+<cursecooldown V="0.000000" />
+<score V="0" />
+<attack V="0" />
+<defense V="14" />
+<damagemin V="6" />
+<damagemax V="12" />
+<networth V="44" />
+<JOURNALSTATS N="24">
+<stat V="0" I="0" />
+<stat V="222" I="1" />
+<stat V="250" I="2" />
+<stat V="0" I="3" />
+<stat V="1" I="4" />
+<stat V="0" I="5" />
+<stat V="0" I="6" />
+<stat V="0" I="7" />
+<stat V="0" I="8" />
+<stat V="0" I="9" />
+<stat V="0" I="10" />
+<stat V="0" I="11" />
+<stat V="1" I="12" />
+<stat V="0" I="13" />
+<stat V="0" I="14" />
+<stat V="0" I="15" />
+<stat V="0" I="16" />
+<stat V="0" I="17" />
+<stat V="0" I="18" />
+<stat V="0" I="19" />
+<stat V="0" I="20" />
+<stat V="0" I="21" />
+<stat V="0" I="22" />
+<stat V="0" I="23" />
+</JOURNALSTATS>
+<QUESTS N="4">
+<LEVELQUEST>
+<QUEST>
+<level V="30" />
+<cursed V="F" />
+<spawned V="F" />
+<completed V="F" />
+<completionnotified V="F" />
+<monstercount V="1" />
+<monsterscompleted V="0" />
+<minioncount V="0" />
+<minionscompleted V="0" />
+<itemcount V="0" />
+<itemscompleted V="0" />
+<goldreward V="16868" />
+<experiencereward V="8871" />
+<famereward V="2189" />
+<questname V="Xerxes the Librarian&apos;s Quest" />
+<questmonstername V="Great Fire Djinn" />
+<questmonsterbasename V="Great Fire Djinn" />
+<questmonstertargetrefid V="" />
+<questmonstertargetbasename V="" />
+<forcebasename V="T" />
+<norewarditem V="T" />
+<questfailed V="F" />
+<questminionmonsterbasename V="" />
+<questtargetname V="Awadji" />
+<questtargetrefid V="AWADJIWARD" />
+<givername V="Xerxes the Librarian" />
+<description V="*mumbling* What? Who knows what? I know what does, but he dozed unwisely! The Hermit of Awadji knows what&apos;s what, but what&apos;s left of him is I don&apos;t know where. But I do know what the Great Fire Djinn enjoys for lunch...mushroom kebabs! Aahahaha!" />
+<minidescription V="Rescue the &#x08;Hermit of Awadji&#x08; from the &#x08;Caverns of Living Fire&#x08;. But be wary! He is being held captive by a &#x08;Great Fire Djinn&#x08; on &#x08;Level 30&#x08;." />
+<completiondescription V="Thanks to you &#x08;Awadji&#x08; has returned along with some of my sanity, but please give him time to recover from the ordeal. Upon returning from your next dungeon expedition, seek him near the obelisk. " />
+<incompletedescription V="Erble Gerble What? I see no Awadji!" />
+<customgreet V="SOUNDS/VOICES/en-US/QUESTGIVER/majorquest_xerxes_1.ogg" />
+<completionstory V="STORY\Xerxes\en-US\xerxes.dat" />
+<initialized V="T" />
+<hidden V="F" />
+<state V="0" />
+<realmquestID V="0" />
+<domain V="1" />
+<PROGRESSKEYS>
+<KEY V="VOLCANO" />
+<KEY V="LEVEL1" />
+</PROGRESSKEYS>
+<QUESTKEYS />
+<type V="ESCORTOUT" />
+<realm V="11" />
+</QUEST>
+</LEVELQUEST>
+<LEVELQUEST>
+<QUEST>
+<level V="2" />
+<cursed V="F" />
+<spawned V="F" />
+<completed V="F" />
+<completionnotified V="F" />
+<monstercount V="4" />
+<monsterscompleted V="0" />
+<minioncount V="0" />
+<minionscompleted V="0" />
+<itemcount V="0" />
+<itemscompleted V="0" />
+<goldreward V="1464" />
+<experiencereward V="288" />
+<famereward V="140" />
+<questname V="Sharifa&apos;s Quest" />
+<questmonstername V="Snake" />
+<questmonsterbasename V="Snake" />
+<questmonstertargetrefid V="" />
+<questmonstertargetbasename V="" />
+<forcebasename V="F" />
+<norewarditem V="F" />
+<questfailed V="F" />
+<questminionmonsterbasename V="Snake" />
+<questtargetname V="" />
+<questtargetrefid V="" />
+<givername V="Sharifa" />
+<description V="&#x08;Level 2&#x08; of &#x08;The Caverns of Living Fire&#x08; has become infested with &#x08;Snakes&#x08;! If you can kill &#x08;4&#x08; of them, I&apos;ll compensate you fairly...." />
+<minidescription V="Destroy &#x08;4 Snakes&#x08; on &#x08;level 2&#x08;." />
+<completiondescription V="Thank you for clearing out that infestation for me! Here is your reward!&#x0A;&#x0A;You receive&#x0A;&#x08;288 Experience&#x08;&#x0A;&#x08;140 Fame&#x08;&#x0A;&#x08;1464 Gold&#x08;" />
+<incompletedescription V="Please return when all of the &#x08;Snakes&#x08; have been killed." />
+<customgreet V="" />
+<completionstory V="" />
+<initialized V="T" />
+<hidden V="F" />
+<state V="0" />
+<realmquestID V="-1" />
+<domain V="0" />
+<PROGRESSKEYS />
+<QUESTKEYS />
+<type V="KILLMONSTERS" />
+<realm V="11" />
+</QUEST>
+</LEVELQUEST>
+<LEVELQUEST>
+<QUEST>
+<level V="2" />
+<cursed V="F" />
+<spawned V="F" />
+<completed V="F" />
+<completionnotified V="F" />
+<monstercount V="0" />
+<monsterscompleted V="0" />
+<minioncount V="0" />
+<minionscompleted V="0" />
+<itemcount V="1" />
+<itemscompleted V="0" />
+<goldreward V="1741" />
+<experiencereward V="371" />
+<famereward V="142" />
+<questname V="Mandisa&apos;s Quest" />
+<questmonstername V="Khelmur" />
+<questmonsterbasename V="Voltaic Snail" />
+<questmonstertargetrefid V="" />
+<questmonstertargetbasename V="" />
+<forcebasename V="F" />
+<norewarditem V="F" />
+<questfailed V="F" />
+<questminionmonsterbasename V="Snake" />
+<questtargetname V="" />
+<questtargetrefid V="" />
+<givername V="Mandisa" />
+<description V="I&apos;ve always wanted a fine &#x08;Demonchewer&apos;s   Soft Gloves of the Hare&#x08;, but I just don&apos;t trust these shifty merchants. I&apos;ve heard you can find all sorts of things in the dungeons - especially on &#x08;level 2&#x08; of &#x08;The Caverns of Living Fire&#x08;. If you run across one, I&apos;d be happy to buy it from you!" />
+<minidescription V="Retrieve &#x08;Demonchewer&apos;s   Soft Gloves of the Hare&#x08; from &#x08;level 2&#x08;." />
+<completiondescription V="Thank goodness! You&apos;ve found the &#x08;Demonchewer&apos;s &#x0A; Soft Gloves of the Hare&#x08;! And here is your reward. My thanks to you!&#x0A;&#x0A;You receive&#x0A;&#x08;371 Experience&#x08;&#x0A;&#x08;142 Fame&#x08;&#x0A;&#x08;1741 Gold&#x08;" />
+<incompletedescription V="Please return when you have found the &#x08;Demonchewer&apos;s   Soft Gloves of the Hare&#x08;." />
+<customgreet V="" />
+<completionstory V="" />
+<QUESTITEM>
+<ITEM>
+<basename V="Soft Gloves" />
+<refid V="SoftGloves" />
+<name V="Demonchewer&apos;s &#x0A; Soft Gloves of the Hare" />
+<value V="362" />
+<unique V="T" />
+<magic V="T" />
+<armorbonus V="6" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="2">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="38" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="0.147143" />
+<effectname V="PERCENTSPEED" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="33" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="0.197454" />
+<effectname V="PERCENTVITALITY" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="0.161290" y="1.000000" z="0.612903" />
+<ori x1y1="-0.889787" x1y2="0.000000" x1y3="-0.456376" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.456376" x3y2="0.000000" x3y3="-0.889787" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</QUESTITEM>
+<initialized V="T" />
+<hidden V="F" />
+<state V="0" />
+<realmquestID V="-1" />
+<domain V="0" />
+<PROGRESSKEYS />
+<QUESTKEYS />
+<type V="FINDITEM" />
+<realm V="11" />
+</QUEST>
+</LEVELQUEST>
+<LEVELQUEST>
+<QUEST>
+<level V="2" />
+<cursed V="F" />
+<spawned V="F" />
+<completed V="F" />
+<completionnotified V="F" />
+<monstercount V="1" />
+<monsterscompleted V="0" />
+<minioncount V="0" />
+<minionscompleted V="0" />
+<itemcount V="1" />
+<itemscompleted V="0" />
+<goldreward V="2305" />
+<experiencereward V="869" />
+<famereward V="138" />
+<questname V="Nassor&apos;s Quest" />
+<questmonstername V="Swordgrinder" />
+<questmonsterbasename V="Mantoid" />
+<questmonstertargetrefid V="" />
+<questmonstertargetbasename V="" />
+<forcebasename V="F" />
+<norewarditem V="F" />
+<questfailed V="F" />
+<questminionmonsterbasename V="Cave Spider" />
+<questtargetname V="" />
+<questtargetrefid V="" />
+<givername V="Nassor" />
+<description V="A &#x08;Daorthak&apos;s   Amethyst Stud of Life&#x08; that has been in my &#x08;family&#x08; for centuries has been &#x08;stolen!&#x08; I&apos;ve heard that a &#x08;Mantoid&#x08; named &#x08;Swordgrinder&#x08; has it, and that he roams the &#x08;2nd level&#x08; of &#x08;The Caverns of Living Fire&#x08;. Please &#x08;retrieve&#x08; it for me!" />
+<minidescription V="Destroy &#x08;Swordgrinder&#x08; the &#x08;Mantoid&#x08; on &#x08;level 2&#x08; and retrieve &#x08;Daorthak&apos;s   Amethyst Stud of Life&#x08;." />
+<completiondescription V="Ah! You&apos;ve found the &#x08;Daorthak&apos;s &#x0A; Amethyst Stud of Life!&#x08; And here is your reward. My thanks to you!&#x0A;&#x0A;You receive&#x0A;&#x08;869 Experience&#x08;&#x0A;&#x08;138 Fame&#x08;&#x0A;&#x08;2305 Gold&#x08;" />
+<incompletedescription V="Please return when you have found the &#x08;Daorthak&apos;s   Amethyst Stud of Life&#x08;." />
+<customgreet V="" />
+<completionstory V="" />
+<QUESTITEM>
+<ITEM>
+<basename V="Amethyst Stud" />
+<name V="Daorthak&apos;s &#x0A; Amethyst Stud of Life" />
+<value V="800" />
+<unique V="T" />
+<magic V="T" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="5">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="33" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="0.061779" />
+<effectname V="PERCENTVITALITY" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="38" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="0.001914" />
+<effectname V="PERCENTSPEED" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="43" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="-1" />
+<value2 V="-1" />
+<value3 V="-1" />
+<pricemultiplier V="1.298910" />
+<effectname V="PERCENTDAMAGETAKEN" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="3">
+<damagetype V="3" />
+<positive V="T" />
+<type V="51" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="1.401137" />
+<effectname V="PERCENTITEMREQUIREMENTS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="4">
+<damagetype V="3" />
+<positive V="T" />
+<type V="46" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="0.329588" />
+<effectname V="PERCENTCASTSPEED" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="-316908248774173360000000000000000000000.000000" y="-307562073863991460000000000000000000000.000000" z="-263525534887240670000000000000000000000.000000" />
+<ori x1y1="0.715044" x1y2="0.000000" x1y3="-0.699079" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.699079" x3y2="0.000000" x3y3="0.715044" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</QUESTITEM>
+<initialized V="T" />
+<hidden V="F" />
+<state V="0" />
+<realmquestID V="-1" />
+<domain V="0" />
+<PROGRESSKEYS />
+<QUESTKEYS />
+<type V="MONSTERITEM" />
+<realm V="11" />
+</QUEST>
+</LEVELQUEST>
+</QUESTS>
+<MASTERQUEST>
+<QUEST>
+<level V="10" />
+<cursed V="T" />
+<spawned V="F" />
+<completed V="F" />
+<completionnotified V="F" />
+<monstercount V="0" />
+<monsterscompleted V="0" />
+<minioncount V="0" />
+<minionscompleted V="0" />
+<itemcount V="0" />
+<itemscompleted V="0" />
+<goldreward V="9215" />
+<experiencereward V="4626" />
+<famereward V="872" />
+<questname V="Kurosh the Beggar King&apos;s Quest" />
+<questmonstername V="T&apos;Kala" />
+<questmonsterbasename V="T&apos;Kala" />
+<questmonstertargetrefid V="" />
+<questmonstertargetbasename V="" />
+<forcebasename V="T" />
+<norewarditem V="F" />
+<questfailed V="F" />
+<questminionmonsterbasename V="" />
+<questtargetname V="" />
+<questtargetrefid V="" />
+<givername V="Kurosh the Beggar King" />
+<description V="Yesterday, I sat upon a gilded throne, ruling all that you see as the mighty king of Ekbatan. I speak to you now as nothing more than a lowly beggar. You must lift this curse... if not for me, then for my kingdom. Redeem yourself, and restore our glorious city!" />
+<minidescription V="" />
+<completiondescription V="" />
+<incompletedescription V="Please return when the task is complete!" />
+<customgreet V="SOUNDS/VOICES/en-US/QUESTGIVER/majorquest_kurosh_1.ogg" />
+<completionstory V="STORY\Kurosh\en-US\kurosh.dat" />
+<initialized V="F" />
+<hidden V="F" />
+<state V="1" />
+<realmquestID V="0" />
+<domain V="2" />
+<rewarditemid V="KUROSHCROWN" />
+<PROGRESSKEYS />
+<QUESTKEYS>
+<KEY V="TKALASDEAD" />
+</QUESTKEYS>
+<type V="PROGRESS" />
+<realm V="10" />
+</QUEST>
+</MASTERQUEST>
+<lastrealm V="11" />
+<postcount V="0" />
+<deathcount V="0" />
+<PROGRESSKEYS />
+<HISTORIES N="4">
+<REALM realm="12">
+<REALMHISTORY>
+<complete V="F" />
+<QUESTS N="0" />
+<blockdepth V="-1" />
+<flags V="0" />
+<realm V="12" />
+</REALMHISTORY>
+</REALM>
+<REALM realm="10">
+<REALMHISTORY>
+<complete V="F" />
+<QUESTS N="0" />
+<blockdepth V="-1" />
+<flags V="1" />
+<realm V="10" />
+</REALMHISTORY>
+</REALM>
+<REALM realm="13">
+<REALMHISTORY>
+<complete V="F" />
+<QUESTS N="0" />
+<blockdepth V="-1" />
+<flags V="0" />
+<realm V="13" />
+</REALMHISTORY>
+</REALM>
+<REALM realm="11">
+<REALMHISTORY>
+<complete V="F" />
+<QUESTS N="0" />
+<blockdepth V="31" />
+<flags V="3" />
+<realm V="11" />
+</REALMHISTORY>
+</REALM>
+</HISTORIES>
+<PORTALS N="0" />
+<experience V="0" />
+<experienceaward V="0" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="2" />
+<masterindex V="-1" />
+<dungeonseed V="1554217184" />
+<name V="Nick" />
+<ancestorname V="Nick" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="40.532913" y="1.132144" z="-349.547485" />
+<orientation x1y1="0.828253" x1y2="0.000000" x1y3="0.560342" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.560342" x3y2="0.000000" x3y3="0.828253" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="1" />
+<maxstamina V="51" />
+<maxmana V="43" />
+<maxhp V="122" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<activespellname V="Fireball" />
+<strength V="25" />
+<dexterity V="20" />
+<vitality V="25" />
+<magic V="10" />
+<tohitbonus V="20" />
+<naturalarmor V="10" />
+<walkingspeed V="13.000000" />
+<runningspeed V="22.000000" />
+<gold V="250" />
+<ITEMS N="5">
+<ITEM>
+<ITEM>
+<basename V="Town Portal Scroll" />
+<slotidx V="42" />
+<value V="100" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<name V="OPENPORTAL" />
+<damagetype V="3" />
+<positive V="T" />
+<type V="70" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<effectname V="OPENPORTAL" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="0.970816" x1y2="0.000000" x1y3="0.239824" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.239824" x3y2="0.000000" x3y3="0.970816" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Identify Scroll" />
+<slotidx V="32" />
+<value V="100" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<name V="IDENTIFY" />
+<damagetype V="3" />
+<positive V="T" />
+<type V="64" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<effectname V="IDENTIFY" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="0.034269" x1y2="0.000000" x1y3="0.999413" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.999413" x3y2="0.000000" x3y3="0.034269" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Health Potion" />
+<slotidx V="18" />
+<value V="25" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="8" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="60" />
+<value2 V="60" />
+<value3 V="60" />
+<effectname V="HPRECHARGE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="-1.#QNAN0" y="0.000000" z="0.000000" />
+<ori x1y1="0.547708" x1y2="0.000000" x1y3="0.836669" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.836669" x3y2="0.000000" x3y3="0.547708" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Health Potion" />
+<slotidx V="17" />
+<value V="25" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="8" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="60" />
+<value2 V="60" />
+<value3 V="60" />
+<effectname V="HPRECHARGE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="0.144980" x1y2="0.000000" x1y3="0.989435" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.989435" x3y2="0.000000" x3y3="0.144980" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Light Trident" />
+<refid V="LightTrident" />
+<slotidx V="3" />
+<value V="115" />
+<equipped V="T" />
+<ACTIVATIONS N="2" />
+<pos x="-348.694031" y="0.000000" z="-0.000000" />
+<ori x1y1="-0.829328" x1y2="-0.375185" x1y3="-0.413986" x1y4="0.000000" x2y1="-0.535884" x2y2="0.324569" x2y3="0.779392" x2y4="0.000000" x3y1="-0.158063" x3y2="0.868258" x3y3="-0.470217" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+</ITEMS>
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="Demon" />
+<MAGIC>
+<ATTACK N="1">
+<SPELL V="Fireball" />
+</ATTACK>
+</MAGIC>
+<parentrealm V="" />
+<hair V="2" />
+<head V="2" />
+<ACTIVATIONS N="2" />
+<hash V="29F9FDEDE14E0D3C5254F54ACB14E77B" />
+</CHARACTER>
+</CHARACTER>
+<PETS N="1">
+<PET>
+<CHARACTER>
+<GUID V="" />
+<refid V="Strider" />
+<template V="Strider" />
+<existtime V="82711" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="0" />
+<scale V="0.700000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="309187120" />
+<name V="Spot" />
+<ancestorname V="Spot" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="36.575939" y="1.855282" z="-352.060822" />
+<orientation x1y1="0.770895" x1y2="0.000000" x1y3="0.636945" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.636945" x3y2="0.000000" x3y3="0.770895" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="1" />
+<maxstamina V="61" />
+<maxmana V="51" />
+<maxhp V="142" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="22" />
+<dexterity V="45" />
+<vitality V="30" />
+<magic V="25" />
+<tohitbonus V="10" />
+<naturalarmor V="15" />
+<walkingspeed V="6.000000" />
+<runningspeed V="15.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="364052DCD66BD8E6DCE59C4F568BC72B" />
+</CHARACTER>
+</PET>
+</PETS>
+<HISTORIES N="2">
+<HISTORY>
+<LEVELHISTORY>
+<VISIBILITY V="" />
+<CHARACTERS N="0" />
+<ITEMS N="0" />
+<lastpopulationtime V="80560" />
+<level V="0" />
+<width V="0" />
+<height V="0" />
+<cursed V="0" />
+<realm V="10" />
+</LEVELHISTORY>
+</HISTORY>
+<HISTORY>
+<LEVELHISTORY>
+<VISIBILITY V="@1522@.XX@120@.@15@X@113@.@14@X@114@.@15@X@114@.@14@X@115@.@13@X@118@.XXXXX..XXX@117@.XXXXX....XX@118@.XXX@7@.X@116@.XXXX@125@.XXX@11532@." />
+<CHARACTERS N="66">
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Cave Spider" />
+<template V="Cave Spider" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="46" />
+<scale V="0.800000" />
+<bravery V="0.900000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1115818307" />
+<name V="Cave Spider" />
+<ancestorname V="Cave Spider" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="39.891354" y="1.200000" z="-208.684052" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="35" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="41" />
+<dexterity V="41" />
+<vitality V="46" />
+<magic V="6" />
+<tohitbonus V="24" />
+<naturalarmor V="12" />
+<walkingspeed V="8.000000" />
+<runningspeed V="15.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="A92A145789832C6B5B43A9C7D878227D" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Snake" />
+<template V="Snake" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1122035956" />
+<name V="Snake" />
+<ancestorname V="Snake" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="57.787052" y="1.434396" z="-202.862228" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="10" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="30" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="69C58AFD2D57B32A70B75268F2DB5986" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Gloptopus" />
+<template V="Gloptopus" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="44" />
+<scale V="1.200000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1554217184" />
+<name V="Gloptopus" />
+<ancestorname V="Gloptopus" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="201.259506" y="2.363732" z="-41.293392" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="33" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="30" />
+<dexterity V="30" />
+<vitality V="29" />
+<magic V="6" />
+<tohitbonus V="29" />
+<naturalarmor V="29" />
+<walkingspeed V="3.000000" />
+<runningspeed V="5.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="20" type="0" />
+<DAMAGERESISTANCE V="50" type="2" />
+<DAMAGERESISTANCE V="-40" type="5" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="C9B4B49408CD52D0B45292F110EB8770" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Snake" />
+<template V="Snake" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1118998901" />
+<name V="Snake" />
+<ancestorname V="Snake" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="241.807373" y="1.409505" z="-309.776733" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="15" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="30" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="C8559CF4DFCAA173460C9A3C1665F0FD" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Gloptopus" />
+<template V="Gloptopus" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="44" />
+<scale V="1.200000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1109089121" />
+<name V="Gloptopus" />
+<ancestorname V="Gloptopus" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="109.004181" y="2.461266" z="-103.074486" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="31" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="30" />
+<dexterity V="30" />
+<vitality V="29" />
+<magic V="6" />
+<tohitbonus V="29" />
+<naturalarmor V="29" />
+<walkingspeed V="3.000000" />
+<runningspeed V="5.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="20" type="0" />
+<DAMAGERESISTANCE V="50" type="2" />
+<DAMAGERESISTANCE V="-40" type="5" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="BEE4493EE028717A97E1C3F48B4DBC28" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Cave Spider" />
+<template V="Cave Spider" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="46" />
+<scale V="0.800000" />
+<bravery V="0.900000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1117206082" />
+<name V="Cave Spider" />
+<ancestorname V="Cave Spider" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="15.126223" y="0.464442" z="-36.256931" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="38" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="41" />
+<dexterity V="41" />
+<vitality V="46" />
+<magic V="6" />
+<tohitbonus V="26" />
+<naturalarmor V="12" />
+<walkingspeed V="8.000000" />
+<runningspeed V="15.000000" />
+<gold V="0" />
+<ITEMS N="1">
+<ITEM>
+<ITEM>
+<basename V="Twisted Ring" />
+<slotidx V="22" />
+<value V="800" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="0.485344" x1y2="0.000000" x1y3="-0.874323" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.874323" x3y2="0.000000" x3y3="0.485344" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+</ITEMS>
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="7DD8F3C68CE344FF5A3A99A289F8CDD9" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Cave Spider" />
+<template V="Cave Spider" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="46" />
+<scale V="0.800000" />
+<bravery V="0.900000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1120969754" />
+<name V="Cave Spider" />
+<ancestorname V="Cave Spider" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="229.014984" y="1.052570" z="-240.517044" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="35" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="41" />
+<dexterity V="41" />
+<vitality V="46" />
+<magic V="6" />
+<tohitbonus V="26" />
+<naturalarmor V="12" />
+<walkingspeed V="8.000000" />
+<runningspeed V="15.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="A92A145789832C6B5B43A9C7D878227D" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Mantoid" />
+<template V="Mantoid" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="50" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1073040104" />
+<name V="Mantoid" />
+<ancestorname V="Mantoid" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="115.690025" y="1.767774" z="-109.285713" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="3" />
+<maxhp V="11" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="65" />
+<dexterity V="65" />
+<vitality V="14" />
+<magic V="0" />
+<tohitbonus V="17" />
+<naturalarmor V="4" />
+<walkingspeed V="10.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<ITEMS N="2">
+<ITEM>
+<ITEM>
+<basename V="Shortsword" />
+<name V=" Shortsword of Stone" />
+<slotidx V="3" />
+<value V="120" />
+<equipped V="T" />
+<magic V="T" />
+<ided V="F" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="40" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="0.807092" />
+<effectname V="PERCENTARMORBONUS" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="-0.000000" x1y2="1.000000" x1y3="-0.000000" x1y4="0.000000" x2y1="-0.999948" x2y2="-0.000000" x2y3="-0.010163" x2y4="0.000000" x3y1="-0.010163" x3y2="0.000000" x3y3="0.999948" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Long Dagger" />
+<refid V="LongDagger" />
+<slotidx V="2" />
+<value V="210" />
+<equipped V="T" />
+<sockets V="1" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="5.000000" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.499945" x2y2="-0.000000" x2y3="0.866057" x2y4="0.000000" x3y1="0.866057" x3y2="0.000000" x3y3="-0.499945" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+</ITEMS>
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="-20" type="2" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="E00F9057F8F67620D72557D04C26E92D" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Mantoid" />
+<template V="Mantoid" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="50" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="359" />
+<name V="Mantoid" />
+<ancestorname V="Mantoid" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="204.097382" y="1.612347" z="-53.634460" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="3" />
+<maxhp V="11" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="65" />
+<dexterity V="65" />
+<vitality V="14" />
+<magic V="0" />
+<tohitbonus V="17" />
+<naturalarmor V="4" />
+<walkingspeed V="10.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<ITEMS N="2">
+<ITEM>
+<ITEM>
+<basename V="Spear" />
+<slotidx V="3" />
+<value V="115" />
+<equipped V="T" />
+<ACTIVATIONS N="2" />
+<pos x="0.290323" y="1.000000" z="0.244624" />
+<ori x1y1="-0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.998795" x2y2="-0.000000" x2y3="0.049069" x2y4="0.000000" x3y1="0.049069" x3y2="0.000000" x3y3="0.998795" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Spear" />
+<slotidx V="2" />
+<value V="115" />
+<equipped V="T" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.388754" x2y2="-0.000000" x2y3="0.921342" x2y4="0.000000" x3y1="0.921342" x3y2="0.000000" x3y3="-0.388754" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+</ITEMS>
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="-20" type="2" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="E00F9057F8F67620D72557D04C26E92D" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Mantoid" />
+<template V="Mantoid" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="50" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="-1098326272" />
+<name V="Mantoid" />
+<ancestorname V="Mantoid" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="239.898193" y="1.822923" z="-137.761017" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="3" />
+<maxhp V="12" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="65" />
+<dexterity V="65" />
+<vitality V="14" />
+<magic V="0" />
+<tohitbonus V="17" />
+<naturalarmor V="4" />
+<walkingspeed V="10.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="-20" type="2" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="9F1519544466085056A6FE73AA67851A" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Snake" />
+<template V="Snake" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Snake" />
+<ancestorname V="Snake" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="307.438324" y="1.573351" z="-323.157898" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="10" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="28" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="69C58AFD2D57B32A70B75268F2DB5986" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Mantoid" />
+<template V="Mantoid" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="50" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1462615099" />
+<name V="Mantoid" />
+<ancestorname V="Mantoid" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="23.516209" y="1.802747" z="-153.084595" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="3" />
+<maxhp V="12" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="65" />
+<dexterity V="65" />
+<vitality V="14" />
+<magic V="0" />
+<tohitbonus V="17" />
+<naturalarmor V="4" />
+<walkingspeed V="10.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<ITEMS N="1">
+<ITEM>
+<ITEM>
+<basename V="Long Dagger" />
+<refid V="LongDagger" />
+<slotidx V="3" />
+<value V="210" />
+<equipped V="T" />
+<ACTIVATIONS N="2" />
+<pos x="0.080645" y="1.000000" z="0.013441" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="-0.000000" x1y4="0.000000" x2y1="0.996797" x2y2="-0.000000" x2y3="-0.079972" x2y4="0.000000" x3y1="-0.079972" x3y2="0.000000" x3y3="-0.996797" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+</ITEMS>
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="-20" type="2" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="9F1519544466085056A6FE73AA67851A" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.100000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1497214475" />
+<name V="Fire Bat" />
+<ancestorname V="Fire Bat" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="231.300613" y="1.625877" z="-84.536232" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="10" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="30" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="69C58AFD2D57B32A70B75268F2DB5986" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Gloptopus" />
+<template V="Gloptopus" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="44" />
+<scale V="1.200000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Gloptopus" />
+<ancestorname V="Gloptopus" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="257.913025" y="2.342885" z="-300.517273" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="37" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="30" />
+<dexterity V="30" />
+<vitality V="29" />
+<magic V="6" />
+<tohitbonus V="27" />
+<naturalarmor V="29" />
+<walkingspeed V="3.000000" />
+<runningspeed V="5.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="20" type="0" />
+<DAMAGERESISTANCE V="50" type="2" />
+<DAMAGERESISTANCE V="-40" type="5" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="1CDEB190DC8579B57ACF31102E1F614E" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Gloptopus" />
+<template V="Gloptopus" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="44" />
+<scale V="1.200000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Gloptopus" />
+<ancestorname V="Gloptopus" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="149.512299" y="1.891034" z="-261.255768" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="32" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="30" />
+<dexterity V="30" />
+<vitality V="29" />
+<magic V="6" />
+<tohitbonus V="27" />
+<naturalarmor V="29" />
+<walkingspeed V="3.000000" />
+<runningspeed V="5.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="20" type="0" />
+<DAMAGERESISTANCE V="50" type="2" />
+<DAMAGERESISTANCE V="-40" type="5" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="7FCEA9EA48F0C2B89ADD093C08F3E75B" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Gloptopus" />
+<template V="Gloptopus" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="44" />
+<scale V="1.200000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1526444105" />
+<name V="Gloptopus" />
+<ancestorname V="Gloptopus" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="139.774963" y="1.766633" z="-260.423340" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="40" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="30" />
+<dexterity V="30" />
+<vitality V="29" />
+<magic V="6" />
+<tohitbonus V="27" />
+<naturalarmor V="29" />
+<walkingspeed V="3.000000" />
+<runningspeed V="5.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="20" type="0" />
+<DAMAGERESISTANCE V="50" type="2" />
+<DAMAGERESISTANCE V="-40" type="5" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="5FB621E0ED23FFA3EFAF6C69522EF755" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Gloptopus" />
+<template V="Gloptopus" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="44" />
+<scale V="1.200000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Gloptopus" />
+<ancestorname V="Gloptopus" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="138.987442" y="1.549569" z="-264.132446" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="31" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="30" />
+<dexterity V="30" />
+<vitality V="29" />
+<magic V="6" />
+<tohitbonus V="27" />
+<naturalarmor V="29" />
+<walkingspeed V="3.000000" />
+<runningspeed V="5.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="20" type="0" />
+<DAMAGERESISTANCE V="50" type="2" />
+<DAMAGERESISTANCE V="-40" type="5" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="BEE4493EE028717A97E1C3F48B4DBC28" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Gloptopus" />
+<template V="Gloptopus" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="44" />
+<scale V="1.200000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Gloptopus" />
+<ancestorname V="Gloptopus" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="144.685669" y="1.805386" z="-256.435638" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="40" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="30" />
+<dexterity V="30" />
+<vitality V="29" />
+<magic V="6" />
+<tohitbonus V="27" />
+<naturalarmor V="29" />
+<walkingspeed V="3.000000" />
+<runningspeed V="5.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="20" type="0" />
+<DAMAGERESISTANCE V="50" type="2" />
+<DAMAGERESISTANCE V="-40" type="5" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="5FB621E0ED23FFA3EFAF6C69522EF755" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Gloptopus" />
+<template V="Gloptopus" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="44" />
+<scale V="1.200000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1374926657" />
+<name V="Gloptopus" />
+<ancestorname V="Gloptopus" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="303.277222" y="1.707104" z="-344.028503" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="35" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="30" />
+<dexterity V="30" />
+<vitality V="29" />
+<magic V="6" />
+<tohitbonus V="29" />
+<naturalarmor V="29" />
+<walkingspeed V="3.000000" />
+<runningspeed V="5.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="20" type="0" />
+<DAMAGERESISTANCE V="50" type="2" />
+<DAMAGERESISTANCE V="-40" type="5" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="8108C5E4F2BB4CD1177219898C2AA7F9" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Snake" />
+<template V="Snake" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Snake" />
+<ancestorname V="Snake" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="51.974850" y="1.434396" z="-185.055252" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="14" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="32" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="875384F8A2C12FA1895B52F1B4386F39" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Snake" />
+<template V="Snake" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1345697027" />
+<name V="Snake" />
+<ancestorname V="Snake" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="214.555069" y="2.031423" z="-81.144409" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="10" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="30" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="69C58AFD2D57B32A70B75268F2DB5986" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Mantoid" />
+<template V="Mantoid" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="50" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1404156295" />
+<name V="Mantoid" />
+<ancestorname V="Mantoid" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="285.532196" y="1.846398" z="-347.932739" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="3" />
+<maxhp V="12" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="65" />
+<dexterity V="65" />
+<vitality V="14" />
+<magic V="0" />
+<tohitbonus V="17" />
+<naturalarmor V="4" />
+<walkingspeed V="10.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<ITEMS N="2">
+<ITEM>
+<ITEM>
+<basename V="Spear" />
+<slotidx V="3" />
+<value V="115" />
+<equipped V="T" />
+<ACTIVATIONS N="2" />
+<pos x="0.258065" y="1.000000" z="0.258065" />
+<ori x1y1="-0.000000" x1y2="1.000000" x1y3="-0.000000" x1y4="0.000000" x2y1="-0.590582" x2y2="-0.000000" x2y3="-0.806978" x2y4="0.000000" x3y1="-0.806978" x3y2="0.000000" x3y3="0.590582" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Wooden Club" />
+<refid V="WoodenClub" />
+<slotidx V="22" />
+<value V="69" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="-0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.326725" x2y2="-0.000000" x2y3="0.945120" x2y4="0.000000" x3y1="0.945120" x3y2="0.000000" x3y3="0.326725" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+</ITEMS>
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="-20" type="2" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="9F1519544466085056A6FE73AA67851A" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Snake" />
+<template V="Snake" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1433385925" />
+<name V="Snake" />
+<ancestorname V="Snake" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="147.302505" y="1.513818" z="-41.378124" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="15" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="30" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="C8559CF4DFCAA173460C9A3C1665F0FD" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="200" />
+<scale V="1.300000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Agazakar the Adversary" />
+<ancestorname V="Agazakar the Adversary" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="246.734543" y="1.436565" z="-303.193878" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="50" />
+<fameaward V="33" />
+<unique V="T" />
+<partytactic V="AGGRO" />
+<SKILLS>
+<SKILL V="1" I="9" />
+<SKILL V="1" I="12" />
+<SKILL V="1" I="13" />
+<SKILL V="1" I="14" />
+</SKILLS>
+<activespellname V="Summon Spiders" />
+<strength V="17" />
+<dexterity V="72" />
+<vitality V="27" />
+<magic V="20" />
+<tohitbonus V="36" />
+<naturalarmor V="24" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="7" />
+<ITEMS N="1">
+<ITEM>
+<ITEM>
+<basename V="Ground Fire Spell" />
+<slotidx V="22" />
+<value V="2651" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<name V="Ground Fire" />
+<damagetype V="3" />
+<positive V="T" />
+<type V="65" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<effectname V="WRITESPELL" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="0.081931" x1y2="0.000000" x1y3="-0.996638" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.996638" x3y2="0.000000" x3y3="0.081931" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+</ITEMS>
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="17" type="0" />
+<DAMAGERESISTANCE V="38" type="2" />
+<DAMAGERESISTANCE V="16" type="4" />
+<DAMAGERESISTANCE V="3" type="5" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC>
+<ATTACK N="1">
+<SPELL V="Chainlightning" />
+</ATTACK>
+<CHARM N="1">
+<SPELL V="Summon Spiders" />
+</CHARM>
+</MAGIC>
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="70B2F1DBCAE94A6B3AFE4E5BB01E58D5" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Cave Spider" />
+<template V="Cave Spider" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="46" />
+<scale V="0.800000" />
+<bravery V="0.900000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Cave Spider" />
+<ancestorname V="Cave Spider" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="277.399445" y="1.418559" z="-313.705292" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="34" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="41" />
+<dexterity V="41" />
+<vitality V="46" />
+<magic V="6" />
+<tohitbonus V="22" />
+<naturalarmor V="12" />
+<walkingspeed V="8.000000" />
+<runningspeed V="15.000000" />
+<gold V="2" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="7544C5DF09435F6B613D25B8485AB5EA" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Snake" />
+<template V="Snake" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1555673743" />
+<name V="Snake" />
+<ancestorname V="Snake" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="222.901825" y="1.219541" z="-49.767014" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="13" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="28" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="F9BDE64485F5BE13F487E9CDBA1B9392" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.100000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1584903373" />
+<name V="Fire Bat" />
+<ancestorname V="Fire Bat" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="282.400330" y="0.718498" z="-368.736938" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="11" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="28" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="58CD1783817F2A922E12EC0B3376B363" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Cave Spider" />
+<template V="Cave Spider" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="46" />
+<scale V="0.800000" />
+<bravery V="0.900000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Cave Spider" />
+<ancestorname V="Cave Spider" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="227.118713" y="1.594890" z="-310.195618" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="35" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="41" />
+<dexterity V="41" />
+<vitality V="46" />
+<magic V="6" />
+<tohitbonus V="26" />
+<naturalarmor V="12" />
+<walkingspeed V="8.000000" />
+<runningspeed V="15.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="A92A145789832C6B5B43A9C7D878227D" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Cave Spider" />
+<template V="Cave Spider" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="46" />
+<scale V="0.800000" />
+<bravery V="0.900000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="298625908" />
+<name V="Cave Spider" />
+<ancestorname V="Cave Spider" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="91.266373" y="1.200000" z="-47.485596" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="31" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="41" />
+<dexterity V="41" />
+<vitality V="46" />
+<magic V="6" />
+<tohitbonus V="24" />
+<naturalarmor V="12" />
+<walkingspeed V="8.000000" />
+<runningspeed V="15.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="25FE189BAB468D897F8EA8C2401B6A64" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Cave Spider" />
+<template V="Cave Spider" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="46" />
+<scale V="0.800000" />
+<bravery V="0.900000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="515976912" />
+<name V="Cave Spider" />
+<ancestorname V="Cave Spider" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="109.545151" y="1.367641" z="-37.650959" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="39" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="41" />
+<dexterity V="41" />
+<vitality V="46" />
+<magic V="6" />
+<tohitbonus V="22" />
+<naturalarmor V="12" />
+<walkingspeed V="8.000000" />
+<runningspeed V="15.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="3AE34E34FEB6BEA87D420F392DEC66BD" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Cave Spider" />
+<template V="Cave Spider" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="46" />
+<scale V="0.800000" />
+<bravery V="0.900000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Cave Spider" />
+<ancestorname V="Cave Spider" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="97.371010" y="1.305515" z="-50.010651" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="35" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="41" />
+<dexterity V="41" />
+<vitality V="46" />
+<magic V="6" />
+<tohitbonus V="22" />
+<naturalarmor V="12" />
+<walkingspeed V="8.000000" />
+<runningspeed V="15.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="A92A145789832C6B5B43A9C7D878227D" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.100000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Fire Bat" />
+<ancestorname V="Fire Bat" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="129.108749" y="1.478881" z="-136.680237" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="11" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="32" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="58CD1783817F2A922E12EC0B3376B363" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.100000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Fire Bat" />
+<ancestorname V="Fire Bat" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="114.192459" y="0.901649" z="-144.000122" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="14" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="32" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="875384F8A2C12FA1895B52F1B4386F39" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.100000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="16673968" />
+<name V="Fire Bat" />
+<ancestorname V="Fire Bat" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="124.541794" y="0.528823" z="-155.304062" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="10" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="28" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="69C58AFD2D57B32A70B75268F2DB5986" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.100000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="298619176" />
+<name V="Fire Bat" />
+<ancestorname V="Fire Bat" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="125.631531" y="1.103935" z="-141.400146" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="12" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="32" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="139C47D67AAAE8A7384B4AF433F0E013" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Gloptopus" />
+<template V="Gloptopus" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="44" />
+<scale V="1.200000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="-1" />
+<name V="Gloptopus" />
+<ancestorname V="Gloptopus" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="302.576447" y="2.355679" z="-158.091644" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="35" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="30" />
+<dexterity V="30" />
+<vitality V="29" />
+<magic V="6" />
+<tohitbonus V="29" />
+<naturalarmor V="29" />
+<walkingspeed V="3.000000" />
+<runningspeed V="5.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="20" type="0" />
+<DAMAGERESISTANCE V="50" type="2" />
+<DAMAGERESISTANCE V="-40" type="5" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="8108C5E4F2BB4CD1177219898C2AA7F9" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Mantoid" />
+<template V="Mantoid" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="50" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="23482524" />
+<name V="Mantoid" />
+<ancestorname V="Mantoid" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="233.946198" y="1.693402" z="-193.561020" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="3" />
+<maxhp V="10" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="65" />
+<dexterity V="65" />
+<vitality V="14" />
+<magic V="0" />
+<tohitbonus V="17" />
+<naturalarmor V="4" />
+<walkingspeed V="10.000000" />
+<runningspeed V="14.000000" />
+<gold V="4" />
+<ITEMS N="2">
+<ITEM>
+<ITEM>
+<basename V="Torch" />
+<slotidx V="22" />
+<value V="69" />
+<ACTIVATIONS N="2" />
+<pos x="0.354839" y="1.000000" z="0.473118" />
+<ori x1y1="-0.000000" x1y2="1.000000" x1y3="-0.000000" x1y4="0.000000" x2y1="-0.733682" x2y2="-0.000000" x2y3="-0.679493" x2y4="0.000000" x3y1="-0.679493" x3y2="0.000000" x3y3="0.733682" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Long Dagger" />
+<refid V="LongDagger" />
+<name V="&#x08;Superior&#x08;  Long Dagger " />
+<slotidx V="3" />
+<value V="210" />
+<grade V="1" />
+<equipped V="T" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="-0.000000" x1y4="0.000000" x2y1="0.205100" x2y2="-0.000000" x2y3="-0.978741" x2y4="0.000000" x3y1="-0.978741" x3y2="0.000000" x3y3="-0.205100" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+</ITEMS>
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="-20" type="2" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="B0C99A9B67EF66D773D5FBAD11691490" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Gloptopus" />
+<template V="Gloptopus" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="44" />
+<scale V="1.200000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="298606108" />
+<name V="Gloptopus" />
+<ancestorname V="Gloptopus" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="181.853333" y="1.955971" z="-249.412308" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="34" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="30" />
+<dexterity V="30" />
+<vitality V="29" />
+<magic V="6" />
+<tohitbonus V="31" />
+<naturalarmor V="29" />
+<walkingspeed V="3.000000" />
+<runningspeed V="5.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="20" type="0" />
+<DAMAGERESISTANCE V="50" type="2" />
+<DAMAGERESISTANCE V="-40" type="5" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="F14BCD8C053DD123829F73F2508F7A45" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Cave Spider" />
+<template V="Cave Spider" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="46" />
+<scale V="0.800000" />
+<bravery V="0.900000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1400189802" />
+<name V="Cave Spider" />
+<ancestorname V="Cave Spider" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="287.469727" y="1.721046" z="-280.330688" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="31" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="41" />
+<dexterity V="41" />
+<vitality V="46" />
+<magic V="6" />
+<tohitbonus V="26" />
+<naturalarmor V="12" />
+<walkingspeed V="8.000000" />
+<runningspeed V="15.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="25FE189BAB468D897F8EA8C2401B6A64" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.100000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="-1" />
+<name V="Fire Bat" />
+<ancestorname V="Fire Bat" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="205.364822" y="1.200000" z="-125.322777" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="14" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="28" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="875384F8A2C12FA1895B52F1B4386F39" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Cave Spider" />
+<template V="Cave Spider" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="46" />
+<scale V="0.800000" />
+<bravery V="0.900000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="16673968" />
+<name V="Cave Spider" />
+<ancestorname V="Cave Spider" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="260.706604" y="1.642169" z="-346.789032" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="38" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="41" />
+<dexterity V="41" />
+<vitality V="46" />
+<magic V="6" />
+<tohitbonus V="26" />
+<naturalarmor V="12" />
+<walkingspeed V="8.000000" />
+<runningspeed V="15.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="7DD8F3C68CE344FF5A3A99A289F8CDD9" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.100000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="515917136" />
+<name V="Fire Bat" />
+<ancestorname V="Fire Bat" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="303.480377" y="0.938144" z="-83.800781" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="14" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="30" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="875384F8A2C12FA1895B52F1B4386F39" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.100000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="298599904" />
+<name V="Fire Bat" />
+<ancestorname V="Fire Bat" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="304.931854" y="1.040546" z="-71.599831" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="11" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="28" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="58CD1783817F2A922E12EC0B3376B363" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Cave Spider" />
+<template V="Cave Spider" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="46" />
+<scale V="0.800000" />
+<bravery V="0.900000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="23482524" />
+<name V="Cave Spider" />
+<ancestorname V="Cave Spider" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="109.262993" y="0.514266" z="-164.950500" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="38" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="41" />
+<dexterity V="41" />
+<vitality V="46" />
+<magic V="6" />
+<tohitbonus V="26" />
+<naturalarmor V="12" />
+<walkingspeed V="8.000000" />
+<runningspeed V="15.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="7DD8F3C68CE344FF5A3A99A289F8CDD9" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Locust" />
+<template V="Locust" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="37" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1524509407" />
+<name V="Locust" />
+<ancestorname V="Locust" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="190.007248" y="1.175553" z="-304.298798" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="16" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="20" />
+<dexterity V="31" />
+<vitality V="27" />
+<magic V="6" />
+<tohitbonus V="20" />
+<naturalarmor V="14" />
+<walkingspeed V="5.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="450187632AB70F3591ADE1E0EA8E6CC2" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Locust" />
+<template V="Locust" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="37" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="298611784" />
+<name V="Locust" />
+<ancestorname V="Locust" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="15.421403" y="1.717129" z="-17.490610" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="20" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="20" />
+<dexterity V="31" />
+<vitality V="27" />
+<magic V="6" />
+<tohitbonus V="20" />
+<naturalarmor V="14" />
+<walkingspeed V="5.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="630723737DBBF0CB7EDF9ACDCA81A29B" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.100000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="397558568" />
+<name V="Fire Bat" />
+<ancestorname V="Fire Bat" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="285.640320" y="1.729587" z="-118.128632" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="11" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="30" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="58CD1783817F2A922E12EC0B3376B363" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Snake" />
+<template V="Snake" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="609862656" />
+<name V="Snake" />
+<ancestorname V="Snake" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="55.123398" y="1.504724" z="-148.424393" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="10" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="32" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="69C58AFD2D57B32A70B75268F2DB5986" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Gloptopus" />
+<template V="Gloptopus" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="44" />
+<scale V="1.200000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="397585276" />
+<name V="Gloptopus" />
+<ancestorname V="Gloptopus" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="287.803497" y="2.218407" z="-157.028610" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="31" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="30" />
+<dexterity V="30" />
+<vitality V="29" />
+<magic V="6" />
+<tohitbonus V="27" />
+<naturalarmor V="29" />
+<walkingspeed V="3.000000" />
+<runningspeed V="5.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="20" type="0" />
+<DAMAGERESISTANCE V="50" type="2" />
+<DAMAGERESISTANCE V="-40" type="5" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="BEE4493EE028717A97E1C3F48B4DBC28" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Locust" />
+<template V="Locust" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="37" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="518617560" />
+<name V="Locust" />
+<ancestorname V="Locust" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="218.513794" y="2.109208" z="-309.430145" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="17" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="20" />
+<dexterity V="31" />
+<vitality V="27" />
+<magic V="6" />
+<tohitbonus V="20" />
+<naturalarmor V="14" />
+<walkingspeed V="5.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="39F31B51DA0B16546A197AFB0ABE7707" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Mantoid" />
+<template V="Mantoid" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="50" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="397565476" />
+<name V="Mantoid" />
+<ancestorname V="Mantoid" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="223.601120" y="1.800000" z="-173.680099" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="3" />
+<maxhp V="12" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="65" />
+<dexterity V="65" />
+<vitality V="14" />
+<magic V="0" />
+<tohitbonus V="17" />
+<naturalarmor V="4" />
+<walkingspeed V="10.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<ITEMS N="2">
+<ITEM>
+<ITEM>
+<basename V="Short Bow" />
+<refid V="ShortBow" />
+<slotidx V="22" />
+<value V="202" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="-0.000000" x1y4="0.000000" x2y1="0.259182" x2y2="-0.000000" x2y3="-0.965829" x2y4="0.000000" x3y1="-0.965829" x3y2="0.000000" x3y3="-0.259182" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Shortsword" />
+<slotidx V="3" />
+<value V="120" />
+<equipped V="T" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.989580" x2y2="-0.000000" x2y3="0.143984" x2y4="0.000000" x3y1="0.143984" x3y2="0.000000" x3y3="-0.989580" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+</ITEMS>
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="-20" type="2" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="9F1519544466085056A6FE73AA67851A" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Cave Spider" />
+<template V="Cave Spider" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="46" />
+<scale V="0.800000" />
+<bravery V="0.900000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1511123676" />
+<name V="Cave Spider" />
+<ancestorname V="Cave Spider" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="296.517426" y="1.097099" z="-193.361710" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="38" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="41" />
+<dexterity V="41" />
+<vitality V="46" />
+<magic V="6" />
+<tohitbonus V="22" />
+<naturalarmor V="12" />
+<walkingspeed V="8.000000" />
+<runningspeed V="15.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="7DD8F3C68CE344FF5A3A99A289F8CDD9" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Snake" />
+<template V="Snake" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="397578808" />
+<name V="Snake" />
+<ancestorname V="Snake" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="97.442169" y="1.045560" z="-258.386078" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="10" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="30" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="69C58AFD2D57B32A70B75268F2DB5986" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.100000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="397568512" />
+<name V="Fire Bat" />
+<ancestorname V="Fire Bat" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="126.975548" y="1.078960" z="-115.190948" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="12" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="28" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="139C47D67AAAE8A7384B4AF433F0E013" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Cave Spider" />
+<template V="Cave Spider" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="46" />
+<scale V="0.800000" />
+<bravery V="0.900000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1404760939" />
+<name V="Cave Spider" />
+<ancestorname V="Cave Spider" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="66.382095" y="1.186488" z="-78.732437" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="37" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="41" />
+<dexterity V="41" />
+<vitality V="46" />
+<magic V="6" />
+<tohitbonus V="26" />
+<naturalarmor V="12" />
+<walkingspeed V="8.000000" />
+<runningspeed V="15.000000" />
+<gold V="2" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="5CADABA3187BA22248A1C51EEECB1D5F" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="200" />
+<scale V="1.300000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Kazar&apos;mur the Primordial" />
+<ancestorname V="Kazar&apos;mur the Primordial" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="232.218552" y="1.323310" z="-70.542107" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="50" />
+<fameaward V="60" />
+<unique V="T" />
+<partytactic V="AGGRO" />
+<SKILLS>
+<SKILL V="1" I="9" />
+<SKILL V="1" I="12" />
+<SKILL V="1" I="13" />
+<SKILL V="1" I="14" />
+</SKILLS>
+<activespellname V="Battle Fog" />
+<strength V="17" />
+<dexterity V="72" />
+<vitality V="27" />
+<magic V="20" />
+<tohitbonus V="34" />
+<naturalarmor V="24" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="5" />
+<ITEMS N="1">
+<ITEM>
+<ITEM>
+<basename V="Gold Amulet" />
+<name V="Nimble Gold Amulet " />
+<slotidx V="22" />
+<value V="700" />
+<magic V="T" />
+<ided V="F" />
+<sockets V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="1" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="2" />
+<value2 V="2" />
+<value3 V="2" />
+<pricemultiplier V="5.280190" />
+<effectname V="DEXTERITY" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="1.000000" y="0.000000" z="7.000000" />
+<ori x1y1="-0.437638" x1y2="0.000000" x1y3="-0.899151" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.899151" x3y2="0.000000" x3y3="-0.437638" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+</ITEMS>
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="18" type="1" />
+<DAMAGERESISTANCE V="32" type="2" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC>
+<ATTACK N="1">
+<SPELL V="Stun" />
+</ATTACK>
+<DEFENSE N="2">
+<SPELL V="Battle Fog" />
+<SPELL V="Group Dervish" />
+</DEFENSE>
+</MAGIC>
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="59AB424E9DC24755A63187996A180F33" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Snake" />
+<template V="Snake" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="23482524" />
+<name V="Snake" />
+<ancestorname V="Snake" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="273.902954" y="1.822527" z="-166.933182" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="11" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="30" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="58CD1783817F2A922E12EC0B3376B363" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Snake" />
+<template V="Snake" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Snake" />
+<ancestorname V="Snake" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="263.692841" y="1.556989" z="-161.625565" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="15" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="32" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="C8559CF4DFCAA173460C9A3C1665F0FD" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Snake" />
+<template V="Snake" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="23482524" />
+<name V="Snake" />
+<ancestorname V="Snake" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="279.380768" y="1.794984" z="-166.683151" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="15" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="30" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="14.000000" />
+<gold V="8" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="39851FAEDC9143E72ABFC1D635473C6B" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Locust" />
+<template V="Locust" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="37" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="16673968" />
+<name V="Locust" />
+<ancestorname V="Locust" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="122.571159" y="1.635571" z="-133.685394" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="16" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="20" />
+<dexterity V="31" />
+<vitality V="27" />
+<magic V="6" />
+<tohitbonus V="18" />
+<naturalarmor V="14" />
+<walkingspeed V="5.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<ITEMS N="1">
+<ITEM>
+<ITEM>
+<basename V="Jeweled Pendant" />
+<slotidx V="22" />
+<value V="700" />
+<ACTIVATIONS N="2" />
+<pos x="27.000000" y="0.000000" z="46.000000" />
+<ori x1y1="0.685345" x1y2="0.000000" x1y3="-0.728219" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.728219" x3y2="0.000000" x3y3="0.685345" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+</ITEMS>
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="450187632AB70F3591ADE1E0EA8E6CC2" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Locust" />
+<template V="Locust" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="37" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Locust" />
+<ancestorname V="Locust" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="116.143944" y="1.554394" z="-134.730957" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="20" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="20" />
+<dexterity V="31" />
+<vitality V="27" />
+<magic V="6" />
+<tohitbonus V="22" />
+<naturalarmor V="14" />
+<walkingspeed V="5.000000" />
+<runningspeed V="14.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="630723737DBBF0CB7EDF9ACDCA81A29B" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Gloptopus" />
+<template V="Gloptopus" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="44" />
+<scale V="1.200000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="-1" />
+<name V="Gloptopus" />
+<ancestorname V="Gloptopus" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="95.649315" y="2.188222" z="-35.987076" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="42" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="30" />
+<dexterity V="30" />
+<vitality V="29" />
+<magic V="6" />
+<tohitbonus V="31" />
+<naturalarmor V="29" />
+<walkingspeed V="3.000000" />
+<runningspeed V="5.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="20" type="0" />
+<DAMAGERESISTANCE V="50" type="2" />
+<DAMAGERESISTANCE V="-40" type="5" />
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="41965F36B93D1C54D3E4CDA44B3E9DED" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Cave Spider" />
+<template V="Cave Spider" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="46" />
+<scale V="0.800000" />
+<bravery V="0.900000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="16673968" />
+<name V="Cave Spider" />
+<ancestorname V="Cave Spider" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="287.413483" y="1.336040" z="-229.661316" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="38" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="41" />
+<dexterity V="41" />
+<vitality V="46" />
+<magic V="6" />
+<tohitbonus V="22" />
+<naturalarmor V="12" />
+<walkingspeed V="8.000000" />
+<runningspeed V="15.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="7DD8F3C68CE344FF5A3A99A289F8CDD9" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.100000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="-1" />
+<name V="Fire Bat" />
+<ancestorname V="Fire Bat" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="225.342926" y="0.944900" z="-252.401535" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="13" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="30" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="13" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="E32644301A0E3D28E90252AB12E7E851" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.100000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="609923648" />
+<name V="Fire Bat" />
+<ancestorname V="Fire Bat" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="33.330883" y="1.241328" z="-34.596043" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="14" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="30" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="875384F8A2C12FA1895B52F1B4386F39" />
+</CHARACTER>
+</LEVELCHARACTER>
+<LEVELCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Fire Bat" />
+<template V="Fire Bat" />
+<existtime V="2150" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="13" />
+<scale V="1.100000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="1521095391" />
+<name V="Fire Bat" />
+<ancestorname V="Fire Bat" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="261.451996" y="1.269469" z="-175.770782" />
+<orientation x1y1="-1.000000" x1y2="0.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.000000" x3y2="0.000000" x3y3="-1.000000" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="3" />
+<maxstamina V="-1" />
+<stamina V="50.000000" />
+<maxmana V="1" />
+<maxhp V="13" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="11" />
+<dexterity V="66" />
+<vitality V="21" />
+<magic V="6" />
+<tohitbonus V="28" />
+<naturalarmor V="6" />
+<walkingspeed V="8.000000" />
+<runningspeed V="16.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="F9BDE64485F5BE13F487E9CDBA1B9392" />
+</CHARACTER>
+</LEVELCHARACTER>
+</CHARACTERS>
+<ITEMS N="59">
+<LEVELITEM>
+<ITEM>
+<basename V="Minor Stamina Potion" />
+<value V="10" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="9" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="20" />
+<value2 V="20" />
+<value3 V="20" />
+<effectname V="STAMINARECHARGE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="81.787651" y="0.250000" z="-90.659019" />
+<ori x1y1="-0.838999" x1y2="0.000000" x1y3="-0.544134" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.544134" x3y2="0.000000" x3y3="-0.838999" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Major Health Potion" />
+<value V="100" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="8" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="120" />
+<value2 V="120" />
+<value3 V="120" />
+<effectname V="HPRECHARGE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="215.512924" y="0.026749" z="-256.460938" />
+<ori x1y1="0.993885" x1y2="0.000000" x1y3="0.110416" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.110416" x3y2="0.000000" x3y3="0.993885" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Health Potion" />
+<value V="25" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="8" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="60" />
+<value2 V="60" />
+<value3 V="60" />
+<effectname V="HPRECHARGE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="204.530655" y="-0.361771" z="-190.482376" />
+<ori x1y1="0.960960" x1y2="0.000000" x1y3="-0.276686" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.276686" x3y2="0.000000" x3y3="0.960960" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Minor Stamina Potion" />
+<value V="10" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="9" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="20" />
+<value2 V="20" />
+<value3 V="20" />
+<effectname V="STAMINARECHARGE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="122.701988" y="0.180573" z="-341.518250" />
+<ori x1y1="0.384244" x1y2="0.000000" x1y3="-0.923232" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.923232" x3y2="0.000000" x3y3="0.384244" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="8 gold" />
+<value V="8" />
+<ACTIVATIONS N="2" />
+<pos x="185.068146" y="0.499306" z="-63.341778" />
+<ori x1y1="-0.348056" x1y2="0.000000" x1y3="-0.402344" x1y4="0.000000" x2y1="0.000000" x2y2="0.532000" x2y3="0.000000" x2y4="0.000000" x3y1="0.402344" x3y2="0.000000" x3y3="-0.348056" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="6 gold" />
+<value V="6" />
+<ACTIVATIONS N="2" />
+<pos x="290.707123" y="0.003441" z="-326.049011" />
+<ori x1y1="0.522738" x1y2="0.000000" x1y3="0.036344" x1y4="0.000000" x2y1="0.000000" x2y2="0.524000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.036344" x3y2="0.000000" x3y3="0.522738" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="3 gold" />
+<value V="3" />
+<ACTIVATIONS N="2" />
+<pos x="227.151459" y="0.647369" z="-76.174202" />
+<ori x1y1="0.406210" x1y2="0.000000" x1y3="0.311668" x1y4="0.000000" x2y1="0.000000" x2y2="0.512000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.311668" x3y2="0.000000" x3y3="0.406210" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="3 gold" />
+<value V="3" />
+<ACTIVATIONS N="2" />
+<pos x="282.637054" y="0.277618" z="-272.762238" />
+<ori x1y1="-0.120907" x1y2="0.000000" x1y3="-0.497519" x1y4="0.000000" x2y1="0.000000" x2y2="0.512000" x2y3="0.000000" x2y4="0.000000" x3y1="0.497519" x3y2="0.000000" x3y3="-0.120907" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="10 gold" />
+<value V="10" />
+<ACTIVATIONS N="2" />
+<pos x="229.735519" y="-0.031776" z="-40.055908" />
+<ori x1y1="0.516172" x1y2="0.000000" x1y3="-0.158640" x1y4="0.000000" x2y1="0.000000" x2y2="0.540000" x2y3="0.000000" x2y4="0.000000" x3y1="0.158640" x3y2="0.000000" x3y3="0.516172" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="9 gold" />
+<value V="9" />
+<ACTIVATIONS N="2" />
+<pos x="181.879089" y="0.250000" z="-164.079224" />
+<ori x1y1="-0.478232" x1y2="0.000000" x1y3="-0.242054" x1y4="0.000000" x2y1="0.000000" x2y2="0.536000" x2y3="0.000000" x2y4="0.000000" x3y1="0.242054" x3y2="0.000000" x3y3="-0.478232" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="7 gold" />
+<value V="7" />
+<ACTIVATIONS N="2" />
+<pos x="95.815422" y="0.140266" z="-73.220985" />
+<ori x1y1="-0.398573" x1y2="0.000000" x1y3="-0.346300" x1y4="0.000000" x2y1="0.000000" x2y2="0.528000" x2y3="0.000000" x2y4="0.000000" x3y1="0.346300" x3y2="0.000000" x3y3="-0.398573" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="11 gold" />
+<value V="11" />
+<ACTIVATIONS N="2" />
+<pos x="279.663330" y="0.235909" z="-350.096619" />
+<ori x1y1="-0.296424" x1y2="0.000000" x1y3="-0.456145" x1y4="0.000000" x2y1="0.000000" x2y2="0.544000" x2y3="0.000000" x2y4="0.000000" x3y1="0.456145" x3y2="0.000000" x3y3="-0.296424" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="12 gold" />
+<value V="12" />
+<ACTIVATIONS N="2" />
+<pos x="230.422562" y="0.834427" z="-302.528778" />
+<ori x1y1="-0.490167" x1y2="0.000000" x1y3="0.245032" x1y4="0.000000" x2y1="0.000000" x2y2="0.548000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.245032" x3y2="0.000000" x3y3="-0.490167" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="12 gold" />
+<value V="12" />
+<ACTIVATIONS N="2" />
+<pos x="216.804962" y="-0.006523" z="-249.968567" />
+<ori x1y1="-0.470651" x1y2="0.000000" x1y3="-0.280699" x1y4="0.000000" x2y1="0.000000" x2y2="0.548000" x2y3="0.000000" x2y4="0.000000" x3y1="0.280699" x3y2="0.000000" x3y3="-0.470651" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Cracked Urn" />
+<interact V="T" />
+<destruct V="T" />
+<SUBITEMS N="1">
+<SUBITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="10 gold" />
+<value V="10" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="-0.472899" x1y2="0.000000" x1y3="0.260704" x1y4="0.000000" x2y1="0.000000" x2y2="0.540000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.260704" x3y2="0.000000" x3y3="-0.472899" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="78.584427" y="-0.337830" z="-270.929016" />
+<ori x1y1="-0.213725" x1y2="0.000000" x1y3="0.976894" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.976894" x3y2="0.000000" x3y3="-0.213725" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Crate" />
+<interact V="T" />
+<destruct V="T" />
+<SUBITEMS N="1">
+<SUBITEM>
+<ITEM>
+<basename V="Key" />
+<value V="200" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="0.240336" x1y2="0.000000" x1y3="0.970690" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.970690" x3y2="0.000000" x3y3="0.240336" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="73.794159" y="0.017776" z="-269.756042" />
+<ori x1y1="-0.646375" x1y2="0.000000" x1y3="0.763020" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.763020" x3y2="0.000000" x3y3="-0.646375" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Cracked Urn" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="73.104927" y="0.042274" z="-273.708679" />
+<ori x1y1="-0.558173" x1y2="0.000000" x1y3="0.829724" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.829724" x3y2="0.000000" x3y3="-0.558173" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Crate" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="254.829269" y="0.121216" z="-92.368225" />
+<ori x1y1="-0.998828" x1y2="0.000000" x1y3="0.048399" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.048399" x3y2="0.000000" x3y3="-0.998828" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Crate" />
+<interact V="T" />
+<destruct V="T" />
+<SUBITEMS N="2">
+<SUBITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="12 gold" />
+<value V="12" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="0.229141" x1y2="0.000000" x1y3="0.497793" x1y4="0.000000" x2y1="0.000000" x2y2="0.548000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.497793" x3y2="0.000000" x3y3="0.229141" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+<SUBITEM>
+<ITEM>
+<basename V="Stamina Potion" />
+<value V="25" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="9" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="40" />
+<value2 V="40" />
+<value3 V="40" />
+<effectname V="STAMINARECHARGE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="0.118280" y="1.000000" z="0.118280" />
+<ori x1y1="-0.940795" x1y2="0.000000" x1y3="-0.338975" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.338975" x3y2="0.000000" x3y3="-0.940795" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="103.023087" y="-0.213722" z="-124.252686" />
+<ori x1y1="0.123509" x1y2="0.000000" x1y3="-0.992343" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.992343" x3y2="0.000000" x3y3="0.123509" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Barrel" />
+<interact V="T" />
+<destruct V="T" />
+<SUBITEMS N="1">
+<SUBITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="4 gold" />
+<value V="4" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="0.089949" x1y2="0.000000" x1y3="-0.508100" x1y4="0.000000" x2y1="0.000000" x2y2="0.516000" x2y3="0.000000" x2y4="0.000000" x3y1="0.508100" x3y2="0.000000" x3y3="0.089949" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="102.554039" y="-0.024422" z="-127.954590" />
+<ori x1y1="0.264271" x1y2="0.000000" x1y3="-0.964448" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.964448" x3y2="0.000000" x3y3="0.264271" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Barrel" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="106.210602" y="-0.265953" z="-124.334236" />
+<ori x1y1="-0.853202" x1y2="0.000000" x1y3="-0.521581" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.521581" x3y2="0.000000" x3y3="-0.853202" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Crate" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="28.043697" y="0.031395" z="-247.200287" />
+<ori x1y1="-0.927681" x1y2="0.000000" x1y3="-0.373375" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.373375" x3y2="0.000000" x3y3="-0.927681" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Barrel" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="23.008228" y="0.653267" z="-188.111053" />
+<ori x1y1="-0.334597" x1y2="0.000000" x1y3="0.942361" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.942361" x3y2="0.000000" x3y3="-0.334597" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Clay Urn" />
+<interact V="T" />
+<destruct V="T" />
+<trap V="2" />
+<SUBITEMS N="1">
+<SUBITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="4 gold" />
+<value V="4" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="-0.016546" x1y2="0.000000" x1y3="-0.515735" x1y4="0.000000" x2y1="0.000000" x2y2="0.516000" x2y3="0.000000" x2y4="0.000000" x3y1="0.515735" x3y2="0.000000" x3y3="-0.016546" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="23.330893" y="0.834152" z="-191.119125" />
+<ori x1y1="0.999999" x1y2="0.000000" x1y3="-0.001534" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.001534" x3y2="0.000000" x3y3="0.999999" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Cracked Urn" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="18.269592" y="0.570724" z="-190.626144" />
+<ori x1y1="-0.995634" x1y2="0.000000" x1y3="0.093344" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.093344" x3y2="0.000000" x3y3="-0.995634" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Crate" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="160.359497" y="0.884949" z="-321.585144" />
+<ori x1y1="0.861151" x1y2="0.000000" x1y3="0.508349" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.508349" x3y2="0.000000" x3y3="0.861151" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Crate" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="29.007839" y="0.792976" z="-298.275024" />
+<ori x1y1="-0.926891" x1y2="0.000000" x1y3="0.375331" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.375331" x3y2="0.000000" x3y3="-0.926891" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Barrel" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="23.410662" y="0.880714" z="-297.339905" />
+<ori x1y1="0.873461" x1y2="0.000000" x1y3="-0.486894" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.486894" x3y2="0.000000" x3y3="0.873461" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Clay Urn" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="23.568108" y="1.122971" z="-300.965088" />
+<ori x1y1="-0.875276" x1y2="0.000000" x1y3="0.483624" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.483624" x3y2="0.000000" x3y3="-0.875276" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Large Chest" />
+<interact V="T" />
+<SUBITEMS N="4">
+<SUBITEM>
+<ITEM>
+<basename V="Initiate&apos;s Cowl" />
+<refid V="InitiateCowl" />
+<name V="Wighteater&apos;s &#x0A;Healthy Initiate&apos;s Cowl of the Tortoise" />
+<value V="104" />
+<unique V="T" />
+<magic V="T" />
+<ided V="F" />
+<armorbonus V="3" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="4">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="37" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="2" />
+<value2 V="2" />
+<value3 V="2" />
+<pricemultiplier V="2.158452" />
+<effectname V="PERCENTSTAMINA" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="5" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="2" />
+<value2 V="2" />
+<value3 V="2" />
+<pricemultiplier V="4.043000" />
+<effectname V="HP" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="23" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="3.933225" />
+<effectname V="SKILLCRITICALSTRIKE" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="3">
+<damagetype V="3" />
+<positive V="T" />
+<type V="47" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="2.207403" />
+<effectname V="PERCENTLIFESTOLEN" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="0.290323" y="0.083333" z="0.370968" />
+<ori x1y1="0.923508" x1y2="0.000000" x1y3="-0.383580" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.383580" x3y2="0.000000" x3y3="0.923508" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+<SUBITEM>
+<ITEM>
+<basename V="Servant of Wyld" />
+<value V="1000" />
+<tarotflavor V="2" />
+<tarotlevel V="1" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="4.000000" />
+<ori x1y1="0.669833" x1y2="0.000000" x1y3="-0.742512" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.742512" x3y2="0.000000" x3y3="0.669833" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+<SUBITEM>
+<ITEM>
+<basename V="Cracked Lapis" />
+<value V="2000" />
+<magic V="T" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="46" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="3" />
+<value2 V="3" />
+<value3 V="3" />
+<effectname V="PERCENTCASTSPEED" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="0.290323" y="1.000000" z="0.370968" />
+<ori x1y1="0.900927" x1y2="0.000000" x1y3="0.433970" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.433970" x3y2="0.000000" x3y3="0.900927" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+<SUBITEM>
+<ITEM>
+<basename V="Minor Mana Potion" />
+<value V="10" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="7" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="20" />
+<value2 V="20" />
+<value3 V="20" />
+<effectname V="MANARECHARGE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="-1.#QNAN0" y="-228856568762803620000000000000000000000.000000" z="-1.#QNAN0" />
+<ori x1y1="-0.526113" x1y2="0.000000" x1y3="0.850414" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.850414" x3y2="0.000000" x3y3="-0.526113" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="18.911943" y="0.266022" z="-291.964478" />
+<ori x1y1="-0.797274" x1y2="0.000000" x1y3="-0.603617" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.603617" x3y2="0.000000" x3y3="-0.797274" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Crate" />
+<interact V="T" />
+<destruct V="T" />
+<trap V="1" />
+<ACTIVATIONS N="2" />
+<pos x="201.216324" y="0.637230" z="-78.996956" />
+<ori x1y1="-0.975847" x1y2="0.000000" x1y3="0.218453" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.218453" x3y2="0.000000" x3y3="-0.975847" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Barrel" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="205.446808" y="0.220222" z="-72.377106" />
+<ori x1y1="-0.994830" x1y2="0.000000" x1y3="-0.101550" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.101550" x3y2="0.000000" x3y3="-0.994830" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Clay Urn" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="92.602806" y="-0.195976" z="-23.436359" />
+<ori x1y1="-0.999990" x1y2="0.000000" x1y3="-0.004506" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.004506" x3y2="0.000000" x3y3="-0.999990" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Cracked Urn" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="88.905678" y="-0.302521" z="-21.722897" />
+<ori x1y1="0.940893" x1y2="0.000000" x1y3="-0.338705" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.338705" x3y2="0.000000" x3y3="0.940893" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Barrel" />
+<interact V="T" />
+<destruct V="T" />
+<SUBITEMS N="1">
+<SUBITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="8 gold" />
+<value V="8" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="-0.173191" x1y2="0.000000" x1y3="-0.503020" x1y4="0.000000" x2y1="0.000000" x2y2="0.532000" x2y3="0.000000" x2y4="0.000000" x3y1="0.503020" x3y2="0.000000" x3y3="-0.173191" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="89.844124" y="-0.360397" z="-19.164619" />
+<ori x1y1="-0.052373" x1y2="0.000000" x1y3="-0.998628" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.998628" x3y2="0.000000" x3y3="-0.052373" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Cracked Urn" />
+<interact V="T" />
+<destruct V="T" />
+<SUBITEMS N="1">
+<SUBITEM>
+<ITEM>
+<basename V="Buckler" />
+<value V="170" />
+<armorbonus V="5" />
+<ACTIVATIONS N="2" />
+<pos x="-0.345540" y="-0.909902" z="-0.366977" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="-0.000000" x1y4="0.000000" x2y1="0.960881" x2y2="-0.000000" x2y3="-0.276962" x2y4="0.000000" x3y1="-0.276962" x3y2="0.000000" x3y3="-0.960881" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="226.891495" y="0.329224" z="-17.583542" />
+<ori x1y1="-0.028807" x1y2="0.000000" x1y3="0.999585" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.999585" x3y2="0.000000" x3y3="-0.028807" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Crate" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="223.819763" y="0.301018" z="-16.711912" />
+<ori x1y1="0.280875" x1y2="0.000000" x1y3="-0.959744" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.959744" x3y2="0.000000" x3y3="0.280875" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Clay Urn" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="206.773483" y="0.851341" z="-30.085945" />
+<ori x1y1="0.569496" x1y2="0.000000" x1y3="-0.821994" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.821994" x3y2="0.000000" x3y3="0.569496" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Clay Urn" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="199.451859" y="0.885521" z="-30.719854" />
+<ori x1y1="-0.872947" x1y2="0.000000" x1y3="0.487815" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.487815" x3y2="0.000000" x3y3="-0.872947" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Barrel" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="203.566742" y="1.063904" z="-30.988613" />
+<ori x1y1="-0.070172" x1y2="0.000000" x1y3="0.997535" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.997535" x3y2="0.000000" x3y3="-0.070172" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Cracked Urn" />
+<interact V="T" />
+<destruct V="T" />
+<SUBITEMS N="1">
+<SUBITEM>
+<ITEM>
+<basename V="Forest Bow" />
+<refid V="ForestBow" />
+<value V="810" />
+<ACTIVATIONS N="2" />
+<pos x="0.322581" y="0.000000" z="0.354839" />
+<ori x1y1="-0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.392549" x2y2="-0.000000" x2y3="0.919731" x2y4="0.000000" x3y1="0.919731" x3y2="0.000000" x3y3="0.392549" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="144.728699" y="0.470184" z="-78.473923" />
+<ori x1y1="0.848517" x1y2="0.000000" x1y3="-0.529167" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.529167" x3y2="0.000000" x3y3="0.848517" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Barrel" />
+<interact V="T" />
+<destruct V="T" />
+<SUBITEMS N="2">
+<SUBITEM>
+<ITEM>
+<basename V="Minor Mana Potion" />
+<value V="10" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="7" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="20" />
+<value2 V="20" />
+<value3 V="20" />
+<effectname V="MANARECHARGE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="0.000000" y="0.000000" z="5.000000" />
+<ori x1y1="0.559843" x1y2="0.000000" x1y3="-0.828599" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.828599" x3y2="0.000000" x3y3="0.559843" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+<SUBITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="9 gold" />
+<value V="9" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="-0.257309" x1y2="0.000000" x1y3="-0.470200" x1y4="0.000000" x2y1="0.000000" x2y2="0.536000" x2y3="0.000000" x2y4="0.000000" x3y1="0.470200" x3y2="0.000000" x3y3="-0.257309" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="149.234726" y="0.769264" z="-81.878540" />
+<ori x1y1="0.997736" x1y2="0.000000" x1y3="0.067255" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.067255" x3y2="0.000000" x3y3="0.997736" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Barrel" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="147.737427" y="0.548393" z="-78.145531" />
+<ori x1y1="0.836958" x1y2="0.000000" x1y3="-0.547267" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.547267" x3y2="0.000000" x3y3="0.836958" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Cracked Urn" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="49.290142" y="0.250000" z="-100.456146" />
+<ori x1y1="0.511442" x1y2="0.000000" x1y3="-0.859318" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.859318" x3y2="0.000000" x3y3="0.511442" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Cracked Urn" />
+<interact V="T" />
+<destruct V="T" />
+<SUBITEMS N="1">
+<SUBITEM>
+<ITEM>
+<basename V="Leather Vest" />
+<refid V="LeatherVest" />
+<value V="423" />
+<armorbonus V="9" />
+<ACTIVATIONS N="2" />
+<pos x="0.365591" y="1.000000" z="0.580645" />
+<ori x1y1="-0.859441" x1y2="0.000000" x1y3="0.511236" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.511236" x3y2="0.000000" x3y3="-0.859441" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="231.039505" y="0.354950" z="-294.181396" />
+<ori x1y1="0.938797" x1y2="0.000000" x1y3="0.344472" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.344472" x3y2="0.000000" x3y3="0.938797" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Clay Urn" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="79.161186" y="0.782974" z="-200.456360" />
+<ori x1y1="0.327450" x1y2="0.000000" x1y3="-0.944869" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.944869" x3y2="0.000000" x3y3="0.327450" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Barrel" />
+<interact V="T" />
+<destruct V="T" />
+<SUBITEMS N="2">
+<SUBITEM>
+<ITEM>
+<basename V="Major Stamina Potion" />
+<value V="50" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="9" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="60" />
+<value2 V="60" />
+<value3 V="60" />
+<effectname V="STAMINARECHARGE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="0.000000" y="0.000000" z="-1.#QNAN0" />
+<ori x1y1="-0.557377" x1y2="0.000000" x1y3="-0.830259" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.830259" x3y2="0.000000" x3y3="-0.557377" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+<SUBITEM>
+<ITEM>
+<basename V="Stamina Potion" />
+<value V="25" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="9" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="40" />
+<value2 V="40" />
+<value3 V="40" />
+<effectname V="STAMINARECHARGE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="0.290323" y="1.000000" z="0.645161" />
+<ori x1y1="0.800561" x1y2="0.000000" x1y3="0.599252" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.599252" x3y2="0.000000" x3y3="0.800561" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="83.332550" y="0.767097" z="-201.455612" />
+<ori x1y1="0.898079" x1y2="0.000000" x1y3="-0.439835" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.439835" x3y2="0.000000" x3y3="0.898079" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Clay Urn" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="290.746185" y="0.913826" z="-359.345642" />
+<ori x1y1="0.231764" x1y2="0.000000" x1y3="0.972772" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.972772" x3y2="0.000000" x3y3="0.231764" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Crate" />
+<interact V="T" />
+<destruct V="T" />
+<SUBITEMS N="1">
+<SUBITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="3 gold" />
+<value V="3" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="-0.255632" x1y2="0.000000" x1y3="0.443618" x1y4="0.000000" x2y1="0.000000" x2y2="0.512000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.443618" x3y2="0.000000" x3y3="-0.255632" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="294.730560" y="0.250519" z="-352.185364" />
+<ori x1y1="0.592128" x1y2="0.000000" x1y3="-0.805844" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.805844" x3y2="0.000000" x3y3="0.592128" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Barrel" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="294.315613" y="0.417236" z="-356.164795" />
+<ori x1y1="-0.499779" x1y2="0.000000" x1y3="0.866153" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.866153" x3y2="0.000000" x3y3="-0.499779" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Locked Small Chest" />
+<interact V="T" />
+<SUBITEMS N="3">
+<SUBITEM>
+<ITEM>
+<basename V="Short Dagger" />
+<refid V="ShortDagger" />
+<value V="100" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="1.000000" z="0.000000" />
+<ori x1y1="-0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.821201" x2y2="-0.000000" x2y3="0.570639" x2y4="0.000000" x3y1="0.570639" x3y2="0.000000" x3y3="0.821201" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+<SUBITEM>
+<ITEM>
+<basename V="Cracked Amethyst" />
+<value V="2000" />
+<magic V="T" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="1">
+<EFFECT>
+<EFFECT I="0">
+<name V="FIRE" />
+<damagetype V="3" />
+<positive V="T" />
+<type V="8" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="2" />
+<value2 V="2" />
+<value3 V="2" />
+<effectname V="HPRECHARGE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="0.322581" y="0.000000" z="0.338710" />
+<ori x1y1="0.996078" x1y2="0.000000" x1y3="-0.088474" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.088474" x3y2="0.000000" x3y3="0.996078" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+<SUBITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="10 gold" />
+<value V="10" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="0.494298" x1y2="0.000000" x1y3="-0.217416" x1y4="0.000000" x2y1="0.000000" x2y2="0.540000" x2y3="0.000000" x2y4="0.000000" x3y1="0.217416" x3y2="0.000000" x3y3="0.494298" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="16.265444" y="-0.272934" z="-46.099895" />
+<ori x1y1="-0.162695" x1y2="0.000000" x1y3="-0.986676" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.986676" x3y2="0.000000" x3y3="-0.162695" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Weapon Rack" />
+<interact V="T" />
+<SUBITEMS N="2">
+<SUBITEM>
+<ITEM>
+<basename V="Spear" />
+<value V="115" />
+<sockets V="1" />
+<ACTIVATIONS N="2" />
+<pos x="-1.#QNAN0" y="-1.#QNAN0" z="-1.#QNAN0" />
+<ori x1y1="-0.000000" x1y2="1.000000" x1y3="-0.000000" x1y4="0.000000" x2y1="-0.572802" x2y2="-0.000000" x2y3="-0.819694" x2y4="0.000000" x3y1="-0.819694" x3y2="0.000000" x3y3="0.572802" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+<SUBITEM>
+<ITEM>
+<basename V="Shortstaff" />
+<value V="79" />
+<ACTIVATIONS N="2" />
+<pos x="2.000000" y="0.000000" z="0.000000" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.850893" x2y2="-0.000000" x2y3="0.525338" x2y4="0.000000" x3y1="0.525338" x3y2="0.000000" x3y3="-0.850893" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="61.140575" y="0.195847" z="-343.508423" />
+<ori x1y1="0.967607" x1y2="0.000000" x1y3="0.252462" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.252462" x3y2="0.000000" x3y3="0.967607" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Cracked Urn" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="67.066025" y="0.516434" z="-185.550613" />
+<ori x1y1="0.391667" x1y2="0.000000" x1y3="-0.920107" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.920107" x3y2="0.000000" x3y3="0.391667" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Barrel" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="63.110294" y="0.400177" z="-183.832932" />
+<ori x1y1="-0.854400" x1y2="0.000000" x1y3="-0.519616" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.519616" x3y2="0.000000" x3y3="-0.854400" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Cracked Urn" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="33.453430" y="0.392151" z="-29.569887" />
+<ori x1y1="0.298494" x1y2="0.000000" x1y3="0.954412" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.954412" x3y2="0.000000" x3y3="0.298494" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Barrel" />
+<interact V="T" />
+<destruct V="T" />
+<SUBITEMS N="1">
+<SUBITEM>
+<ITEM>
+<basename V="Leather Vest" />
+<refid V="LeatherVest" />
+<value V="423" />
+<armorbonus V="10" />
+<ACTIVATIONS N="2" />
+<pos x="0.242256" y="0.000000" z="-0.352458" />
+<ori x1y1="-0.952167" x1y2="0.000000" x1y3="-0.305577" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.305577" x3y2="0.000000" x3y3="-0.952167" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="29.757542" y="0.506706" z="-29.156227" />
+<ori x1y1="-0.783175" x1y2="0.000000" x1y3="-0.621802" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.621802" x3y2="0.000000" x3y3="-0.783175" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Weapon Rack" />
+<interact V="T" />
+<SUBITEMS N="1">
+<SUBITEM>
+<ITEM>
+<basename V="Light Handaxe" />
+<refid V="LightHandaxe" />
+<value V="115" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="5.000000" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="-0.000000" x1y4="0.000000" x2y1="0.841805" x2y2="-0.000000" x2y3="-0.539783" x2y4="0.000000" x3y1="-0.539783" x3y2="0.000000" x3y3="-0.841805" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="188.961761" y="0.088448" z="-64.199806" />
+<ori x1y1="-0.209602" x1y2="0.000000" x1y3="0.977787" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.977787" x3y2="0.000000" x3y3="-0.209602" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Clay Urn" />
+<interact V="T" />
+<destruct V="T" />
+<ACTIVATIONS N="2" />
+<pos x="122.565186" y="0.574722" z="-299.269470" />
+<ori x1y1="0.969749" x1y2="0.000000" x1y3="-0.244103" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.244103" x3y2="0.000000" x3y3="0.969749" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+<LEVELITEM>
+<ITEM>
+<basename V="Clay Urn" />
+<interact V="T" />
+<destruct V="T" />
+<SUBITEMS N="1">
+<SUBITEM>
+<ITEM>
+<basename V="Gold" />
+<refid V="" />
+<name V="5 gold" />
+<value V="5" />
+<ACTIVATIONS N="2" />
+<pos x="0.000000" y="0.000000" z="0.000000" />
+<ori x1y1="0.194640" x1y2="0.000000" x1y3="0.482198" x1y4="0.000000" x2y1="0.000000" x2y2="0.520000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.482198" x3y2="0.000000" x3y3="0.194640" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2" />
+<pos x="119.828346" y="0.981087" z="-294.090271" />
+<ori x1y1="-0.483247" x1y2="0.000000" x1y3="0.875484" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.875484" x3y2="0.000000" x3y3="-0.483247" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</LEVELITEM>
+</ITEMS>
+<lastpopulationtime V="82711" />
+<level V="1" />
+<width V="112" />
+<height V="128" />
+<cursed V="0" />
+<realm V="11" />
+</LEVELHISTORY>
+</HISTORY>
+</HISTORIES>
+<WARDS N="0" />
+<TIPS N="29">
+<tip V="T" I="0" />
+<tip V="F" I="1" />
+<tip V="F" I="2" />
+<tip V="F" I="3" />
+<tip V="F" I="4" />
+<tip V="T" I="5" />
+<tip V="F" I="6" />
+<tip V="F" I="7" />
+<tip V="T" I="8" />
+<tip V="T" I="9" />
+<tip V="F" I="10" />
+<tip V="T" I="11" />
+<tip V="F" I="12" />
+<tip V="F" I="13" />
+<tip V="F" I="14" />
+<tip V="F" I="15" />
+<tip V="F" I="16" />
+<tip V="F" I="17" />
+<tip V="F" I="18" />
+<tip V="F" I="19" />
+<tip V="F" I="20" />
+<tip V="F" I="21" />
+<tip V="F" I="22" />
+<tip V="F" I="23" />
+<tip V="F" I="24" />
+<tip V="F" I="25" />
+<tip V="F" I="26" />
+<tip V="F" I="27" />
+<tip V="F" I="28" />
+</TIPS>
+<hash V="29F9FDEDE14E0D3C5254F54ACB14E77B" />
+<INVENTORYCHARACTER>
+<CHARACTER>
+<GUID V="" />
+<refid V="Storage Trunk" />
+<template V="Storage Trunk" />
+<existtime V="80560" />
+<isplayer V="F" />
+<experience V="0" />
+<experienceaward V="0" />
+<scale V="1.000000" />
+<bravery V="1.000000" />
+<difficulty V="1" />
+<masterindex V="-1" />
+<dungeonseed V="0" />
+<name V="Storage Trunk" />
+<ancestorname V="Storage Trunk" />
+<ismerchant V="T" />
+<merchanttype V="8" />
+<lastdungeonlevel V="1" />
+<lastrealm V="11" />
+<position x="42.213417" y="1.477935" z="-345.022949" />
+<orientation x1y1="-0.334594" x1y2="0.000000" x1y3="0.942362" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.942362" x3y2="0.000000" x3y3="-0.334594" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<level V="1" />
+<maxstamina V="21" />
+<maxmana V="1" />
+<maxhp V="4" />
+<partytactic V="AGGRO" />
+<SKILLS />
+<strength V="14" />
+<dexterity V="12" />
+<vitality V="10" />
+<magic V="0" />
+<tohitbonus V="10" />
+<naturalarmor V="5" />
+<walkingspeed V="0.000000" />
+<runningspeed V="0.000000" />
+<gold V="0" />
+<DAMAGETYPES N="9">
+<DAMAGERESISTANCE V="100" type="7" />
+</DAMAGETYPES>
+<race V="HUMAN" />
+<MAGIC />
+<parentrealm V="" />
+<ACTIVATIONS N="2" />
+<hash V="464C8D72C1FB0BB43AD608B7CAD35164" />
+</CHARACTER>
+</INVENTORYCHARACTER>
+<PARTYMEMBERS N="0" />
+</savegame>
