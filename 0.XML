@@ -24,7 +24,7 @@
 <refid V="" />
 <originaltemplate V="" />
 <template V="PLAYER" />
-<existtime V="12837928" />
+<existtime V="12861894" />
 <isplayer V="T" />
 <cursetimer V="0.000000" />
 <cursepercent V="54.547199" />
@@ -32,12 +32,12 @@
 <score V="104947" />
 <attack V="0" />
 <defense V="80" />
-<damagemin V="7" />
-<damagemax V="8" />
+<damagemin V="22" />
+<damagemax V="31" />
 <networth V="245716" />
 <JOURNALSTATS N="24">
 <stat V="0" I="0" />
-<stat V="23664" I="1" />
+<stat V="23674" I="1" />
 <stat V="339301" I="2" />
 <stat V="14" I="3" />
 <stat V="9" I="4" />
@@ -580,8 +580,8 @@
 <ancestorname V="Nick" />
 <lastdungeonlevel V="0" />
 <lastrealm V="10" />
-<position x="92.771736" y="1.759761" z="-39.819843" />
-<orientation x1y1="-0.236147" x1y2="0.000000" x1y3="-0.971058" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.971058" x3y2="0.000000" x3y3="-0.236147" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<position x="70.453285" y="1.767000" z="-24.917824" />
+<orientation x1y1="0.890008" x1y2="0.000000" x1y3="0.454538" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.454538" x3y2="0.000000" x3y3="0.890008" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 <level V="13" />
 <fame V="16839" />
 <famerank V="7" />
@@ -611,95 +611,24 @@
 <ITEMS N="25">
 <ITEM>
 <ITEM>
-<basename V="Light Belt" />
-<refid V="LightBelt" />
-<name V="Gorogreaver&apos;s &#x0A;Crushing Light Belt of the Mage" />
-<slotidx V="10" />
-<value V="168" />
+<basename V="Short Axe" />
+<refid V="ShortAxe" />
+<name V="Karukan&apos;s &#x0A;Holy Piercing Short Axe of Bronze" />
+<slotidx V="2" />
+<value V="1365" />
 <equipped V="T" />
 <unique V="T" />
 <magic V="T" />
-<armorbonus V="5" />
-<sockets V="1" />
-<SUBITEMS N="1">
-<SUBITEM>
-<ITEM>
-<basename V="Cracked Turquoise" />
-<value V="1000" />
-<magic V="T" />
+<BONUSES N="1">
+<BONUS>
+<dmgbonus V="7" />
+<dmgbonusvalue V="25" />
+</BONUS>
+</BONUSES>
 <ACTIVATIONS N="2">
-<EFFECTS I="0" N="1">
+<EFFECTS I="0" N="6">
 <EFFECT>
 <EFFECT I="0">
-<name V="ELECTRIC" />
-<damagetype V="3" />
-<positive V="T" />
-<type V="67" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-900" />
-<value V="2" />
-<value2 V="2" />
-<value3 V="2" />
-<effectname V="ADDDAMAGETYPE" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="68.367050" y="1.767000" z="-51.200092" />
-<ori x1y1="-0.497618" x1y2="0.000000" x1y3="0.867396" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.867396" x3y2="0.000000" x3y3="-0.497618" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</SUBITEM>
-</SUBITEMS>
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="8">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="43" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="-3" />
-<value2 V="-3" />
-<value3 V="-3" />
-<pricemultiplier V="5.285781" />
-<effectname V="PERCENTDAMAGETAKEN" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="33" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="6" />
-<value2 V="6" />
-<value3 V="6" />
-<pricemultiplier V="5.072677" />
-<effectname V="PERCENTVITALITY" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="34" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="11" />
-<value2 V="11" />
-<value3 V="11" />
-<pricemultiplier V="9.130466" />
-<effectname V="PERCENTMAGIC" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="3">
 <damagetype V="3" />
 <positive V="T" />
 <type V="47" />
@@ -709,146 +638,255 @@
 <value V="1" />
 <value2 V="1" />
 <value3 V="1" />
-<pricemultiplier V="7.281228" />
+<pricemultiplier V="7.505698" />
 <effectname V="PERCENTLIFESTOLEN" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="12" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="6" />
+<value2 V="6" />
+<value3 V="6" />
+<pricemultiplier V="13.569243" />
+<effectname V="DAMAGEBONUS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="41" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="9" />
+<value2 V="9" />
+<value3 V="9" />
+<pricemultiplier V="7.591076" />
+<effectname V="PERCENTTOHITBONUS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="3">
+<damagetype V="3" />
+<positive V="T" />
+<type V="14" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="2" />
+<value2 V="2" />
+<value3 V="2" />
+<pricemultiplier V="15.391950" />
+<effectname V="KNOCKBACK" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="4">
 <damagetype V="3" />
-<positive V="T" />
-<type V="38" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="8" />
-<value2 V="8" />
-<value3 V="8" />
-<pricemultiplier V="11.228552" />
-<effectname V="PERCENTSPEED" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="5">
-<damagetype V="3" />
-<positive V="T" />
-<type V="2" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="7" />
-<value2 V="7" />
-<value3 V="7" />
-<pricemultiplier V="14.131596" />
-<effectname V="VITALITY" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="6">
-<name V="ELECTRIC" />
-<damagetype V="3" />
-<positive V="T" />
-<type V="58" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-900" />
-<value V="8" />
-<value2 V="2" />
-<value3 V="2" />
-<effectname V="PERCENTELECTRICRESISTANCE" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="7">
-<damagetype V="3" />
-<positive V="T" />
-<type V="49" />
+<positive V="F" />
+<type V="45" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
 <value V="1" />
 <value2 V="1" />
 <value3 V="1" />
-<pricemultiplier V="7.235480" />
-<effectname V="PERCENTDAMAGEREFLECTED" />
+<pricemultiplier V="0.977886" />
+<effectname V="PERCENTGOLDDROP" />
 </EFFECT>
 </EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="46.292793" y="1.767000" z="53.981625" />
-<ori x1y1="-0.991043" x1y2="0.000000" x1y3="-0.133540" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.133540" x3y2="0.000000" x3y3="-0.991043" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Book of Town Portals" />
-<slotidx V="22" />
-<value V="500" />
-<originaluses V="10" />
-<uses V="9" />
-<ACTIVATIONS N="2">
-<EFFECTS I="1" N="1">
 <EFFECT>
-<EFFECT I="0">
-<name V="OPENPORTAL" />
+<EFFECT I="5">
 <damagetype V="3" />
 <positive V="T" />
-<type V="70" />
-<activation V="1" />
+<type V="0" />
+<activation V="0" />
 <chanceofsuccess V="100" />
-<duration V="-900" />
-<effectname V="OPENPORTAL" />
+<duration V="-1000" />
+<value V="4" />
+<value2 V="4" />
+<value3 V="4" />
+<pricemultiplier V="8.433674" />
+<effectname V="STRENGTH" />
 </EFFECT>
 </EFFECT>
 </EFFECTS>
 </ACTIVATIONS>
-<pos x="11.249860" y="1.137335" z="-408.640289" />
-<ori x1y1="0.979875" x1y2="0.000000" x1y3="0.199608" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.199608" x3y2="0.000000" x3y3="0.979875" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="-24.624994" y="1.767000" z="-24.917824" />
+<ori x1y1="-0.859519" x1y2="0.369646" x1y3="-0.351340" x1y4="0.000000" x2y1="-0.110381" x2y2="0.537891" x2y3="0.835206" x2y4="0.000000" x3y1="0.497712" x3y2="0.757645" x3y3="-0.421516" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Major Mana Potion" />
-<slotidx V="19" />
-<value V="100" />
-<originaluses V="1" />
+<basename V="Demon Staff" />
+<refid V="DemonStaff" />
+<slotidx V="26" />
+<value V="1020" />
+<unique V="T" />
+<artifact V="T" />
+<magic V="T" />
 <ACTIVATIONS N="2">
-<EFFECTS I="1" N="1">
+<EFFECTS I="0" N="5">
 <EFFECT>
 <EFFECT I="0">
 <damagetype V="3" />
 <positive V="T" />
-<type V="7" />
-<activation V="1" />
+<type V="27" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="4" />
+<value2 V="4" />
+<value3 V="4" />
+<pricemultiplier V="12.000000" />
+<effectname V="SKILLATTACKMAGIC" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="29" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="4" />
+<value2 V="4" />
+<value3 V="4" />
+<pricemultiplier V="12.000000" />
+<effectname V="SKILLCHARMMAGIC" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="28" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="4" />
+<value2 V="4" />
+<value3 V="4" />
+<pricemultiplier V="12.000000" />
+<effectname V="SKILLDEFENSEMAGIC" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="3">
+<damagetype V="3" />
+<positive V="T" />
+<type V="35" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="10" />
+<value2 V="10" />
+<value3 V="10" />
+<pricemultiplier V="8.000000" />
+<effectname V="PERCENTMANA" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="4">
+<damagetype V="3" />
+<positive V="T" />
+<type V="42" />
+<activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-900" />
-<value V="120" />
-<value2 V="120" />
-<value3 V="120" />
-<effectname V="MANARECHARGE" />
+<value V="50" />
+<value2 V="50" />
+<value3 V="50" />
+<pricemultiplier V="40.000000" />
+<effectname V="PERCENTDAMAGEBONUS" />
 </EFFECT>
 </EFFECT>
 </EFFECTS>
 </ACTIVATIONS>
-<pos x="191.351776" y="1.330371" z="-191.737045" />
-<ori x1y1="0.795012" x1y2="0.000000" x1y3="-0.606594" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.606594" x3y2="0.000000" x3y3="0.795012" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="70.453285" y="1.767000" z="-24.917824" />
+<ori x1y1="-0.879470" x1y2="-0.359033" x1y3="-0.310598" x1y4="0.000000" x2y1="-0.451867" x2y2="0.433552" x2y3="0.778972" x2y4="0.000000" x3y1="-0.145023" x3y2="0.826508" x3y3="-0.543522" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Seeker of Chaos" />
-<slotidx V="42" />
-<value V="1000" />
-<tarotflavor V="1" />
-<ACTIVATIONS N="2" />
-<pos x="313.849976" y="0.827891" z="-177.651733" />
-<ori x1y1="0.700141" x1y2="0.000000" x1y3="-0.714005" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.714005" x3y2="0.000000" x3y3="0.700141" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<basename V="Khopesh" />
+<name V="Naz&apos;zur&apos;s &#x0A;Icy Guiding Khopesh of Wealth" />
+<slotidx V="3" />
+<value V="1250" />
+<equipped V="T" />
+<unique V="T" />
+<magic V="T" />
+<BONUSES N="1">
+<BONUS>
+<dmgbonus V="5" />
+<dmgbonusvalue V="24" />
+</BONUS>
+</BONUSES>
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="3">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="45" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="25" />
+<value2 V="25" />
+<value3 V="25" />
+<pricemultiplier V="10.355883" />
+<effectname V="PERCENTGOLDDROP" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="11" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="5" />
+<value2 V="5" />
+<value3 V="5" />
+<pricemultiplier V="10.591784" />
+<effectname V="TOHITBONUS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="14" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="10.157829" />
+<effectname V="KNOCKBACK" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="-24.327682" y="1.767000" z="-24.917824" />
+<ori x1y1="-0.869308" x1y2="-0.384119" x1y3="-0.309236" x1y4="0.000000" x2y1="-0.423658" x2y2="0.261510" x2y3="0.866556" x2y4="0.000000" x3y1="-0.252001" x3y2="0.885466" x3y3="-0.390057" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
 <basename V="Super Mana Potion" />
-<slotidx V="18" />
+<slotidx V="16" />
 <value V="300" />
 <originaluses V="1" />
 <ACTIVATIONS N="2">
@@ -869,616 +907,25 @@
 </EFFECT>
 </EFFECTS>
 </ACTIVATIONS>
-<pos x="350.002869" y="0.695808" z="-141.742599" />
-<ori x1y1="0.995052" x1y2="0.000000" x1y3="0.099356" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.099356" x3y2="0.000000" x3y3="0.995052" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="77.715538" y="0.548338" z="-393.614502" />
+<ori x1y1="0.385837" x1y2="0.000000" x1y3="-0.922567" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.922567" x3y2="0.000000" x3y3="0.385837" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Mana Potion" />
-<slotidx V="20" />
-<value V="25" />
-<originaluses V="1" />
-<ACTIVATIONS N="2">
-<EFFECTS I="1" N="1">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="7" />
-<activation V="1" />
-<chanceofsuccess V="100" />
-<duration V="-900" />
-<value V="60" />
-<value2 V="60" />
-<value3 V="60" />
-<effectname V="MANARECHARGE" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="255.839844" y="0.459358" z="-158.266556" />
-<ori x1y1="-0.606938" x1y2="0.000000" x1y3="0.794749" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.794749" x3y2="0.000000" x3y3="-0.606938" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Stamina Charm" />
-<slotidx V="17" />
-<value V="2000" />
-<originaluses V="8" />
-<uses V="4" />
-<ACTIVATIONS N="2">
-<EFFECTS I="1" N="1">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="9" />
-<activation V="1" />
-<chanceofsuccess V="100" />
-<duration V="-900" />
-<value V="120" />
-<value2 V="120" />
-<value3 V="120" />
-<effectname V="STAMINARECHARGE" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="55.043983" y="1.100290" z="-178.794388" />
-<ori x1y1="-0.969209" x1y2="0.000000" x1y3="-0.246241" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.246241" x3y2="0.000000" x3y3="-0.969209" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Revival Potion" />
-<slotidx V="21" />
-<value V="5000" />
-<originaluses V="1" />
-<ACTIVATIONS N="2">
-<EFFECTS I="1" N="4">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="84" />
-<activation V="1" />
-<chanceofsuccess V="100" />
-<duration V="-900" />
-<effectname V="RECOVERPASSOUTFULL" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<name V="MUFFLE" />
-<exclusive V="T" />
-<damagetype V="3" />
-<positive V="T" />
-<type V="35" />
-<activation V="1" />
-<chanceofsuccess V="100" />
-<duration V="60" />
-<value V="-500" />
-<value2 V="-500" />
-<value3 V="-500" />
-<effectname V="PERCENTMANA" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<name V="SLOW" />
-<exclusive V="T" />
-<damagetype V="3" />
-<positive V="T" />
-<type V="38" />
-<activation V="1" />
-<chanceofsuccess V="100" />
-<duration V="60" />
-<value V="-40" />
-<value2 V="-40" />
-<value3 V="-40" />
-<effectname V="PERCENTSPEED" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="3">
-<name V="SLOWATTACK" />
-<exclusive V="T" />
-<damagetype V="3" />
-<positive V="T" />
-<type V="39" />
-<activation V="1" />
-<chanceofsuccess V="100" />
-<duration V="60" />
-<value V="-40" />
-<value2 V="-40" />
-<value3 V="-40" />
-<effectname V="PERCENTATTACKSPEED" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="55.043983" y="1.100290" z="-178.794388" />
-<ori x1y1="-0.691534" x1y2="0.000000" x1y3="0.722344" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.722344" x3y2="0.000000" x3y3="-0.691534" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Book of Town Portals" />
-<slotidx V="23" />
-<value V="500" />
-<originaluses V="10" />
-<uses V="9" />
-<ACTIVATIONS N="2">
-<EFFECTS I="1" N="1">
-<EFFECT>
-<EFFECT I="0">
-<name V="OPENPORTAL" />
-<damagetype V="3" />
-<positive V="T" />
-<type V="70" />
-<activation V="1" />
-<chanceofsuccess V="100" />
-<duration V="-900" />
-<effectname V="OPENPORTAL" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="82.999039" y="1.598138" z="-120.752663" />
-<ori x1y1="0.262421" x1y2="0.000000" x1y3="-0.964953" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.964953" x3y2="0.000000" x3y3="0.262421" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Key" />
-<slotidx V="52" />
-<value V="200" />
-<ACTIVATIONS N="2" />
-<pos x="-59.695103" y="1.767000" z="-17.381571" />
-<ori x1y1="0.999975" x1y2="0.000000" x1y3="0.007095" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.007095" x3y2="0.000000" x3y3="0.999975" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Soft Gloves" />
-<refid V="SoftGloves" />
-<name V="Shadekicker&apos;s &#x0A;Novice&apos;s Soft Gloves of Basics" />
-<slotidx V="5" />
-<value V="362" />
-<equipped V="T" />
+<basename V="Spiked Mace" />
+<refid V="SpikedMace" />
+<name V="Axeflinger&apos;s &#x0A;Shocking Swift Spiked Mace of Wealth" />
+<slotidx V="43" />
+<value V="4660" />
 <unique V="T" />
 <magic V="T" />
-<armorbonus V="9" />
-<sockets V="1" />
-<SUBITEMS N="1">
-<SUBITEM>
-<ITEM>
-<basename V="Cracked Jade" />
-<value V="2000" />
-<magic V="T" />
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="1">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="39" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-900" />
-<value V="5" />
-<value2 V="5" />
-<value3 V="5" />
-<effectname V="PERCENTATTACKSPEED" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="307.714935" y="1.438838" z="-160.516632" />
-<ori x1y1="0.990694" x1y2="0.000000" x1y3="0.136105" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.136105" x3y2="0.000000" x3y3="0.990694" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</SUBITEM>
-</SUBITEMS>
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="4">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="51" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="1" />
-<value2 V="1" />
-<value3 V="1" />
-<pricemultiplier V="4.405725" />
-<effectname V="PERCENTITEMREQUIREMENTS" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="18" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="3" />
-<value2 V="3" />
-<value3 V="3" />
-<pricemultiplier V="11.423905" />
-<effectname V="SKILLAXE" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="7" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="1" />
-<value2 V="1" />
-<value3 V="1" />
-<pricemultiplier V="10.342982" />
-<effectname V="MANARECHARGE" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="3">
-<damagetype V="3" />
-<positive V="T" />
-<type V="39" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-900" />
-<value V="5" />
-<value2 V="5" />
-<value3 V="5" />
-<effectname V="PERCENTATTACKSPEED" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="48.753506" y="1.767000" z="54.459576" />
-<ori x1y1="0.946040" x1y2="0.000000" x1y3="0.324050" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.324050" x3y2="0.000000" x3y3="0.946040" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Knotted Staff" />
-<refid V="KnottedStaff" />
-<name V="Belarnarve&apos;s &#x0A;Master&apos;s Knotted Staff of Years" />
-<slotidx V="14" />
-<value V="8430" />
-<equipped V="T" />
-<unique V="T" />
-<magic V="T" />
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="10">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="29" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="25" />
-<value2 V="25" />
-<value3 V="25" />
-<effectname V="SKILLCHARMMAGIC" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="35" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="13" />
-<value2 V="13" />
-<value3 V="13" />
-<effectname V="PERCENTMANA" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="48" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="5" />
-<value2 V="5" />
-<value3 V="5" />
-<effectname V="PERCENTMANASTOLEN" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="3">
-<damagetype V="3" />
-<positive V="T" />
-<type V="31" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="4" />
-<value2 V="4" />
-<value3 V="4" />
-<pricemultiplier V="3.839107" />
-<effectname V="PERCENTSTRENGTH" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="4">
-<damagetype V="3" />
-<positive V="T" />
-<type V="37" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="9" />
-<value2 V="9" />
-<value3 V="9" />
-<pricemultiplier V="7.752971" />
-<effectname V="PERCENTSTAMINA" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="5">
-<damagetype V="3" />
-<positive V="T" />
-<type V="42" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="10" />
-<value2 V="10" />
-<value3 V="10" />
-<pricemultiplier V="8.388537" />
-<effectname V="PERCENTDAMAGEBONUS" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="6">
-<damagetype V="3" />
-<positive V="T" />
-<type V="0" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="8" />
-<value2 V="8" />
-<value3 V="8" />
-<pricemultiplier V="16.157427" />
-<effectname V="STRENGTH" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="7">
-<damagetype V="3" />
-<positive V="T" />
-<type V="39" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="7" />
-<value2 V="7" />
-<value3 V="7" />
-<pricemultiplier V="10.298947" />
-<effectname V="PERCENTATTACKSPEED" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="8">
-<damagetype V="3" />
-<positive V="T" />
-<type V="40" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="13" />
-<value2 V="13" />
-<value3 V="13" />
-<pricemultiplier V="10.921036" />
-<effectname V="PERCENTARMORBONUS" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="9">
-<damagetype V="3" />
-<positive V="T" />
-<type V="1" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="7" />
-<value2 V="7" />
-<value3 V="7" />
-<pricemultiplier V="14.978484" />
-<effectname V="DEXTERITY" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="-58.735455" y="1.767000" z="54.459576" />
-<ori x1y1="-0.034663" x1y2="-0.193891" x1y3="-0.979781" x1y4="0.000000" x2y1="-0.994985" x2y2="-0.078521" x2y3="0.050721" x2y4="0.000000" x3y1="-0.086777" x3y2="0.977871" x3y3="-0.190197" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Shaman&apos;s Robe" />
-<refid V="vshamanrobe" />
-<name V="Rockhammer&apos;s &#x0A;Novice&apos;s Shaman&apos;s Robe of the Snake" />
-<slotidx V="1" />
-<value V="2400" />
-<equipped V="T" />
-<unique V="T" />
-<magic V="T" />
-<armorbonus V="23" />
-<sockets V="2" />
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="4">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="50" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="1" />
-<value2 V="1" />
-<value3 V="1" />
-<pricemultiplier V="5.148960" />
-<effectname V="PERCENTBLOCKCHANCE" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="26" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="2" />
-<value2 V="2" />
-<value3 V="2" />
-<pricemultiplier V="8.419217" />
-<effectname V="SKILLSHIELD" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="51" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="1" />
-<value2 V="1" />
-<value3 V="1" />
-<pricemultiplier V="7.629334" />
-<effectname V="PERCENTITEMREQUIREMENTS" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="3">
-<damagetype V="3" />
-<positive V="T" />
-<type V="48" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="2" />
-<value2 V="2" />
-<value3 V="2" />
-<pricemultiplier V="8.547722" />
-<effectname V="PERCENTMANASTOLEN" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="48.753506" y="1.767000" z="54.459576" />
-<ori x1y1="0.465608" x1y2="0.000000" x1y3="-0.884991" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.884991" x3y2="0.000000" x3y3="0.465608" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Golden Stars" />
-<name V="Foolsmasher&apos;s &#x0A;Crushing Golden Stars of the Tusk" />
-<slotidx V="12" />
-<value V="800" />
-<equipped V="T" />
-<unique V="T" />
-<magic V="T" />
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="4">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="5" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="6" />
-<value2 V="6" />
-<value3 V="6" />
-<pricemultiplier V="12.575445" />
-<effectname V="HP" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="37" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="12" />
-<value2 V="12" />
-<value3 V="12" />
-<pricemultiplier V="10.254477" />
-<effectname V="PERCENTSTAMINA" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="2" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="7" />
-<value2 V="7" />
-<value3 V="7" />
-<pricemultiplier V="15.999000" />
-<effectname V="VITALITY" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="3">
-<damagetype V="3" />
-<positive V="T" />
-<type V="48" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="2" />
-<value2 V="2" />
-<value3 V="2" />
-<pricemultiplier V="10.088663" />
-<effectname V="PERCENTMANASTOLEN" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="48.753506" y="1.767000" z="54.459576" />
-<ori x1y1="-0.905088" x1y2="0.000000" x1y3="0.425225" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.425225" x3y2="0.000000" x3y3="-0.905088" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Jeweled Pendant" />
-<name V="Khim&apos;og&apos;s &#x0A;Novice&apos;s Jeweled Pendant of Warriors" />
-<slotidx V="6" />
-<value V="700" />
-<equipped V="T" />
-<unique V="T" />
-<magic V="T" />
+<BONUSES N="1">
+<BONUS>
+<dmgbonus V="6" />
+<dmgbonusvalue V="37" />
+</BONUS>
+</BONUSES>
 <ACTIVATIONS N="2">
 <EFFECTS I="0" N="7">
 <EFFECT>
@@ -1489,10 +936,10 @@
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="1" />
-<value2 V="1" />
-<value3 V="1" />
-<pricemultiplier V="7.640034" />
+<value V="3" />
+<value2 V="3" />
+<value3 V="3" />
+<pricemultiplier V="13.851912" />
 <effectname V="PERCENTBLOCKCHANCE" />
 </EFFECT>
 </EFFECT>
@@ -1500,158 +947,451 @@
 <EFFECT I="1">
 <damagetype V="3" />
 <positive V="T" />
-<type V="17" />
+<type V="13" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="3" />
-<value2 V="3" />
-<value3 V="3" />
-<pricemultiplier V="11.579833" />
-<effectname V="SKILLHAMMER" />
+<value V="-3" />
+<value2 V="-3" />
+<value3 V="-3" />
+<pricemultiplier V="18.716385" />
+<effectname V="DAMAGETAKEN" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="2">
 <damagetype V="3" />
 <positive V="T" />
-<type V="47" />
+<type V="48" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="1" />
-<value2 V="1" />
-<value3 V="1" />
-<pricemultiplier V="5.585089" />
-<effectname V="PERCENTLIFESTOLEN" />
+<value V="3" />
+<value2 V="3" />
+<value3 V="3" />
+<pricemultiplier V="14.862465" />
+<effectname V="PERCENTMANASTOLEN" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="3">
 <damagetype V="3" />
 <positive V="T" />
-<type V="5" />
+<type V="1" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="3" />
-<value2 V="3" />
-<value3 V="3" />
-<pricemultiplier V="6.542640" />
-<effectname V="HP" />
+<value V="12" />
+<value2 V="12" />
+<value3 V="12" />
+<pricemultiplier V="25.120399" />
+<effectname V="DEXTERITY" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="4">
 <damagetype V="3" />
 <positive V="T" />
-<type V="42" />
+<type V="34" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="7" />
-<value2 V="7" />
-<value3 V="7" />
-<pricemultiplier V="5.992181" />
-<effectname V="PERCENTDAMAGEBONUS" />
+<value V="16" />
+<value2 V="16" />
+<value3 V="16" />
+<pricemultiplier V="13.273060" />
+<effectname V="PERCENTMAGIC" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="5">
 <damagetype V="3" />
 <positive V="T" />
-<type V="18" />
+<type V="45" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="3" />
-<value2 V="3" />
-<value3 V="3" />
-<pricemultiplier V="11.840162" />
-<effectname V="SKILLAXE" />
+<value V="35" />
+<value2 V="35" />
+<value3 V="35" />
+<pricemultiplier V="14.388721" />
+<effectname V="PERCENTGOLDDROP" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="6">
 <damagetype V="3" />
 <positive V="T" />
-<type V="31" />
+<type V="11" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="5" />
-<value2 V="5" />
-<value3 V="5" />
-<pricemultiplier V="4.405853" />
-<effectname V="PERCENTSTRENGTH" />
+<value V="9" />
+<value2 V="9" />
+<value3 V="9" />
+<pricemultiplier V="18.361845" />
+<effectname V="TOHITBONUS" />
 </EFFECT>
 </EFFECT>
 </EFFECTS>
 </ACTIVATIONS>
-<pos x="48.753506" y="1.767000" z="54.459576" />
-<ori x1y1="-0.881598" x1y2="0.000000" x1y3="0.472002" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.472002" x3y2="0.000000" x3y3="-0.881598" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="173.912399" y="0.759849" z="-425.747284" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.412472" x2y2="0.000000" x2y3="-0.910970" x2y4="0.000000" x3y1="-0.910970" x3y2="0.000000" x3y3="-0.412472" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Page Cap" />
-<name V="Kehelekmog&apos;s &#x0A;Hearty Page Cap of the Tortoise" />
-<value V="956" />
+<basename V="Goblin Ring" />
+<name V="Kivilgog&apos;s &#x0A;Heavy Goblin Ring of the Fox" />
+<slotidx V="9" />
+<value V="800" />
 <equipped V="T" />
 <unique V="T" />
 <magic V="T" />
-<armorbonus V="8" />
+<sockets V="1" />
 <ACTIVATIONS N="2">
 <EFFECTS I="0" N="3">
 <EFFECT>
 <EFFECT I="0">
 <damagetype V="3" />
 <positive V="T" />
-<type V="5" />
+<type V="13" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="6" />
-<value2 V="6" />
-<value3 V="6" />
-<pricemultiplier V="13.997888" />
-<effectname V="HP" />
+<value V="-1" />
+<value2 V="-1" />
+<value3 V="-1" />
+<pricemultiplier V="9.172601" />
+<effectname V="DAMAGETAKEN" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="1">
 <damagetype V="3" />
 <positive V="T" />
-<type V="37" />
+<type V="2" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="6" />
-<value2 V="6" />
-<value3 V="6" />
-<pricemultiplier V="5.588110" />
-<effectname V="PERCENTSTAMINA" />
+<value V="5" />
+<value2 V="5" />
+<value3 V="5" />
+<pricemultiplier V="10.755998" />
+<effectname V="VITALITY" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="2">
 <damagetype V="3" />
 <positive V="T" />
-<type V="14" />
+<type V="36" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="5" />
+<value2 V="5" />
+<value3 V="5" />
+<pricemultiplier V="4.677352" />
+<effectname V="PERCENTHP" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="50.646545" y="1.767000" z="51.091972" />
+<ori x1y1="-0.811400" x1y2="0.000000" x1y3="-0.584492" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.584492" x3y2="0.000000" x3y3="-0.811400" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Ruby Ring" />
+<name V="Swordhammer&apos;s &#x0A;Hammered Ruby Ring of Dexterity" />
+<slotidx V="8" />
+<value V="800" />
+<equipped V="T" />
+<unique V="T" />
+<magic V="T" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="8">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="36" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="8" />
+<value2 V="8" />
+<value3 V="8" />
+<pricemultiplier V="6.475686" />
+<effectname V="PERCENTHP" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="51" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
 <value V="1" />
 <value2 V="1" />
 <value3 V="1" />
-<pricemultiplier V="11.795721" />
-<effectname V="KNOCKBACK" />
+<pricemultiplier V="7.033564" />
+<effectname V="PERCENTITEMREQUIREMENTS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="49" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="2" />
+<value2 V="2" />
+<value3 V="2" />
+<pricemultiplier V="10.792383" />
+<effectname V="PERCENTDAMAGEREFLECTED" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="3">
+<damagetype V="3" />
+<positive V="T" />
+<type V="50" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="3" />
+<value2 V="3" />
+<value3 V="3" />
+<pricemultiplier V="13.330009" />
+<effectname V="PERCENTBLOCKCHANCE" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="4">
+<damagetype V="3" />
+<positive V="T" />
+<type V="10" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="7" />
+<value2 V="7" />
+<value3 V="7" />
+<pricemultiplier V="15.789814" />
+<effectname V="ARMORBONUS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="5">
+<damagetype V="3" />
+<positive V="T" />
+<type V="48" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="3" />
+<value2 V="3" />
+<value3 V="3" />
+<pricemultiplier V="13.512631" />
+<effectname V="PERCENTMANASTOLEN" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="6">
+<damagetype V="3" />
+<positive V="T" />
+<type V="32" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="9" />
+<value2 V="9" />
+<value3 V="9" />
+<pricemultiplier V="7.675967" />
+<effectname V="PERCENTDEXTERITY" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="7">
+<damagetype V="3" />
+<positive V="T" />
+<type V="9" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="6" />
+<value2 V="6" />
+<value3 V="6" />
+<pricemultiplier V="12.018861" />
+<effectname V="STAMINARECHARGE" />
 </EFFECT>
 </EFFECT>
 </EFFECTS>
 </ACTIVATIONS>
-<pos x="-39.846523" y="1.767000" z="54.459576" />
-<ori x1y1="-0.214125" x1y2="-0.025976" x1y3="-0.975805" x1y4="0.000000" x2y1="0.082353" x2y2="0.995602" x2y3="-0.044540" x2y4="0.000000" x3y1="0.972670" x3y2="-0.090013" x3y3="-0.211044" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="50.646545" y="1.767000" z="51.091972" />
+<ori x1y1="0.914049" x1y2="0.000000" x1y3="-0.405604" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.405604" x3y2="0.000000" x3y3="0.914049" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Ragged Cape" />
+<refid V="RaggedCape" />
+<name V="Facethrower&apos;s &#x0A;Ancient Ragged Cape of the Jaguar" />
+<slotidx V="11" />
+<value V="98" />
+<equipped V="T" />
+<unique V="T" />
+<magic V="T" />
+<armorbonus V="4" />
+<sockets V="2" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="9">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="32" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="7" />
+<value2 V="7" />
+<value3 V="7" />
+<pricemultiplier V="5.644508" />
+<effectname V="PERCENTDEXTERITY" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="0" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="3" />
+<value2 V="3" />
+<value3 V="3" />
+<pricemultiplier V="7.850630" />
+<effectname V="STRENGTH" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="42" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="8" />
+<value2 V="8" />
+<value3 V="8" />
+<pricemultiplier V="6.578081" />
+<effectname V="PERCENTDAMAGEBONUS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="3">
+<damagetype V="3" />
+<positive V="T" />
+<type V="10" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="5" />
+<value2 V="5" />
+<value3 V="5" />
+<pricemultiplier V="11.412286" />
+<effectname V="ARMORBONUS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="4">
+<damagetype V="3" />
+<positive V="T" />
+<type V="44" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="7" />
+<value2 V="7" />
+<value3 V="7" />
+<pricemultiplier V="9.542576" />
+<effectname V="PERCENTMAGICALDROP" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="5">
+<damagetype V="3" />
+<positive V="T" />
+<type V="3" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="6" />
+<value2 V="6" />
+<value3 V="6" />
+<pricemultiplier V="13.694876" />
+<effectname V="MAGIC" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="6">
+<damagetype V="3" />
+<positive V="T" />
+<type V="36" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="10" />
+<value2 V="10" />
+<value3 V="10" />
+<pricemultiplier V="8.407581" />
+<effectname V="PERCENTHP" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="7">
+<damagetype V="3" />
+<positive V="T" />
+<type V="14" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="2" />
+<value2 V="2" />
+<value3 V="2" />
+<pricemultiplier V="14.376928" />
+<effectname V="KNOCKBACK" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="8">
+<damagetype V="3" />
+<positive V="F" />
+<type V="12" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="-1" />
+<value2 V="-1" />
+<value3 V="-1" />
+<pricemultiplier V="2.159560" />
+<effectname V="DAMAGEBONUS" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="48.753506" y="1.767000" z="54.459576" />
+<ori x1y1="-0.863336" x1y2="0.000000" x1y3="0.504629" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.504629" x3y2="0.000000" x3y3="-0.863336" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
@@ -1852,374 +1592,75 @@
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Ragged Cape" />
-<refid V="RaggedCape" />
-<name V="Facethrower&apos;s &#x0A;Ancient Ragged Cape of the Jaguar" />
-<slotidx V="11" />
-<value V="98" />
+<basename V="Page Cap" />
+<name V="Kehelekmog&apos;s &#x0A;Hearty Page Cap of the Tortoise" />
+<value V="956" />
 <equipped V="T" />
 <unique V="T" />
 <magic V="T" />
-<armorbonus V="4" />
-<sockets V="2" />
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="9">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="32" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="7" />
-<value2 V="7" />
-<value3 V="7" />
-<pricemultiplier V="5.644508" />
-<effectname V="PERCENTDEXTERITY" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="0" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="3" />
-<value2 V="3" />
-<value3 V="3" />
-<pricemultiplier V="7.850630" />
-<effectname V="STRENGTH" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="42" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="8" />
-<value2 V="8" />
-<value3 V="8" />
-<pricemultiplier V="6.578081" />
-<effectname V="PERCENTDAMAGEBONUS" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="3">
-<damagetype V="3" />
-<positive V="T" />
-<type V="10" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="5" />
-<value2 V="5" />
-<value3 V="5" />
-<pricemultiplier V="11.412286" />
-<effectname V="ARMORBONUS" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="4">
-<damagetype V="3" />
-<positive V="T" />
-<type V="44" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="7" />
-<value2 V="7" />
-<value3 V="7" />
-<pricemultiplier V="9.542576" />
-<effectname V="PERCENTMAGICALDROP" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="5">
-<damagetype V="3" />
-<positive V="T" />
-<type V="3" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="6" />
-<value2 V="6" />
-<value3 V="6" />
-<pricemultiplier V="13.694876" />
-<effectname V="MAGIC" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="6">
-<damagetype V="3" />
-<positive V="T" />
-<type V="36" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="10" />
-<value2 V="10" />
-<value3 V="10" />
-<pricemultiplier V="8.407581" />
-<effectname V="PERCENTHP" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="7">
-<damagetype V="3" />
-<positive V="T" />
-<type V="14" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="2" />
-<value2 V="2" />
-<value3 V="2" />
-<pricemultiplier V="14.376928" />
-<effectname V="KNOCKBACK" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="8">
-<damagetype V="3" />
-<positive V="F" />
-<type V="12" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="-1" />
-<value2 V="-1" />
-<value3 V="-1" />
-<pricemultiplier V="2.159560" />
-<effectname V="DAMAGEBONUS" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="48.753506" y="1.767000" z="54.459576" />
-<ori x1y1="-0.863336" x1y2="0.000000" x1y3="0.504629" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.504629" x3y2="0.000000" x3y3="-0.863336" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Ruby Ring" />
-<name V="Swordhammer&apos;s &#x0A;Hammered Ruby Ring of Dexterity" />
-<slotidx V="8" />
-<value V="800" />
-<equipped V="T" />
-<unique V="T" />
-<magic V="T" />
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="8">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="36" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="8" />
-<value2 V="8" />
-<value3 V="8" />
-<pricemultiplier V="6.475686" />
-<effectname V="PERCENTHP" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="51" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="1" />
-<value2 V="1" />
-<value3 V="1" />
-<pricemultiplier V="7.033564" />
-<effectname V="PERCENTITEMREQUIREMENTS" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="49" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="2" />
-<value2 V="2" />
-<value3 V="2" />
-<pricemultiplier V="10.792383" />
-<effectname V="PERCENTDAMAGEREFLECTED" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="3">
-<damagetype V="3" />
-<positive V="T" />
-<type V="50" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="3" />
-<value2 V="3" />
-<value3 V="3" />
-<pricemultiplier V="13.330009" />
-<effectname V="PERCENTBLOCKCHANCE" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="4">
-<damagetype V="3" />
-<positive V="T" />
-<type V="10" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="7" />
-<value2 V="7" />
-<value3 V="7" />
-<pricemultiplier V="15.789814" />
-<effectname V="ARMORBONUS" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="5">
-<damagetype V="3" />
-<positive V="T" />
-<type V="48" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="3" />
-<value2 V="3" />
-<value3 V="3" />
-<pricemultiplier V="13.512631" />
-<effectname V="PERCENTMANASTOLEN" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="6">
-<damagetype V="3" />
-<positive V="T" />
-<type V="32" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="9" />
-<value2 V="9" />
-<value3 V="9" />
-<pricemultiplier V="7.675967" />
-<effectname V="PERCENTDEXTERITY" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="7">
-<damagetype V="3" />
-<positive V="T" />
-<type V="9" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="6" />
-<value2 V="6" />
-<value3 V="6" />
-<pricemultiplier V="12.018861" />
-<effectname V="STAMINARECHARGE" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="50.646545" y="1.767000" z="51.091972" />
-<ori x1y1="0.914049" x1y2="0.000000" x1y3="-0.405604" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.405604" x3y2="0.000000" x3y3="0.914049" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Goblin Ring" />
-<name V="Kivilgog&apos;s &#x0A;Heavy Goblin Ring of the Fox" />
-<slotidx V="9" />
-<value V="800" />
-<equipped V="T" />
-<unique V="T" />
-<magic V="T" />
-<sockets V="1" />
+<armorbonus V="8" />
 <ACTIVATIONS N="2">
 <EFFECTS I="0" N="3">
 <EFFECT>
 <EFFECT I="0">
 <damagetype V="3" />
 <positive V="T" />
-<type V="13" />
+<type V="5" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="-1" />
-<value2 V="-1" />
-<value3 V="-1" />
-<pricemultiplier V="9.172601" />
-<effectname V="DAMAGETAKEN" />
+<value V="6" />
+<value2 V="6" />
+<value3 V="6" />
+<pricemultiplier V="13.997888" />
+<effectname V="HP" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="1">
 <damagetype V="3" />
 <positive V="T" />
-<type V="2" />
+<type V="37" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="5" />
-<value2 V="5" />
-<value3 V="5" />
-<pricemultiplier V="10.755998" />
-<effectname V="VITALITY" />
+<value V="6" />
+<value2 V="6" />
+<value3 V="6" />
+<pricemultiplier V="5.588110" />
+<effectname V="PERCENTSTAMINA" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="2">
 <damagetype V="3" />
 <positive V="T" />
-<type V="36" />
+<type V="14" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="5" />
-<value2 V="5" />
-<value3 V="5" />
-<pricemultiplier V="4.677352" />
-<effectname V="PERCENTHP" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="11.795721" />
+<effectname V="KNOCKBACK" />
 </EFFECT>
 </EFFECT>
 </EFFECTS>
 </ACTIVATIONS>
-<pos x="50.646545" y="1.767000" z="51.091972" />
-<ori x1y1="-0.811400" x1y2="0.000000" x1y3="-0.584492" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.584492" x3y2="0.000000" x3y3="-0.811400" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="-25.184996" y="1.767000" z="54.459576" />
+<ori x1y1="0.904855" x1y2="-0.046122" x1y3="0.421703" x1y4="0.000000" x2y1="0.017568" x2y2="0.997301" x2y3="0.071240" x2y4="0.000000" x3y1="-0.423850" x3y2="-0.057127" x3y3="0.903223" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Spiked Mace" />
-<refid V="SpikedMace" />
-<name V="Axeflinger&apos;s &#x0A;Shocking Swift Spiked Mace of Wealth" />
-<slotidx V="43" />
-<value V="4660" />
+<basename V="Jeweled Pendant" />
+<name V="Khim&apos;og&apos;s &#x0A;Novice&apos;s Jeweled Pendant of Warriors" />
+<slotidx V="6" />
+<value V="700" />
+<equipped V="T" />
 <unique V="T" />
 <magic V="T" />
-<BONUSES N="1">
-<BONUS>
-<dmgbonus V="6" />
-<dmgbonusvalue V="37" />
-</BONUS>
-</BONUSES>
 <ACTIVATIONS N="2">
 <EFFECTS I="0" N="7">
 <EFFECT>
@@ -2230,10 +1671,10 @@
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="3" />
-<value2 V="3" />
-<value3 V="3" />
-<pricemultiplier V="13.851912" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="7.640034" />
 <effectname V="PERCENTBLOCKCHANCE" />
 </EFFECT>
 </EFFECT>
@@ -2241,15 +1682,293 @@
 <EFFECT I="1">
 <damagetype V="3" />
 <positive V="T" />
-<type V="13" />
+<type V="17" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="-3" />
-<value2 V="-3" />
-<value3 V="-3" />
-<pricemultiplier V="18.716385" />
-<effectname V="DAMAGETAKEN" />
+<value V="3" />
+<value2 V="3" />
+<value3 V="3" />
+<pricemultiplier V="11.579833" />
+<effectname V="SKILLHAMMER" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="47" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="5.585089" />
+<effectname V="PERCENTLIFESTOLEN" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="3">
+<damagetype V="3" />
+<positive V="T" />
+<type V="5" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="3" />
+<value2 V="3" />
+<value3 V="3" />
+<pricemultiplier V="6.542640" />
+<effectname V="HP" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="4">
+<damagetype V="3" />
+<positive V="T" />
+<type V="42" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="7" />
+<value2 V="7" />
+<value3 V="7" />
+<pricemultiplier V="5.992181" />
+<effectname V="PERCENTDAMAGEBONUS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="5">
+<damagetype V="3" />
+<positive V="T" />
+<type V="18" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="3" />
+<value2 V="3" />
+<value3 V="3" />
+<pricemultiplier V="11.840162" />
+<effectname V="SKILLAXE" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="6">
+<damagetype V="3" />
+<positive V="T" />
+<type V="31" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="5" />
+<value2 V="5" />
+<value3 V="5" />
+<pricemultiplier V="4.405853" />
+<effectname V="PERCENTSTRENGTH" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="48.753506" y="1.767000" z="54.459576" />
+<ori x1y1="-0.881598" x1y2="0.000000" x1y3="0.472002" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.472002" x3y2="0.000000" x3y3="-0.881598" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Golden Stars" />
+<name V="Foolsmasher&apos;s &#x0A;Crushing Golden Stars of the Tusk" />
+<slotidx V="12" />
+<value V="800" />
+<equipped V="T" />
+<unique V="T" />
+<magic V="T" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="4">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="5" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="6" />
+<value2 V="6" />
+<value3 V="6" />
+<pricemultiplier V="12.575445" />
+<effectname V="HP" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="37" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="12" />
+<value2 V="12" />
+<value3 V="12" />
+<pricemultiplier V="10.254477" />
+<effectname V="PERCENTSTAMINA" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="2" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="7" />
+<value2 V="7" />
+<value3 V="7" />
+<pricemultiplier V="15.999000" />
+<effectname V="VITALITY" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="3">
+<damagetype V="3" />
+<positive V="T" />
+<type V="48" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="2" />
+<value2 V="2" />
+<value3 V="2" />
+<pricemultiplier V="10.088663" />
+<effectname V="PERCENTMANASTOLEN" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="48.753506" y="1.767000" z="54.459576" />
+<ori x1y1="-0.905088" x1y2="0.000000" x1y3="0.425225" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.425225" x3y2="0.000000" x3y3="-0.905088" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Shaman&apos;s Robe" />
+<refid V="vshamanrobe" />
+<name V="Rockhammer&apos;s &#x0A;Novice&apos;s Shaman&apos;s Robe of the Snake" />
+<slotidx V="1" />
+<value V="2400" />
+<equipped V="T" />
+<unique V="T" />
+<magic V="T" />
+<armorbonus V="23" />
+<sockets V="2" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="4">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="50" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="5.148960" />
+<effectname V="PERCENTBLOCKCHANCE" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="26" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="2" />
+<value2 V="2" />
+<value3 V="2" />
+<pricemultiplier V="8.419217" />
+<effectname V="SKILLSHIELD" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="51" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="7.629334" />
+<effectname V="PERCENTITEMREQUIREMENTS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="3">
+<damagetype V="3" />
+<positive V="T" />
+<type V="48" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="2" />
+<value2 V="2" />
+<value3 V="2" />
+<pricemultiplier V="8.547722" />
+<effectname V="PERCENTMANASTOLEN" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="48.753506" y="1.767000" z="54.459576" />
+<ori x1y1="0.465608" x1y2="0.000000" x1y3="-0.884991" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.884991" x3y2="0.000000" x3y3="0.465608" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Knotted Staff" />
+<refid V="KnottedStaff" />
+<name V="Belarnarve&apos;s &#x0A;Master&apos;s Knotted Staff of Years" />
+<slotidx V="14" />
+<value V="8430" />
+<equipped V="T" />
+<unique V="T" />
+<magic V="T" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="10">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="29" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="25" />
+<value2 V="25" />
+<value3 V="25" />
+<effectname V="SKILLCHARMMAGIC" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="35" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="13" />
+<value2 V="13" />
+<value3 V="13" />
+<effectname V="PERCENTMANA" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
@@ -2260,10 +1979,9 @@
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="3" />
-<value2 V="3" />
-<value3 V="3" />
-<pricemultiplier V="14.862465" />
+<value V="5" />
+<value2 V="5" />
+<value3 V="5" />
 <effectname V="PERCENTMANASTOLEN" />
 </EFFECT>
 </EFFECT>
@@ -2271,72 +1989,392 @@
 <EFFECT I="3">
 <damagetype V="3" />
 <positive V="T" />
-<type V="1" />
+<type V="31" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="12" />
-<value2 V="12" />
-<value3 V="12" />
-<pricemultiplier V="25.120399" />
-<effectname V="DEXTERITY" />
+<value V="4" />
+<value2 V="4" />
+<value3 V="4" />
+<pricemultiplier V="3.839107" />
+<effectname V="PERCENTSTRENGTH" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="4">
 <damagetype V="3" />
 <positive V="T" />
-<type V="34" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="16" />
-<value2 V="16" />
-<value3 V="16" />
-<pricemultiplier V="13.273060" />
-<effectname V="PERCENTMAGIC" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="5">
-<damagetype V="3" />
-<positive V="T" />
-<type V="45" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="35" />
-<value2 V="35" />
-<value3 V="35" />
-<pricemultiplier V="14.388721" />
-<effectname V="PERCENTGOLDDROP" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="6">
-<damagetype V="3" />
-<positive V="T" />
-<type V="11" />
+<type V="37" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
 <value V="9" />
 <value2 V="9" />
 <value3 V="9" />
-<pricemultiplier V="18.361845" />
-<effectname V="TOHITBONUS" />
+<pricemultiplier V="7.752971" />
+<effectname V="PERCENTSTAMINA" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="5">
+<damagetype V="3" />
+<positive V="T" />
+<type V="42" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="10" />
+<value2 V="10" />
+<value3 V="10" />
+<pricemultiplier V="8.388537" />
+<effectname V="PERCENTDAMAGEBONUS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="6">
+<damagetype V="3" />
+<positive V="T" />
+<type V="0" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="8" />
+<value2 V="8" />
+<value3 V="8" />
+<pricemultiplier V="16.157427" />
+<effectname V="STRENGTH" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="7">
+<damagetype V="3" />
+<positive V="T" />
+<type V="39" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="7" />
+<value2 V="7" />
+<value3 V="7" />
+<pricemultiplier V="10.298947" />
+<effectname V="PERCENTATTACKSPEED" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="8">
+<damagetype V="3" />
+<positive V="T" />
+<type V="40" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="13" />
+<value2 V="13" />
+<value3 V="13" />
+<pricemultiplier V="10.921036" />
+<effectname V="PERCENTARMORBONUS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="9">
+<damagetype V="3" />
+<positive V="T" />
+<type V="1" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="7" />
+<value2 V="7" />
+<value3 V="7" />
+<pricemultiplier V="14.978484" />
+<effectname V="DEXTERITY" />
 </EFFECT>
 </EFFECT>
 </EFFECTS>
 </ACTIVATIONS>
-<pos x="173.912399" y="0.759849" z="-425.747284" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.412472" x2y2="0.000000" x2y3="-0.910970" x2y4="0.000000" x3y1="-0.910970" x3y2="0.000000" x3y3="-0.412472" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="-58.735455" y="1.767000" z="54.459576" />
+<ori x1y1="-0.034663" x1y2="-0.193891" x1y3="-0.979781" x1y4="0.000000" x2y1="-0.994985" x2y2="-0.078521" x2y3="0.050721" x2y4="0.000000" x3y1="-0.086777" x3y2="0.977871" x3y3="-0.190197" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Soft Gloves" />
+<refid V="SoftGloves" />
+<name V="Shadekicker&apos;s &#x0A;Novice&apos;s Soft Gloves of Basics" />
+<slotidx V="5" />
+<value V="362" />
+<equipped V="T" />
+<unique V="T" />
+<magic V="T" />
+<armorbonus V="9" />
+<sockets V="1" />
+<SUBITEMS N="1">
+<SUBITEM>
+<ITEM>
+<basename V="Cracked Jade" />
+<value V="2000" />
+<magic V="T" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="39" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="5" />
+<value2 V="5" />
+<value3 V="5" />
+<effectname V="PERCENTATTACKSPEED" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="307.714935" y="1.438838" z="-160.516632" />
+<ori x1y1="0.990694" x1y2="0.000000" x1y3="0.136105" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.136105" x3y2="0.000000" x3y3="0.990694" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="4">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="51" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="4.405725" />
+<effectname V="PERCENTITEMREQUIREMENTS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="18" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="3" />
+<value2 V="3" />
+<value3 V="3" />
+<pricemultiplier V="11.423905" />
+<effectname V="SKILLAXE" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="7" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="10.342982" />
+<effectname V="MANARECHARGE" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="3">
+<damagetype V="3" />
+<positive V="T" />
+<type V="39" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="5" />
+<value2 V="5" />
+<value3 V="5" />
+<effectname V="PERCENTATTACKSPEED" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="48.753506" y="1.767000" z="54.459576" />
+<ori x1y1="0.946040" x1y2="0.000000" x1y3="0.324050" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.324050" x3y2="0.000000" x3y3="0.946040" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Key" />
+<slotidx V="52" />
+<value V="200" />
+<ACTIVATIONS N="2" />
+<pos x="-59.695103" y="1.767000" z="-17.381571" />
+<ori x1y1="0.999975" x1y2="0.000000" x1y3="0.007095" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.007095" x3y2="0.000000" x3y3="0.999975" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Book of Town Portals" />
+<slotidx V="23" />
+<value V="500" />
+<originaluses V="10" />
+<uses V="9" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<name V="OPENPORTAL" />
+<damagetype V="3" />
+<positive V="T" />
+<type V="70" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<effectname V="OPENPORTAL" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="82.999039" y="1.598138" z="-120.752663" />
+<ori x1y1="0.262421" x1y2="0.000000" x1y3="-0.964953" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.964953" x3y2="0.000000" x3y3="0.262421" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Revival Potion" />
+<slotidx V="21" />
+<value V="5000" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="4">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="84" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<effectname V="RECOVERPASSOUTFULL" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<name V="MUFFLE" />
+<exclusive V="T" />
+<damagetype V="3" />
+<positive V="T" />
+<type V="35" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="60" />
+<value V="-500" />
+<value2 V="-500" />
+<value3 V="-500" />
+<effectname V="PERCENTMANA" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<name V="SLOW" />
+<exclusive V="T" />
+<damagetype V="3" />
+<positive V="T" />
+<type V="38" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="60" />
+<value V="-40" />
+<value2 V="-40" />
+<value3 V="-40" />
+<effectname V="PERCENTSPEED" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="3">
+<name V="SLOWATTACK" />
+<exclusive V="T" />
+<damagetype V="3" />
+<positive V="T" />
+<type V="39" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="60" />
+<value V="-40" />
+<value2 V="-40" />
+<value3 V="-40" />
+<effectname V="PERCENTATTACKSPEED" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="55.043983" y="1.100290" z="-178.794388" />
+<ori x1y1="-0.691534" x1y2="0.000000" x1y3="0.722344" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.722344" x3y2="0.000000" x3y3="-0.691534" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Stamina Charm" />
+<slotidx V="17" />
+<value V="2000" />
+<originaluses V="8" />
+<uses V="4" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="9" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="120" />
+<value2 V="120" />
+<value3 V="120" />
+<effectname V="STAMINARECHARGE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="55.043983" y="1.100290" z="-178.794388" />
+<ori x1y1="-0.969209" x1y2="0.000000" x1y3="-0.246241" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.246241" x3y2="0.000000" x3y3="-0.969209" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Mana Potion" />
+<slotidx V="20" />
+<value V="25" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="7" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="60" />
+<value2 V="60" />
+<value3 V="60" />
+<effectname V="MANARECHARGE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="255.839844" y="0.459358" z="-158.266556" />
+<ori x1y1="-0.606938" x1y2="0.000000" x1y3="0.794749" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.794749" x3y2="0.000000" x3y3="-0.606938" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
 <basename V="Super Mana Potion" />
-<slotidx V="16" />
+<slotidx V="18" />
 <value V="300" />
 <originaluses V="1" />
 <ACTIVATIONS N="2">
@@ -2357,188 +2395,167 @@
 </EFFECT>
 </EFFECTS>
 </ACTIVATIONS>
-<pos x="77.715538" y="0.548338" z="-393.614502" />
-<ori x1y1="0.385837" x1y2="0.000000" x1y3="-0.922567" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.922567" x3y2="0.000000" x3y3="0.385837" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="350.002869" y="0.695808" z="-141.742599" />
+<ori x1y1="0.995052" x1y2="0.000000" x1y3="0.099356" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.099356" x3y2="0.000000" x3y3="0.995052" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Demon Staff" />
-<refid V="DemonStaff" />
-<slotidx V="24" />
-<value V="1020" />
-<unique V="T" />
-<artifact V="T" />
-<magic V="T" />
+<basename V="Seeker of Chaos" />
+<slotidx V="42" />
+<value V="1000" />
+<tarotflavor V="1" />
+<ACTIVATIONS N="2" />
+<pos x="313.849976" y="0.827891" z="-177.651733" />
+<ori x1y1="0.700141" x1y2="0.000000" x1y3="-0.714005" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.714005" x3y2="0.000000" x3y3="0.700141" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Major Mana Potion" />
+<slotidx V="19" />
+<value V="100" />
+<originaluses V="1" />
 <ACTIVATIONS N="2">
-<EFFECTS I="0" N="5">
+<EFFECTS I="1" N="1">
 <EFFECT>
 <EFFECT I="0">
 <damagetype V="3" />
 <positive V="T" />
-<type V="27" />
+<type V="7" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="120" />
+<value2 V="120" />
+<value3 V="120" />
+<effectname V="MANARECHARGE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="191.351776" y="1.330371" z="-191.737045" />
+<ori x1y1="0.795012" x1y2="0.000000" x1y3="-0.606594" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.606594" x3y2="0.000000" x3y3="0.795012" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Book of Town Portals" />
+<slotidx V="22" />
+<value V="500" />
+<originaluses V="10" />
+<uses V="9" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<name V="OPENPORTAL" />
+<damagetype V="3" />
+<positive V="T" />
+<type V="70" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<effectname V="OPENPORTAL" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="11.249860" y="1.137335" z="-408.640289" />
+<ori x1y1="0.979875" x1y2="0.000000" x1y3="0.199608" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.199608" x3y2="0.000000" x3y3="0.979875" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Light Belt" />
+<refid V="LightBelt" />
+<name V="Gorogreaver&apos;s &#x0A;Crushing Light Belt of the Mage" />
+<slotidx V="10" />
+<value V="168" />
+<equipped V="T" />
+<unique V="T" />
+<magic V="T" />
+<armorbonus V="5" />
+<sockets V="1" />
+<SUBITEMS N="1">
+<SUBITEM>
+<ITEM>
+<basename V="Cracked Turquoise" />
+<value V="1000" />
+<magic V="T" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="1">
+<EFFECT>
+<EFFECT I="0">
+<name V="ELECTRIC" />
+<damagetype V="3" />
+<positive V="T" />
+<type V="67" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="2" />
+<value2 V="2" />
+<value3 V="2" />
+<effectname V="ADDDAMAGETYPE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="68.367050" y="1.767000" z="-51.200092" />
+<ori x1y1="-0.497618" x1y2="0.000000" x1y3="0.867396" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.867396" x3y2="0.000000" x3y3="-0.497618" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</SUBITEM>
+</SUBITEMS>
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="8">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="43" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="4" />
-<value2 V="4" />
-<value3 V="4" />
-<pricemultiplier V="12.000000" />
-<effectname V="SKILLATTACKMAGIC" />
+<value V="-3" />
+<value2 V="-3" />
+<value3 V="-3" />
+<pricemultiplier V="5.285781" />
+<effectname V="PERCENTDAMAGETAKEN" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="1">
 <damagetype V="3" />
 <positive V="T" />
-<type V="29" />
+<type V="33" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="4" />
-<value2 V="4" />
-<value3 V="4" />
-<pricemultiplier V="12.000000" />
-<effectname V="SKILLCHARMMAGIC" />
+<value V="6" />
+<value2 V="6" />
+<value3 V="6" />
+<pricemultiplier V="5.072677" />
+<effectname V="PERCENTVITALITY" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="2">
 <damagetype V="3" />
 <positive V="T" />
-<type V="28" />
+<type V="34" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="4" />
-<value2 V="4" />
-<value3 V="4" />
-<pricemultiplier V="12.000000" />
-<effectname V="SKILLDEFENSEMAGIC" />
+<value V="11" />
+<value2 V="11" />
+<value3 V="11" />
+<pricemultiplier V="9.130466" />
+<effectname V="PERCENTMAGIC" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="3">
-<damagetype V="3" />
-<positive V="T" />
-<type V="35" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="10" />
-<value2 V="10" />
-<value3 V="10" />
-<pricemultiplier V="8.000000" />
-<effectname V="PERCENTMANA" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="4">
-<damagetype V="3" />
-<positive V="T" />
-<type V="42" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-900" />
-<value V="50" />
-<value2 V="50" />
-<value3 V="50" />
-<pricemultiplier V="40.000000" />
-<effectname V="PERCENTDAMAGEBONUS" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="47.307571" y="1.767000" z="52.317482" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.925772" x2y2="0.000000" x2y3="-0.378083" x2y4="0.000000" x3y1="-0.378083" x3y2="0.000000" x3y3="0.925772" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Khopesh" />
-<name V="Naz&apos;zur&apos;s &#x0A;Icy Guiding Khopesh of Wealth" />
-<slotidx V="25" />
-<value V="1250" />
-<unique V="T" />
-<magic V="T" />
-<BONUSES N="1">
-<BONUS>
-<dmgbonus V="5" />
-<dmgbonusvalue V="24" />
-</BONUS>
-</BONUSES>
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="3">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="45" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="25" />
-<value2 V="25" />
-<value3 V="25" />
-<pricemultiplier V="10.355883" />
-<effectname V="PERCENTGOLDDROP" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="11" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="5" />
-<value2 V="5" />
-<value3 V="5" />
-<pricemultiplier V="10.591784" />
-<effectname V="TOHITBONUS" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="14" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="1" />
-<value2 V="1" />
-<value3 V="1" />
-<pricemultiplier V="10.157829" />
-<effectname V="KNOCKBACK" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="60.532688" y="1.767000" z="59.331673" />
-<ori x1y1="-0.332867" x1y2="-0.397912" x1y3="-0.854249" x1y4="0.000000" x2y1="-0.942066" x2y2="0.159926" x2y3="0.292692" x2y4="0.000000" x3y1="0.020130" x3y2="0.903366" x3y3="-0.428091" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Short Axe" />
-<refid V="ShortAxe" />
-<name V="Karukan&apos;s &#x0A;Holy Piercing Short Axe of Bronze" />
-<slotidx V="26" />
-<value V="1365" />
-<unique V="T" />
-<magic V="T" />
-<BONUSES N="1">
-<BONUS>
-<dmgbonus V="7" />
-<dmgbonusvalue V="25" />
-</BONUS>
-</BONUSES>
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="6">
-<EFFECT>
-<EFFECT I="0">
 <damagetype V="3" />
 <positive V="T" />
 <type V="47" />
@@ -2548,89 +2565,74 @@
 <value V="1" />
 <value2 V="1" />
 <value3 V="1" />
-<pricemultiplier V="7.505698" />
+<pricemultiplier V="7.281228" />
 <effectname V="PERCENTLIFESTOLEN" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="12" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="6" />
-<value2 V="6" />
-<value3 V="6" />
-<pricemultiplier V="13.569243" />
-<effectname V="DAMAGEBONUS" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="41" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="9" />
-<value2 V="9" />
-<value3 V="9" />
-<pricemultiplier V="7.591076" />
-<effectname V="PERCENTTOHITBONUS" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="3">
-<damagetype V="3" />
-<positive V="T" />
-<type V="14" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="2" />
-<value2 V="2" />
-<value3 V="2" />
-<pricemultiplier V="15.391950" />
-<effectname V="KNOCKBACK" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="4">
 <damagetype V="3" />
-<positive V="F" />
-<type V="45" />
+<positive V="T" />
+<type V="38" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="1" />
-<value2 V="1" />
-<value3 V="1" />
-<pricemultiplier V="0.977886" />
-<effectname V="PERCENTGOLDDROP" />
+<value V="8" />
+<value2 V="8" />
+<value3 V="8" />
+<pricemultiplier V="11.228552" />
+<effectname V="PERCENTSPEED" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="5">
 <damagetype V="3" />
 <positive V="T" />
-<type V="0" />
+<type V="2" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="4" />
-<value2 V="4" />
-<value3 V="4" />
-<pricemultiplier V="8.433674" />
-<effectname V="STRENGTH" />
+<value V="7" />
+<value2 V="7" />
+<value3 V="7" />
+<pricemultiplier V="14.131596" />
+<effectname V="VITALITY" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="6">
+<name V="ELECTRIC" />
+<damagetype V="3" />
+<positive V="T" />
+<type V="58" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="8" />
+<value2 V="2" />
+<value3 V="2" />
+<effectname V="PERCENTELECTRICRESISTANCE" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="7">
+<damagetype V="3" />
+<positive V="T" />
+<type V="49" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="7.235480" />
+<effectname V="PERCENTDAMAGEREFLECTED" />
 </EFFECT>
 </EFFECT>
 </EFFECTS>
 </ACTIVATIONS>
-<pos x="15.306818" y="1.767000" z="59.331673" />
-<ori x1y1="-0.329510" x1y2="-0.397825" x1y3="-0.855583" x1y4="0.000000" x2y1="-0.943187" x2y2="0.160602" x2y3="0.288674" x2y4="0.000000" x3y1="0.022542" x3y2="0.903281" x3y3="-0.428142" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="46.292793" y="1.767000" z="53.981625" />
+<ori x1y1="-0.991043" x1y2="0.000000" x1y3="-0.133540" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.133540" x3y2="0.000000" x3y3="-0.991043" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 </ITEMS>
@@ -2665,7 +2667,7 @@
 <refid V="Phoenix" />
 <originaltemplate V="PHOENIX" />
 <template V="FLAMING MUSTANG" />
-<existtime V="12211606" />
+<existtime V="12235572" />
 <isplayer V="F" />
 <experience V="93484" />
 <experienceaward V="0" />
@@ -2679,14 +2681,14 @@
 <ancestorname V="Doggo" />
 <lastdungeonlevel V="0" />
 <lastrealm V="10" />
-<position x="95.144920" y="1.767000" z="-38.823521" />
-<orientation x1y1="0.972001" x1y2="0.000000" x1y3="0.231587" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.231587" x3y2="0.000000" x3y3="0.972001" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<position x="65.663063" y="1.767000" z="-21.667057" />
+<orientation x1y1="0.999044" x1y2="0.000000" x1y3="0.018097" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.018097" x3y2="0.000000" x3y3="0.999044" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 <level V="11" />
 <maxstamina V="227" />
 <maxmana V="123" />
 <mana V="128.000000" />
 <maxhp V="494" />
-<hp V="5.801194" />
+<hp V="6.567922" />
 <unusedskillpoints V="20" />
 <partytactic V="AGGRO" />
 <SKILLS />
@@ -2708,57 +2710,187 @@
 <ITEMS N="26">
 <ITEM>
 <ITEM>
-<basename V="Ducal Ring" />
-<slotidx V="9" />
-<value V="800" />
-<equipped V="T" />
+<basename V="Trident" />
+<slotidx V="60" />
+<value V="520" />
+<sockets V="1" />
 <ACTIVATIONS N="2" />
-<pos x="56.487083" y="1.767000" z="-61.362209" />
-<ori x1y1="0.809771" x1y2="0.000000" x1y3="-0.586746" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.586746" x3y2="0.000000" x3y3="0.809771" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="396.567383" y="1.112246" z="-389.469086" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.530590" x2y2="0.000000" x2y3="0.847628" x2y4="0.000000" x3y1="0.847628" x3y2="0.000000" x3y3="0.530590" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Flashy Lightning" />
-<name V="Novice&apos;s Flashy Lightning " />
-<slotidx V="12" />
-<value V="800" />
-<equipped V="T" />
+<basename V="Crystal Mace" />
+<refid V="CrystalMace" />
+<slotidx V="30" />
+<value V="3554" />
+<ACTIVATIONS N="2" />
+<pos x="396.567383" y="1.112246" z="-389.469086" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.056872" x2y2="0.000000" x2y3="-0.998381" x2y4="0.000000" x3y1="-0.998381" x3y2="0.000000" x3y3="0.056872" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Maul" />
+<slotidx V="69" />
+<value V="4680" />
+<ACTIVATIONS N="2" />
+<pos x="103.314140" y="1.200000" z="-137.117676" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.577273" x2y2="0.000000" x2y3="-0.816551" x2y4="0.000000" x3y1="-0.816551" x3y2="0.000000" x3y3="-0.577273" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Broadsword" />
+<slotidx V="49" />
+<value V="2350" />
+<sockets V="1" />
+<ACTIVATIONS N="2" />
+<pos x="103.314140" y="1.200000" z="-137.117676" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.470268" x2y2="0.000000" x2y3="0.882524" x2y4="0.000000" x3y1="0.882524" x3y2="0.000000" x3y3="-0.470268" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Composite Bow" />
+<refid V="CompositeBow" />
+<name V="Shocking Soothing Composite Bow of the Tortoise" />
+<slotidx V="29" />
+<value V="1660" />
 <magic V="T" />
+<BONUSES N="1">
+<BONUS>
+<dmgbonus V="6" />
+<dmgbonusvalue V="12" />
+</BONUS>
+</BONUSES>
 <ACTIVATIONS N="2">
-<EFFECTS I="0" N="1">
+<EFFECTS I="0" N="2">
 <EFFECT>
 <EFFECT I="0">
 <damagetype V="3" />
 <positive V="T" />
-<type V="29" />
+<type V="37" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="6" />
+<value2 V="6" />
+<value3 V="6" />
+<pricemultiplier V="5.070455" />
+<effectname V="PERCENTSTAMINA" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="8" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
 <value V="1" />
 <value2 V="1" />
 <value3 V="1" />
-<pricemultiplier V="4.420612" />
-<effectname V="SKILLCHARMMAGIC" />
+<pricemultiplier V="10.781734" />
+<effectname V="HPRECHARGE" />
 </EFFECT>
 </EFFECT>
 </EFFECTS>
 </ACTIVATIONS>
-<pos x="247.946167" y="1.360022" z="-47.457569" />
-<ori x1y1="0.079828" x1y2="0.000000" x1y3="-0.996809" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.996809" x3y2="0.000000" x3y3="0.079828" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="103.314140" y="1.200000" z="-137.117676" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.557298" x2y2="0.000000" x2y3="0.830313" x2y4="0.000000" x3y1="0.830313" x3y2="0.000000" x3y3="0.557298" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Warrior&apos;s Chain" />
-<name V="Cakothpike&apos;s &#x0A;Crushing Warrior&apos;s Chain of the Mage" />
-<slotidx V="6" />
-<value V="700" />
-<equipped V="T" />
+<basename V="Axe" />
+<name V="Zularakh&apos;s &#x0A;Guiding Axe of Sapping" />
+<slotidx V="88" />
+<value V="1160" />
 <unique V="T" />
 <magic V="T" />
 <ACTIVATIONS N="2">
-<EFFECTS I="0" N="5">
+<EFFECTS I="0" N="3">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="47" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="6.406140" />
+<effectname V="PERCENTLIFESTOLEN" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="13" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="-2" />
+<value2 V="-2" />
+<value3 V="-2" />
+<pricemultiplier V="12.240059" />
+<effectname V="DAMAGETAKEN" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="11" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="5" />
+<value2 V="5" />
+<value3 V="5" />
+<pricemultiplier V="11.721625" />
+<effectname V="TOHITBONUS" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="103.314140" y="1.200000" z="-137.117676" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.979162" x2y2="0.000000" x2y3="-0.203082" x2y4="0.000000" x3y1="-0.203082" x3y2="0.000000" x3y3="-0.979162" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Orc Scythe" />
+<refid V="OrcScythe" />
+<slotidx V="48" />
+<value V="3280" />
+<ACTIVATIONS N="2" />
+<pos x="103.314140" y="1.200000" z="-137.117676" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.523828" x2y2="0.000000" x2y3="0.851824" x2y4="0.000000" x3y1="0.851824" x3y2="0.000000" x3y3="-0.523828" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Orc Scythe" />
+<refid V="OrcScythe" />
+<name V="Shocking  Orc Scythe of the Crone" />
+<slotidx V="67" />
+<value V="3280" />
+<magic V="T" />
+<BONUSES N="1">
+<BONUS>
+<dmgbonus V="6" />
+<dmgbonusvalue V="15" />
+</BONUS>
+</BONUSES>
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="1">
 <EFFECT>
 <EFFECT I="0">
 <damagetype V="3" />
@@ -2767,224 +2899,266 @@
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="11" />
-<value2 V="11" />
-<value3 V="11" />
-<pricemultiplier V="8.903226" />
+<value V="8" />
+<value2 V="8" />
+<value3 V="8" />
+<pricemultiplier V="6.832130" />
 <effectname V="PERCENTMAGIC" />
 </EFFECT>
 </EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="169.485458" y="1.798589" z="-213.038513" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.922364" x2y2="0.000000" x2y3="-0.386323" x2y4="0.000000" x3y1="-0.386323" x3y2="0.000000" x3y3="-0.922364" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Crude Maul" />
+<refid V="CrudeMaul" />
+<name V="Ranubil&apos;s &#x0A;Ancient Crude Maul of the Conjurer" />
+<slotidx V="47" />
+<value V="1792" />
+<unique V="T" />
+<magic V="T" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="4">
 <EFFECT>
-<EFFECT I="1">
+<EFFECT I="0">
 <damagetype V="3" />
 <positive V="T" />
-<type V="2" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="6" />
-<value2 V="6" />
-<value3 V="6" />
-<pricemultiplier V="13.090152" />
-<effectname V="VITALITY" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="39" />
+<type V="46" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
 <value V="5" />
 <value2 V="5" />
 <value3 V="5" />
-<pricemultiplier V="7.028199" />
-<effectname V="PERCENTATTACKSPEED" />
+<pricemultiplier V="10.686337" />
+<effectname V="PERCENTCASTSPEED" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="9" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="5" />
+<value2 V="5" />
+<value3 V="5" />
+<pricemultiplier V="11.051686" />
+<effectname V="STAMINARECHARGE" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="8" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="2" />
+<value2 V="2" />
+<value3 V="2" />
+<pricemultiplier V="12.705564" />
+<effectname V="HPRECHARGE" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="3">
 <damagetype V="3" />
 <positive V="T" />
-<type V="4" />
+<type V="3" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="5" />
-<value2 V="5" />
-<value3 V="5" />
-<pricemultiplier V="11.996475" />
-<effectname V="MANA" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="4">
-<damagetype V="3" />
-<positive V="T" />
-<type V="48" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="2" />
-<value2 V="2" />
-<value3 V="2" />
-<pricemultiplier V="9.416150" />
-<effectname V="PERCENTMANASTOLEN" />
+<value V="9" />
+<value2 V="9" />
+<value3 V="9" />
+<pricemultiplier V="18.641529" />
+<effectname V="MAGIC" />
 </EFFECT>
 </EFFECT>
 </EFFECTS>
 </ACTIVATIONS>
-<pos x="299.234863" y="1.214505" z="-159.953049" />
-<ori x1y1="0.706411" x1y2="0.000000" x1y3="-0.707801" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.707801" x3y2="0.000000" x3y3="0.706411" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="169.485458" y="1.798589" z="-213.038513" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.962744" x2y2="0.000000" x2y3="0.270415" x2y4="0.000000" x3y1="0.270415" x3y2="0.000000" x3y3="0.962744" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Drake Amulet" />
-<name V="Dragondrinker&apos;s &#x0A;Hearty Drake Amulet of Strength" />
-<slotidx V="41" />
-<value V="700" />
-<unique V="T" />
+<basename V="Small Shield" />
+<refid V="SmallShield" />
+<slotidx V="27" />
+<value V="240" />
+<armorbonus V="8" />
+<ACTIVATIONS N="2" />
+<pos x="269.973175" y="0.624439" z="-150.165359" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.097972" x2y2="0.000000" x2y3="-0.995189" x2y4="0.000000" x3y1="-0.995189" x3y2="0.000000" x3y3="0.097972" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Light Crossbow" />
+<refid V="LightCrossbow" />
+<slotidx V="84" />
+<value V="702" />
+<ACTIVATIONS N="2" />
+<pos x="269.973175" y="0.624439" z="-150.165359" />
+<ori x1y1="1.060543" x1y2="-0.148650" x1y3="-0.541360" x1y4="0.000000" x2y1="-0.020377" x2y2="1.146215" x2y3="-0.354645" x2y4="0.000000" x3y1="0.561027" x3y2="0.322634" x3y3="1.010483" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Twisted Staff" />
+<refid V="TwistedStaff" />
+<slotidx V="56" />
+<value V="1020" />
 <magic V="T" />
 <ACTIVATIONS N="2">
-<EFFECTS I="0" N="5">
+<EFFECTS I="0" N="4">
 <EFFECT>
 <EFFECT I="0">
 <damagetype V="3" />
 <positive V="T" />
-<type V="51" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="2" />
-<value2 V="2" />
-<value3 V="2" />
-<pricemultiplier V="10.234638" />
-<effectname V="PERCENTITEMREQUIREMENTS" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="5" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="7" />
-<value2 V="7" />
-<value3 V="7" />
-<pricemultiplier V="15.508590" />
-<effectname V="HP" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="19" />
+<type V="27" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
 <value V="4" />
 <value2 V="4" />
 <value3 V="4" />
-<pricemultiplier V="14.699954" />
-<effectname V="SKILLSPEAR" />
+<effectname V="SKILLATTACKMAGIC" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="29" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="4" />
+<value2 V="4" />
+<value3 V="4" />
+<effectname V="SKILLCHARMMAGIC" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="28" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="4" />
+<value2 V="4" />
+<value3 V="4" />
+<effectname V="SKILLDEFENSEMAGIC" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="3">
 <damagetype V="3" />
 <positive V="T" />
-<type V="18" />
+<type V="35" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="3" />
-<value2 V="3" />
-<value3 V="3" />
-<pricemultiplier V="9.561052" />
-<effectname V="SKILLAXE" />
+<value V="10" />
+<value2 V="10" />
+<value3 V="10" />
+<effectname V="PERCENTMANA" />
 </EFFECT>
 </EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="269.973175" y="0.624439" z="-150.165359" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.504504" x2y2="0.000000" x2y3="-0.863409" x2y4="0.000000" x3y1="-0.863409" x3y2="0.000000" x3y3="0.504504" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Spear" />
+<slotidx V="26" />
+<value V="115" />
+<ACTIVATIONS N="2" />
+<pos x="269.973175" y="0.624439" z="-150.165359" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.417008" x2y2="0.000000" x2y3="0.908903" x2y4="0.000000" x3y1="0.908903" x3y2="0.000000" x3y3="-0.417008" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Trident" />
+<name V=" Trident of the Plains" />
+<slotidx V="25" />
+<value V="520" />
+<magic V="T" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="1">
 <EFFECT>
-<EFFECT I="4">
+<EFFECT I="0">
 <damagetype V="3" />
 <positive V="T" />
-<type V="31" />
+<type V="40" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="6" />
-<value2 V="6" />
-<value3 V="6" />
-<pricemultiplier V="5.575316" />
-<effectname V="PERCENTSTRENGTH" />
+<value V="15" />
+<value2 V="15" />
+<value3 V="15" />
+<pricemultiplier V="12.334312" />
+<effectname V="PERCENTARMORBONUS" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="269.973175" y="0.624439" z="-150.165359" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.107509" x2y2="0.000000" x2y3="-0.994204" x2y4="0.000000" x3y1="-0.994204" x3y2="0.000000" x3y3="0.107509" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Pupil&apos;s Robe" />
+<refid V="PupilRobe" />
+<slotidx V="54" />
+<value V="468" />
+<armorbonus V="11" />
+<ACTIVATIONS N="2" />
+<pos x="299.234863" y="1.214505" z="-159.953049" />
+<ori x1y1="-0.414392" x1y2="0.000000" x1y3="-0.910099" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.910099" x3y2="0.000000" x3y3="-0.414392" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Blindness Spell" />
+<slotidx V="53" />
+<value V="8762" />
+<originaluses V="1" />
+<ACTIVATIONS N="2">
+<EFFECTS I="1" N="1">
+<EFFECT>
+<EFFECT I="0">
+<name V="BLINDNESS" />
+<damagetype V="3" />
+<positive V="T" />
+<type V="65" />
+<activation V="1" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<effectname V="WRITESPELL" />
 </EFFECT>
 </EFFECT>
 </EFFECTS>
 </ACTIVATIONS>
 <pos x="299.234863" y="1.214505" z="-159.953049" />
-<ori x1y1="0.785969" x1y2="0.000000" x1y3="-0.618266" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.618266" x3y2="0.000000" x3y3="0.785969" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Soft Gloves" />
-<refid V="SoftGloves" />
-<slotidx V="22" />
-<value V="362" />
-<armorbonus V="9" />
-<ACTIVATIONS N="2" />
-<pos x="299.234863" y="1.214505" z="-159.953049" />
-<ori x1y1="0.999902" x1y2="0.000000" x1y3="0.013998" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.013998" x3y2="0.000000" x3y3="0.999902" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Light Belt" />
-<refid V="LightBelt" />
-<slotidx V="42" />
-<value V="168" />
-<armorbonus V="5" />
-<ACTIVATIONS N="2" />
-<pos x="299.234863" y="1.214505" z="-159.953049" />
-<ori x1y1="0.134347" x1y2="0.000000" x1y3="0.990934" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.990934" x3y2="0.000000" x3y3="0.134347" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Amethyst Stud" />
-<slotidx V="52" />
-<value V="800" />
-<ACTIVATIONS N="2" />
-<pos x="299.234863" y="1.214505" z="-159.953049" />
-<ori x1y1="0.872338" x1y2="0.000000" x1y3="-0.488903" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.488903" x3y2="0.000000" x3y3="0.872338" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Mysterious Cape" />
-<refid V="MysteriousCape" />
-<slotidx V="62" />
-<value V="362" />
-<armorbonus V="5" />
-<ACTIVATIONS N="2" />
-<pos x="299.234863" y="1.214505" z="-159.953049" />
-<ori x1y1="-0.959596" x1y2="0.000000" x1y3="-0.281381" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.281381" x3y2="0.000000" x3y3="-0.959596" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Mace" />
-<slotidx V="24" />
-<value V="2140" />
-<ACTIVATIONS N="2" />
-<pos x="299.234863" y="1.214505" z="-159.953049" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.008581" x2y2="0.000000" x2y3="0.999963" x2y4="0.000000" x3y1="0.999963" x3y2="0.000000" x3y3="0.008581" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<ori x1y1="0.678191" x1y2="0.000000" x1y3="-0.734886" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.734886" x3y2="0.000000" x3y3="0.678191" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
@@ -3112,269 +3286,162 @@
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Blindness Spell" />
-<slotidx V="53" />
-<value V="8762" />
-<originaluses V="1" />
-<ACTIVATIONS N="2">
-<EFFECTS I="1" N="1">
-<EFFECT>
-<EFFECT I="0">
-<name V="BLINDNESS" />
-<damagetype V="3" />
-<positive V="T" />
-<type V="65" />
-<activation V="1" />
-<chanceofsuccess V="100" />
-<duration V="-900" />
-<effectname V="WRITESPELL" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="299.234863" y="1.214505" z="-159.953049" />
-<ori x1y1="0.678191" x1y2="0.000000" x1y3="-0.734886" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.734886" x3y2="0.000000" x3y3="0.678191" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Pupil&apos;s Robe" />
-<refid V="PupilRobe" />
-<slotidx V="54" />
-<value V="468" />
-<armorbonus V="11" />
+<basename V="Mace" />
+<slotidx V="24" />
+<value V="2140" />
 <ACTIVATIONS N="2" />
 <pos x="299.234863" y="1.214505" z="-159.953049" />
-<ori x1y1="-0.414392" x1y2="0.000000" x1y3="-0.910099" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.910099" x3y2="0.000000" x3y3="-0.414392" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.008581" x2y2="0.000000" x2y3="0.999963" x2y4="0.000000" x3y1="0.999963" x3y2="0.000000" x3y3="0.008581" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Trident" />
-<name V=" Trident of the Plains" />
-<slotidx V="25" />
-<value V="520" />
-<magic V="T" />
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="1">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="40" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="15" />
-<value2 V="15" />
-<value3 V="15" />
-<pricemultiplier V="12.334312" />
-<effectname V="PERCENTARMORBONUS" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="269.973175" y="0.624439" z="-150.165359" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.107509" x2y2="0.000000" x2y3="-0.994204" x2y4="0.000000" x3y1="-0.994204" x3y2="0.000000" x3y3="0.107509" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Spear" />
-<slotidx V="26" />
-<value V="115" />
+<basename V="Mysterious Cape" />
+<refid V="MysteriousCape" />
+<slotidx V="62" />
+<value V="362" />
+<armorbonus V="5" />
 <ACTIVATIONS N="2" />
-<pos x="269.973175" y="0.624439" z="-150.165359" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.417008" x2y2="0.000000" x2y3="0.908903" x2y4="0.000000" x3y1="0.908903" x3y2="0.000000" x3y3="-0.417008" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="299.234863" y="1.214505" z="-159.953049" />
+<ori x1y1="-0.959596" x1y2="0.000000" x1y3="-0.281381" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.281381" x3y2="0.000000" x3y3="-0.959596" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Twisted Staff" />
-<refid V="TwistedStaff" />
-<slotidx V="56" />
-<value V="1020" />
-<magic V="T" />
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="4">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="27" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="4" />
-<value2 V="4" />
-<value3 V="4" />
-<effectname V="SKILLATTACKMAGIC" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="29" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="4" />
-<value2 V="4" />
-<value3 V="4" />
-<effectname V="SKILLCHARMMAGIC" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="28" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="4" />
-<value2 V="4" />
-<value3 V="4" />
-<effectname V="SKILLDEFENSEMAGIC" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="3">
-<damagetype V="3" />
-<positive V="T" />
-<type V="35" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="10" />
-<value2 V="10" />
-<value3 V="10" />
-<effectname V="PERCENTMANA" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="269.973175" y="0.624439" z="-150.165359" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.504504" x2y2="0.000000" x2y3="-0.863409" x2y4="0.000000" x3y1="-0.863409" x3y2="0.000000" x3y3="0.504504" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Light Crossbow" />
-<refid V="LightCrossbow" />
-<slotidx V="84" />
-<value V="702" />
+<basename V="Amethyst Stud" />
+<slotidx V="52" />
+<value V="800" />
 <ACTIVATIONS N="2" />
-<pos x="269.973175" y="0.624439" z="-150.165359" />
-<ori x1y1="1.060543" x1y2="-0.148650" x1y3="-0.541360" x1y4="0.000000" x2y1="-0.020377" x2y2="1.146215" x2y3="-0.354645" x2y4="0.000000" x3y1="0.561027" x3y2="0.322634" x3y3="1.010483" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="299.234863" y="1.214505" z="-159.953049" />
+<ori x1y1="0.872338" x1y2="0.000000" x1y3="-0.488903" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.488903" x3y2="0.000000" x3y3="0.872338" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Small Shield" />
-<refid V="SmallShield" />
-<slotidx V="27" />
-<value V="240" />
-<armorbonus V="8" />
+<basename V="Light Belt" />
+<refid V="LightBelt" />
+<slotidx V="42" />
+<value V="168" />
+<armorbonus V="5" />
 <ACTIVATIONS N="2" />
-<pos x="269.973175" y="0.624439" z="-150.165359" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.097972" x2y2="0.000000" x2y3="-0.995189" x2y4="0.000000" x3y1="-0.995189" x3y2="0.000000" x3y3="0.097972" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="299.234863" y="1.214505" z="-159.953049" />
+<ori x1y1="0.134347" x1y2="0.000000" x1y3="0.990934" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.990934" x3y2="0.000000" x3y3="0.134347" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Crude Maul" />
-<refid V="CrudeMaul" />
-<name V="Ranubil&apos;s &#x0A;Ancient Crude Maul of the Conjurer" />
-<slotidx V="47" />
-<value V="1792" />
+<basename V="Soft Gloves" />
+<refid V="SoftGloves" />
+<slotidx V="22" />
+<value V="362" />
+<armorbonus V="9" />
+<ACTIVATIONS N="2" />
+<pos x="299.234863" y="1.214505" z="-159.953049" />
+<ori x1y1="0.999902" x1y2="0.000000" x1y3="0.013998" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.013998" x3y2="0.000000" x3y3="0.999902" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Drake Amulet" />
+<name V="Dragondrinker&apos;s &#x0A;Hearty Drake Amulet of Strength" />
+<slotidx V="41" />
+<value V="700" />
 <unique V="T" />
 <magic V="T" />
 <ACTIVATIONS N="2">
-<EFFECTS I="0" N="4">
+<EFFECTS I="0" N="5">
 <EFFECT>
 <EFFECT I="0">
 <damagetype V="3" />
 <positive V="T" />
-<type V="46" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="5" />
-<value2 V="5" />
-<value3 V="5" />
-<pricemultiplier V="10.686337" />
-<effectname V="PERCENTCASTSPEED" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="9" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="5" />
-<value2 V="5" />
-<value3 V="5" />
-<pricemultiplier V="11.051686" />
-<effectname V="STAMINARECHARGE" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="8" />
+<type V="51" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
 <value V="2" />
 <value2 V="2" />
 <value3 V="2" />
-<pricemultiplier V="12.705564" />
-<effectname V="HPRECHARGE" />
+<pricemultiplier V="10.234638" />
+<effectname V="PERCENTITEMREQUIREMENTS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="5" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="7" />
+<value2 V="7" />
+<value3 V="7" />
+<pricemultiplier V="15.508590" />
+<effectname V="HP" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="19" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="4" />
+<value2 V="4" />
+<value3 V="4" />
+<pricemultiplier V="14.699954" />
+<effectname V="SKILLSPEAR" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="3">
 <damagetype V="3" />
 <positive V="T" />
-<type V="3" />
+<type V="18" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="9" />
-<value2 V="9" />
-<value3 V="9" />
-<pricemultiplier V="18.641529" />
-<effectname V="MAGIC" />
+<value V="3" />
+<value2 V="3" />
+<value3 V="3" />
+<pricemultiplier V="9.561052" />
+<effectname V="SKILLAXE" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="4">
+<damagetype V="3" />
+<positive V="T" />
+<type V="31" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="6" />
+<value2 V="6" />
+<value3 V="6" />
+<pricemultiplier V="5.575316" />
+<effectname V="PERCENTSTRENGTH" />
 </EFFECT>
 </EFFECT>
 </EFFECTS>
 </ACTIVATIONS>
-<pos x="169.485458" y="1.798589" z="-213.038513" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.962744" x2y2="0.000000" x2y3="0.270415" x2y4="0.000000" x3y1="0.270415" x3y2="0.000000" x3y3="0.962744" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="299.234863" y="1.214505" z="-159.953049" />
+<ori x1y1="0.785969" x1y2="0.000000" x1y3="-0.618266" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.618266" x3y2="0.000000" x3y3="0.785969" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Orc Scythe" />
-<refid V="OrcScythe" />
-<name V="Shocking  Orc Scythe of the Crone" />
-<slotidx V="67" />
-<value V="3280" />
+<basename V="Warrior&apos;s Chain" />
+<name V="Cakothpike&apos;s &#x0A;Crushing Warrior&apos;s Chain of the Mage" />
+<slotidx V="6" />
+<value V="700" />
+<equipped V="T" />
+<unique V="T" />
 <magic V="T" />
-<BONUSES N="1">
-<BONUS>
-<dmgbonus V="6" />
-<dmgbonusvalue V="15" />
-</BONUS>
-</BONUSES>
 <ACTIVATIONS N="2">
-<EFFECTS I="0" N="1">
+<EFFECTS I="0" N="5">
 <EFFECT>
 <EFFECT I="0">
 <damagetype V="3" />
@@ -3383,184 +3450,119 @@
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
-<value V="8" />
-<value2 V="8" />
-<value3 V="8" />
-<pricemultiplier V="6.832130" />
+<value V="11" />
+<value2 V="11" />
+<value3 V="11" />
+<pricemultiplier V="8.903226" />
 <effectname V="PERCENTMAGIC" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="169.485458" y="1.798589" z="-213.038513" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.922364" x2y2="0.000000" x2y3="-0.386323" x2y4="0.000000" x3y1="-0.386323" x3y2="0.000000" x3y3="-0.922364" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Orc Scythe" />
-<refid V="OrcScythe" />
-<slotidx V="48" />
-<value V="3280" />
-<ACTIVATIONS N="2" />
-<pos x="103.314140" y="1.200000" z="-137.117676" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.523828" x2y2="0.000000" x2y3="0.851824" x2y4="0.000000" x3y1="0.851824" x3y2="0.000000" x3y3="-0.523828" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Axe" />
-<name V="Zularakh&apos;s &#x0A;Guiding Axe of Sapping" />
-<slotidx V="88" />
-<value V="1160" />
-<unique V="T" />
-<magic V="T" />
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="3">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="47" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="1" />
-<value2 V="1" />
-<value3 V="1" />
-<pricemultiplier V="6.406140" />
-<effectname V="PERCENTLIFESTOLEN" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
 <EFFECT I="1">
 <damagetype V="3" />
 <positive V="T" />
-<type V="13" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="-2" />
-<value2 V="-2" />
-<value3 V="-2" />
-<pricemultiplier V="12.240059" />
-<effectname V="DAMAGETAKEN" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="11" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="5" />
-<value2 V="5" />
-<value3 V="5" />
-<pricemultiplier V="11.721625" />
-<effectname V="TOHITBONUS" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="103.314140" y="1.200000" z="-137.117676" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.979162" x2y2="0.000000" x2y3="-0.203082" x2y4="0.000000" x3y1="-0.203082" x3y2="0.000000" x3y3="-0.979162" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Composite Bow" />
-<refid V="CompositeBow" />
-<name V="Shocking Soothing Composite Bow of the Tortoise" />
-<slotidx V="29" />
-<value V="1660" />
-<magic V="T" />
-<BONUSES N="1">
-<BONUS>
-<dmgbonus V="6" />
-<dmgbonusvalue V="12" />
-</BONUS>
-</BONUSES>
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="2">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="37" />
+<type V="2" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
 <value V="6" />
 <value2 V="6" />
 <value3 V="6" />
-<pricemultiplier V="5.070455" />
-<effectname V="PERCENTSTAMINA" />
+<pricemultiplier V="13.090152" />
+<effectname V="VITALITY" />
 </EFFECT>
 </EFFECT>
 <EFFECT>
-<EFFECT I="1">
+<EFFECT I="2">
 <damagetype V="3" />
 <positive V="T" />
-<type V="8" />
+<type V="39" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="5" />
+<value2 V="5" />
+<value3 V="5" />
+<pricemultiplier V="7.028199" />
+<effectname V="PERCENTATTACKSPEED" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="3">
+<damagetype V="3" />
+<positive V="T" />
+<type V="4" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="5" />
+<value2 V="5" />
+<value3 V="5" />
+<pricemultiplier V="11.996475" />
+<effectname V="MANA" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="4">
+<damagetype V="3" />
+<positive V="T" />
+<type V="48" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="2" />
+<value2 V="2" />
+<value3 V="2" />
+<pricemultiplier V="9.416150" />
+<effectname V="PERCENTMANASTOLEN" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="299.234863" y="1.214505" z="-159.953049" />
+<ori x1y1="0.706411" x1y2="0.000000" x1y3="-0.707801" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.707801" x3y2="0.000000" x3y3="0.706411" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Flashy Lightning" />
+<name V="Novice&apos;s Flashy Lightning " />
+<slotidx V="12" />
+<value V="800" />
+<equipped V="T" />
+<magic V="T" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="29" />
 <activation V="0" />
 <chanceofsuccess V="100" />
 <duration V="-1000" />
 <value V="1" />
 <value2 V="1" />
 <value3 V="1" />
-<pricemultiplier V="10.781734" />
-<effectname V="HPRECHARGE" />
+<pricemultiplier V="4.420612" />
+<effectname V="SKILLCHARMMAGIC" />
 </EFFECT>
 </EFFECT>
 </EFFECTS>
 </ACTIVATIONS>
-<pos x="103.314140" y="1.200000" z="-137.117676" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.557298" x2y2="0.000000" x2y3="0.830313" x2y4="0.000000" x3y1="0.830313" x3y2="0.000000" x3y3="0.557298" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="247.946167" y="1.360022" z="-47.457569" />
+<ori x1y1="0.079828" x1y2="0.000000" x1y3="-0.996809" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.996809" x3y2="0.000000" x3y3="0.079828" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 <ITEM>
 <ITEM>
-<basename V="Broadsword" />
-<slotidx V="49" />
-<value V="2350" />
-<sockets V="1" />
+<basename V="Ducal Ring" />
+<slotidx V="9" />
+<value V="800" />
+<equipped V="T" />
 <ACTIVATIONS N="2" />
-<pos x="103.314140" y="1.200000" z="-137.117676" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.470268" x2y2="0.000000" x2y3="0.882524" x2y4="0.000000" x3y1="0.882524" x3y2="0.000000" x3y3="-0.470268" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Maul" />
-<slotidx V="69" />
-<value V="4680" />
-<ACTIVATIONS N="2" />
-<pos x="103.314140" y="1.200000" z="-137.117676" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.577273" x2y2="0.000000" x2y3="-0.816551" x2y4="0.000000" x3y1="-0.816551" x3y2="0.000000" x3y3="-0.577273" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Crystal Mace" />
-<refid V="CrystalMace" />
-<slotidx V="30" />
-<value V="3554" />
-<ACTIVATIONS N="2" />
-<pos x="396.567383" y="1.112246" z="-389.469086" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.056872" x2y2="0.000000" x2y3="-0.998381" x2y4="0.000000" x3y1="-0.998381" x3y2="0.000000" x3y3="0.056872" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Trident" />
-<slotidx V="60" />
-<value V="520" />
-<sockets V="1" />
-<ACTIVATIONS N="2" />
-<pos x="396.567383" y="1.112246" z="-389.469086" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="-0.530590" x2y2="0.000000" x2y3="0.847628" x2y4="0.000000" x3y1="0.847628" x3y2="0.000000" x3y3="0.530590" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<pos x="56.487083" y="1.767000" z="-61.362209" />
+<ori x1y1="0.809771" x1y2="0.000000" x1y3="-0.586746" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.586746" x3y2="0.000000" x3y3="0.809771" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 </ITEMS>
@@ -3579,13 +3581,13 @@
 <GUID V="" />
 <refid V="Venomous Wyvern" />
 <template V="VENOMOUS WYVERN" />
-<existtime V="147698" />
+<existtime V="170004" />
 <isplayer V="F" />
 <experience V="779" />
 <experienceaward V="443" />
 <scale V="1.600000" />
 <bravery V="1.000000" />
-<lifeduration V="349.787109" />
+<lifeduration V="325.826508" />
 <difficulty V="1" />
 <masterindex V="-1" />
 <dungeonseed V="0" />
@@ -3593,8 +3595,8 @@
 <ancestorname V="Summoned Venomous Wyvern" />
 <lastdungeonlevel V="0" />
 <lastrealm V="10" />
-<position x="77.741211" y="2.440380" z="-34.947956" />
-<orientation x1y1="0.989605" x1y2="0.000000" x1y3="-0.143756" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.143756" x3y2="0.000000" x3y3="0.989605" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<position x="81.902908" y="2.440380" z="-24.093475" />
+<orientation x1y1="0.863806" x1y2="0.000000" x1y3="-0.503810" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.503810" x3y2="0.000000" x3y3="0.863806" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 <level V="39" />
 <maxstamina V="351" />
 <maxmana V="105" />
@@ -3630,22 +3632,22 @@
 <GUID V="" />
 <refid V="Venomous Wyvern" />
 <template V="VENOMOUS WYVERN" />
-<existtime V="146012" />
+<existtime V="168318" />
 <isplayer V="F" />
 <experience V="779" />
 <experienceaward V="443" />
 <scale V="1.600000" />
 <bravery V="1.000000" />
-<lifeduration V="351.592163" />
+<lifeduration V="327.631561" />
 <difficulty V="1" />
 <masterindex V="-1" />
-<dungeonseed V="1048266155" />
+<dungeonseed V="0" />
 <name V="Summoned Venomous Wyvern" />
 <ancestorname V="Summoned Venomous Wyvern" />
 <lastdungeonlevel V="0" />
 <lastrealm V="10" />
-<position x="91.122765" y="2.440380" z="-39.617226" />
-<orientation x1y1="0.690003" x1y2="0.000000" x1y3="-0.723796" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.723796" x3y2="0.000000" x3y3="0.690003" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<position x="68.421906" y="2.440380" z="-36.757797" />
+<orientation x1y1="0.035296" x1y2="0.000000" x1y3="0.999370" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.999370" x3y2="0.000000" x3y3="0.035296" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 <level V="39" />
 <maxstamina V="351" />
 <maxmana V="105" />
@@ -3681,22 +3683,22 @@
 <GUID V="" />
 <refid V="Venomous Wyvern" />
 <template V="VENOMOUS WYVERN" />
-<existtime V="144337" />
+<existtime V="166643" />
 <isplayer V="F" />
 <experience V="779" />
 <experienceaward V="443" />
 <scale V="1.600000" />
 <bravery V="1.000000" />
-<lifeduration V="353.391144" />
+<lifeduration V="329.430542" />
 <difficulty V="1" />
 <masterindex V="-1" />
-<dungeonseed V="1048266155" />
+<dungeonseed V="41" />
 <name V="Summoned Venomous Wyvern" />
 <ancestorname V="Summoned Venomous Wyvern" />
 <lastdungeonlevel V="0" />
 <lastrealm V="10" />
-<position x="82.307190" y="2.440380" z="-43.665600" />
-<orientation x1y1="0.392479" x1y2="0.000000" x1y3="0.919747" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.919747" x3y2="0.000000" x3y3="0.392479" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<position x="73.456886" y="2.440380" z="-21.311430" />
+<orientation x1y1="0.028748" x1y2="0.000000" x1y3="-0.999572" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.999572" x3y2="0.000000" x3y3="0.028748" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 <level V="39" />
 <maxstamina V="351" />
 <maxmana V="105" />
@@ -3732,22 +3734,22 @@
 <GUID V="" />
 <refid V="Venomous Wyvern" />
 <template V="VENOMOUS WYVERN" />
-<existtime V="141588" />
+<existtime V="163894" />
 <isplayer V="F" />
 <experience V="649" />
 <experienceaward V="443" />
 <scale V="1.600000" />
 <bravery V="1.000000" />
-<lifeduration V="356.327728" />
+<lifeduration V="332.367126" />
 <difficulty V="1" />
 <masterindex V="-1" />
-<dungeonseed V="343491240" />
+<dungeonseed V="0" />
 <name V="Summoned Venomous Wyvern" />
 <ancestorname V="Summoned Venomous Wyvern" />
 <lastdungeonlevel V="0" />
 <lastrealm V="10" />
-<position x="83.534073" y="2.440380" z="-53.056355" />
-<orientation x1y1="-0.185468" x1y2="0.000000" x1y3="-0.982635" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.982635" x3y2="0.000000" x3y3="-0.185468" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<position x="71.948471" y="2.440380" z="-8.302752" />
+<orientation x1y1="0.128061" x1y2="0.000000" x1y3="-0.991750" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.991750" x3y2="0.000000" x3y3="0.128061" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 <level V="39" />
 <maxstamina V="351" />
 <maxmana V="105" />
@@ -28196,7 +28198,7 @@
 <VISIBILITY V="" />
 <CHARACTERS N="0" />
 <ITEMS N="0" />
-<lastpopulationtime V="12837928" />
+<lastpopulationtime V="12861894" />
 <level V="0" />
 <width V="0" />
 <height V="0" />
@@ -28243,7 +28245,7 @@
 <GUID V="" />
 <refid V="Storage Trunk" />
 <template V="STORAGE TRUNK" />
-<existtime V="1924501" />
+<existtime V="1947013" />
 <isplayer V="F" />
 <experience V="0" />
 <experienceaward V="0" />
@@ -28292,7 +28294,7 @@
 <refid V="" />
 <originaltemplate V="" />
 <template V="PLAYER" />
-<existtime V="6925042" />
+<existtime V="6948228" />
 <isplayer V="F" />
 <experience V="141940" />
 <experienceaward V="0" />
@@ -28305,8 +28307,8 @@
 <ancestorname V="Contin&apos;jad" />
 <lastdungeonlevel V="0" />
 <lastrealm V="10" />
-<position x="83.334000" y="1.767000" z="-39.024635" />
-<orientation x1y1="-0.795948" x1y2="0.000000" x1y3="-0.604786" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.604786" x3y2="0.000000" x3y3="-0.795948" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+<position x="61.329647" y="1.767000" z="-10.658272" />
+<orientation x1y1="0.999648" x1y2="0.000000" x1y3="-0.001078" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.001078" x3y2="0.000000" x3y3="0.999648" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 <level V="12" />
 <fame V="16731" />
 <famerank V="7" />
@@ -28315,7 +28317,7 @@
 <maxmana V="80" />
 <mana V="92.000000" />
 <maxhp V="202" />
-<hp V="15.952269" />
+<hp V="20.552635" />
 <partytactic V="AGGRO" />
 <SKILLS>
 <SKILL V="1" I="0" />
@@ -28342,6 +28344,373 @@
 <runningspeed V="22.000000" />
 <gold V="0" />
 <ITEMS N="9">
+<ITEM>
+<ITEM>
+<basename V="Heavy Leather Shirt" />
+<refid V="HeavyLeatherShirt" />
+<slotidx V="1" />
+<value V="750" />
+<equipped V="T" />
+<armorbonus V="16" />
+<ACTIVATIONS N="2" />
+<pos x="299.234863" y="1.214505" z="-159.953049" />
+<ori x1y1="-0.567998" x1y2="0.000000" x1y3="0.823030" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.823030" x3y2="0.000000" x3y3="-0.567998" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Jeweled Pendant" />
+<name V="Garakloth&apos;s &#x0A;Novice&apos;s Jeweled Pendant of Greed" />
+<slotidx V="6" />
+<value V="700" />
+<equipped V="T" />
+<unique V="T" />
+<magic V="T" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="5">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="31" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="7" />
+<value2 V="7" />
+<value3 V="7" />
+<pricemultiplier V="5.601550" />
+<effectname V="PERCENTSTRENGTH" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="17" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="2" />
+<value2 V="2" />
+<value3 V="2" />
+<pricemultiplier V="7.661880" />
+<effectname V="SKILLHAMMER" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="45" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="13" />
+<value2 V="13" />
+<value3 V="13" />
+<pricemultiplier V="5.261513" />
+<effectname V="PERCENTGOLDDROP" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="3">
+<damagetype V="3" />
+<positive V="T" />
+<type V="34" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="5" />
+<value2 V="5" />
+<value3 V="5" />
+<pricemultiplier V="4.584515" />
+<effectname V="PERCENTMAGIC" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="4">
+<damagetype V="3" />
+<positive V="T" />
+<type V="15" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="3" />
+<value2 V="3" />
+<value3 V="3" />
+<pricemultiplier V="9.485556" />
+<effectname V="SKILLSWORD" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="299.234863" y="1.214505" z="-159.953049" />
+<ori x1y1="0.680442" x1y2="0.000000" x1y3="0.732802" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.732802" x3y2="0.000000" x3y3="0.680442" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Sterling Butterflies" />
+<name V="Smiting Sterling Butterflies of the Fox" />
+<slotidx V="12" />
+<value V="800" />
+<equipped V="T" />
+<magic V="T" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="2">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="36" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="5" />
+<value2 V="5" />
+<value3 V="5" />
+<pricemultiplier V="4.447889" />
+<effectname V="PERCENTHP" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="12" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="3" />
+<value2 V="3" />
+<value3 V="3" />
+<pricemultiplier V="7.720694" />
+<effectname V="DAMAGEBONUS" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="313.849976" y="0.827891" z="-177.651733" />
+<ori x1y1="0.765030" x1y2="0.000000" x1y3="0.643995" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.643995" x3y2="0.000000" x3y3="0.765030" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Crossbow" />
+<name V="Goblinmangler&apos;s &#x0A;Piercing Crossbow of Might" />
+<slotidx V="3" />
+<value V="2330" />
+<equipped V="T" />
+<unique V="T" />
+<magic V="T" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="5">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="31" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="12" />
+<value2 V="12" />
+<value3 V="12" />
+<pricemultiplier V="9.669204" />
+<effectname V="PERCENTSTRENGTH" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="41" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="8" />
+<value2 V="8" />
+<value3 V="8" />
+<pricemultiplier V="6.732212" />
+<effectname V="PERCENTTOHITBONUS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="2">
+<damagetype V="3" />
+<positive V="T" />
+<type V="12" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="6" />
+<value2 V="6" />
+<value3 V="6" />
+<pricemultiplier V="13.446651" />
+<effectname V="DAMAGEBONUS" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="3">
+<damagetype V="3" />
+<positive V="F" />
+<type V="32" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="-10" />
+<value2 V="-10" />
+<value3 V="-10" />
+<pricemultiplier V="1.093020" />
+<effectname V="PERCENTDEXTERITY" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="4">
+<damagetype V="3" />
+<positive V="T" />
+<type V="3" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="6" />
+<value2 V="6" />
+<value3 V="6" />
+<pricemultiplier V="13.801575" />
+<effectname V="MAGIC" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="-8.777561" y="0.570592" z="-47.706947" />
+<ori x1y1="-0.985707" x1y2="-0.148879" x1y3="0.074053" x1y4="0.000000" x2y1="-0.165263" x2y2="0.925712" x2y3="-0.340062" x2y4="0.000000" x3y1="-0.017923" x3y2="-0.347692" x3y3="-0.937084" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Light Belt" />
+<refid V="LightBelt" />
+<name V="Disciple&apos;s Light Belt of Sapping" />
+<slotidx V="10" />
+<value V="168" />
+<equipped V="T" />
+<magic V="T" />
+<armorbonus V="4" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="2">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="47" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="1" />
+<value2 V="1" />
+<value3 V="1" />
+<pricemultiplier V="8.079146" />
+<effectname V="PERCENTLIFESTOLEN" />
+</EFFECT>
+</EFFECT>
+<EFFECT>
+<EFFECT I="1">
+<damagetype V="3" />
+<positive V="T" />
+<type V="18" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="4" />
+<value2 V="4" />
+<value3 V="4" />
+<pricemultiplier V="12.957735" />
+<effectname V="SKILLAXE" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="365.224213" y="0.763438" z="-54.391113" />
+<ori x1y1="0.760317" x1y2="0.000000" x1y3="0.649552" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.649552" x3y2="0.000000" x3y3="0.760317" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Skeletal Bow" />
+<refid V="SkeletalBow" />
+<slotidx V="26" />
+<value V="4138" />
+<ACTIVATIONS N="2" />
+<pos x="1.446331" y="1.767000" z="-70.227600" />
+<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.975889" x2y2="0.000000" x2y3="0.218266" x2y4="0.000000" x3y1="0.218266" x3y2="0.000000" x3y3="-0.975889" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Goblin Ring" />
+<name V=" Goblin Ring of Years" />
+<slotidx V="8" />
+<value V="800" />
+<equipped V="T" />
+<magic V="T" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="35" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-1000" />
+<value V="15" />
+<value2 V="15" />
+<value3 V="15" />
+<pricemultiplier V="12.291012" />
+<effectname V="PERCENTMANA" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="338.273560" y="1.046345" z="-54.693298" />
+<ori x1y1="0.575471" x1y2="0.000000" x1y3="-0.817822" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.817822" x3y2="0.000000" x3y3="0.575471" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
+<ITEM>
+<ITEM>
+<basename V="Forest Quiver" />
+<refid V="ForestQuiver" />
+<slotidx V="11" />
+<value V="3148" />
+<equipped V="T" />
+<unique V="T" />
+<artifact V="T" />
+<magic V="T" />
+<armorbonus V="4" />
+<ACTIVATIONS N="2">
+<EFFECTS I="0" N="1">
+<EFFECT>
+<EFFECT I="0">
+<damagetype V="3" />
+<positive V="T" />
+<type V="22" />
+<activation V="0" />
+<chanceofsuccess V="100" />
+<duration V="-900" />
+<value V="10" />
+<value2 V="10" />
+<value3 V="10" />
+<pricemultiplier V="30.000000" />
+<effectname V="SKILLBOW" />
+</EFFECT>
+</EFFECT>
+</EFFECTS>
+</ACTIVATIONS>
+<pos x="45.690762" y="1.767000" z="57.434715" />
+<ori x1y1="-0.729433" x1y2="0.000000" x1y3="-0.684052" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.684052" x3y2="0.000000" x3y3="-0.729433" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
+</ITEM>
+</ITEM>
 <ITEM>
 <ITEM>
 <basename V="Leather Gloves" />
@@ -28495,373 +28864,6 @@
 </ACTIVATIONS>
 <pos x="46.292793" y="1.767000" z="53.981625" />
 <ori x1y1="0.887810" x1y2="0.000000" x1y3="0.460211" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.460211" x3y2="0.000000" x3y3="0.887810" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Forest Quiver" />
-<refid V="ForestQuiver" />
-<slotidx V="11" />
-<value V="3148" />
-<equipped V="T" />
-<unique V="T" />
-<artifact V="T" />
-<magic V="T" />
-<armorbonus V="4" />
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="1">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="22" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-900" />
-<value V="10" />
-<value2 V="10" />
-<value3 V="10" />
-<pricemultiplier V="30.000000" />
-<effectname V="SKILLBOW" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="45.690762" y="1.767000" z="57.434715" />
-<ori x1y1="-0.729433" x1y2="0.000000" x1y3="-0.684052" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.684052" x3y2="0.000000" x3y3="-0.729433" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Goblin Ring" />
-<name V=" Goblin Ring of Years" />
-<slotidx V="8" />
-<value V="800" />
-<equipped V="T" />
-<magic V="T" />
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="1">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="35" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="15" />
-<value2 V="15" />
-<value3 V="15" />
-<pricemultiplier V="12.291012" />
-<effectname V="PERCENTMANA" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="338.273560" y="1.046345" z="-54.693298" />
-<ori x1y1="0.575471" x1y2="0.000000" x1y3="-0.817822" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="0.817822" x3y2="0.000000" x3y3="0.575471" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Skeletal Bow" />
-<refid V="SkeletalBow" />
-<slotidx V="26" />
-<value V="4138" />
-<ACTIVATIONS N="2" />
-<pos x="1.446331" y="1.767000" z="-70.227600" />
-<ori x1y1="0.000000" x1y2="1.000000" x1y3="0.000000" x1y4="0.000000" x2y1="0.975889" x2y2="0.000000" x2y3="0.218266" x2y4="0.000000" x3y1="0.218266" x3y2="0.000000" x3y3="-0.975889" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Light Belt" />
-<refid V="LightBelt" />
-<name V="Disciple&apos;s Light Belt of Sapping" />
-<slotidx V="10" />
-<value V="168" />
-<equipped V="T" />
-<magic V="T" />
-<armorbonus V="4" />
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="2">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="47" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="1" />
-<value2 V="1" />
-<value3 V="1" />
-<pricemultiplier V="8.079146" />
-<effectname V="PERCENTLIFESTOLEN" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="18" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="4" />
-<value2 V="4" />
-<value3 V="4" />
-<pricemultiplier V="12.957735" />
-<effectname V="SKILLAXE" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="365.224213" y="0.763438" z="-54.391113" />
-<ori x1y1="0.760317" x1y2="0.000000" x1y3="0.649552" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.649552" x3y2="0.000000" x3y3="0.760317" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Crossbow" />
-<name V="Goblinmangler&apos;s &#x0A;Piercing Crossbow of Might" />
-<slotidx V="3" />
-<value V="2330" />
-<equipped V="T" />
-<unique V="T" />
-<magic V="T" />
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="5">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="31" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="12" />
-<value2 V="12" />
-<value3 V="12" />
-<pricemultiplier V="9.669204" />
-<effectname V="PERCENTSTRENGTH" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="41" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="8" />
-<value2 V="8" />
-<value3 V="8" />
-<pricemultiplier V="6.732212" />
-<effectname V="PERCENTTOHITBONUS" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="12" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="6" />
-<value2 V="6" />
-<value3 V="6" />
-<pricemultiplier V="13.446651" />
-<effectname V="DAMAGEBONUS" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="3">
-<damagetype V="3" />
-<positive V="F" />
-<type V="32" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="-10" />
-<value2 V="-10" />
-<value3 V="-10" />
-<pricemultiplier V="1.093020" />
-<effectname V="PERCENTDEXTERITY" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="4">
-<damagetype V="3" />
-<positive V="T" />
-<type V="3" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="6" />
-<value2 V="6" />
-<value3 V="6" />
-<pricemultiplier V="13.801575" />
-<effectname V="MAGIC" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="-40.584686" y="0.570592" z="-47.706947" />
-<ori x1y1="0.660595" x1y2="-0.180462" x1y3="0.728238" x1y4="0.000000" x2y1="0.632936" x2y2="0.655231" x2y3="-0.411895" x2y4="0.000000" x3y1="-0.402828" x3y2="0.733552" x3y3="0.547059" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Sterling Butterflies" />
-<name V="Smiting Sterling Butterflies of the Fox" />
-<slotidx V="12" />
-<value V="800" />
-<equipped V="T" />
-<magic V="T" />
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="2">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="36" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="5" />
-<value2 V="5" />
-<value3 V="5" />
-<pricemultiplier V="4.447889" />
-<effectname V="PERCENTHP" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="12" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="3" />
-<value2 V="3" />
-<value3 V="3" />
-<pricemultiplier V="7.720694" />
-<effectname V="DAMAGEBONUS" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="313.849976" y="0.827891" z="-177.651733" />
-<ori x1y1="0.765030" x1y2="0.000000" x1y3="0.643995" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.643995" x3y2="0.000000" x3y3="0.765030" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Jeweled Pendant" />
-<name V="Garakloth&apos;s &#x0A;Novice&apos;s Jeweled Pendant of Greed" />
-<slotidx V="6" />
-<value V="700" />
-<equipped V="T" />
-<unique V="T" />
-<magic V="T" />
-<ACTIVATIONS N="2">
-<EFFECTS I="0" N="5">
-<EFFECT>
-<EFFECT I="0">
-<damagetype V="3" />
-<positive V="T" />
-<type V="31" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="7" />
-<value2 V="7" />
-<value3 V="7" />
-<pricemultiplier V="5.601550" />
-<effectname V="PERCENTSTRENGTH" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="1">
-<damagetype V="3" />
-<positive V="T" />
-<type V="17" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="2" />
-<value2 V="2" />
-<value3 V="2" />
-<pricemultiplier V="7.661880" />
-<effectname V="SKILLHAMMER" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="2">
-<damagetype V="3" />
-<positive V="T" />
-<type V="45" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="13" />
-<value2 V="13" />
-<value3 V="13" />
-<pricemultiplier V="5.261513" />
-<effectname V="PERCENTGOLDDROP" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="3">
-<damagetype V="3" />
-<positive V="T" />
-<type V="34" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="5" />
-<value2 V="5" />
-<value3 V="5" />
-<pricemultiplier V="4.584515" />
-<effectname V="PERCENTMAGIC" />
-</EFFECT>
-</EFFECT>
-<EFFECT>
-<EFFECT I="4">
-<damagetype V="3" />
-<positive V="T" />
-<type V="15" />
-<activation V="0" />
-<chanceofsuccess V="100" />
-<duration V="-1000" />
-<value V="3" />
-<value2 V="3" />
-<value3 V="3" />
-<pricemultiplier V="9.485556" />
-<effectname V="SKILLSWORD" />
-</EFFECT>
-</EFFECT>
-</EFFECTS>
-</ACTIVATIONS>
-<pos x="299.234863" y="1.214505" z="-159.953049" />
-<ori x1y1="0.680442" x1y2="0.000000" x1y3="0.732802" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.732802" x3y2="0.000000" x3y3="0.680442" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
-</ITEM>
-</ITEM>
-<ITEM>
-<ITEM>
-<basename V="Heavy Leather Shirt" />
-<refid V="HeavyLeatherShirt" />
-<slotidx V="1" />
-<value V="750" />
-<equipped V="T" />
-<armorbonus V="16" />
-<ACTIVATIONS N="2" />
-<pos x="299.234863" y="1.214505" z="-159.953049" />
-<ori x1y1="-0.567998" x1y2="0.000000" x1y3="0.823030" x1y4="0.000000" x2y1="0.000000" x2y2="1.000000" x2y3="0.000000" x2y4="0.000000" x3y1="-0.823030" x3y2="0.000000" x3y3="-0.567998" x3y4="0.000000" x4y1="0.000000" x4y2="0.000000" x4y3="0.000000" x4y4="1.000000" />
 </ITEM>
 </ITEM>
 </ITEMS>
